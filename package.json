@@ -1,0 +1,14 @@
+{
+    "name": "@linzjs/imagery",
+    "version": "1.0.0",
+    "private": "true",
+    "repository": "git@github.com:linz/imagery.git",
+    "license": "MIT",
+    "scripts": {
+      "format": "prettier -w stac/ template/ docs/ *.md",
+      "lint": "eslint . --quiet --fix --ignore-path .gitignore"
+    },
+    "devDependencies": {
+      "@linzjs/style": "^4.0.0"
+    }
+  }
