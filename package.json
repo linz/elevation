@@ -1,14 +1,14 @@
 {
-    "name": "@linzjs/elevation",
-    "version": "1.0.0",
-    "private": "true",
-    "repository": "git@github.com:linz/elevation.git",
-    "license": "MIT",
-    "scripts": {
-      "format": "prettier -w template/ *.md",
-      "lint": "eslint . --quiet --fix --ignore-path .gitignore"
-    },
-    "devDependencies": {
-      "@linzjs/style": "^4.0.0"
-    }
+  "name": "@linzjs/elevation",
+  "version": "1.0.0",
+  "private": "true",
+  "repository": "git@github.com:linz/elevation.git",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier -w template/ *.md",
+    "lint": "eslint . --quiet --fix --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@linzjs/style": "^4.0.0"
   }
+}
