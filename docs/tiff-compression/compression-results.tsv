@@ -1,0 +1,96 @@
+output_id	test_runs	file_type	compression	predictor	level	max_z_error	file_size_mb	gdal_translate_time_ms
+lzw_predictor-no	5	cog	lzw	no			3363.22	193008
+zstd_predictor-no_level-1	5	cog	zstd	no	1		3151.70	191110
+lzw_predictor-3	5	cog	lzw	3			2894.69	191415
+zstd_predictor-no_level-2	5	cog	zstd	no	2		2839.42	190886
+deflate_predictor-no_level-1	5	cog	deflate	no	1		2823.80	191641
+zstd_predictor-no_level-3	5	cog	zstd	no	3		2758.45	191407
+deflate_predictor-no_level-2	5	cog	deflate	no	2		2713.86	191860
+deflate_predictor-no_level-3	5	cog	deflate	no	3		2711.42	191295
+deflate_predictor-no_level-4	5	cog	deflate	no	4		2710.58	191031
+deflate_predictor-no_level-7	5	cog	deflate	no	7		2698.62	191376
+deflate_predictor-no_level-8	5	cog	deflate	no	8		2698.62	192395
+deflate_predictor-no_level-5	5	cog	deflate	no	5		2687.77	191566
+lzw_predictor-2	5	cog	lzw	2			2686.27	190926
+deflate_predictor-no_level-6	5	cog	deflate	no	6		2685.05	191689
+zstd_predictor-no_level-4	5	cog	zstd	no	4		2658.08	192115
+zstd_predictor-no_level-5	5	cog	zstd	no	5		2591.36	193280
+zstd_predictor-no_level-6	5	cog	zstd	no	6		2584.62	196585
+zstd_predictor-no_level-8	5	cog	zstd	no	8		2584.54	199404
+zstd_predictor-no_level-7	5	cog	zstd	no	7		2584.40	196962
+zstd_predictor-no_level-9	5	cog	zstd	no	9		2582.96	225141
+zstd_predictor-no_level-10	5	cog	zstd	no	10		2582.10	258615
+zstd_predictor-no_level-11	5	cog	zstd	no	11		2582.10	278017
+zstd_predictor-no_level-12	5	cog	zstd	no	12		2581.60	279657
+zstd_predictor-no_level-13	5	cog	zstd	no	13		2581.16	308648
+zstd_predictor-no_level-14	5	cog	zstd	no	14		2581.16	423749
+zstd_predictor-no_level-15	5	cog	zstd	no	15		2581.12	477814
+zstd_predictor-no_level-16	5	cog	zstd	no	16		2546.62	393349
+deflate_predictor-no_level-9	5	cog	deflate	no	9		2546.20	198612
+zstd_predictor-no_level-17	5	cog	zstd	no	17		2488.05	441850
+zstd_predictor-2_level-1	5	cog	zstd	2	1		2471.01	189782
+zstd_predictor-no_level-18	5	cog	zstd	no	18		2458.80	471727
+zstd_predictor-no_level-20	5	cog	zstd	no	20		2457.58	844778
+zstd_predictor-no_level-19	5	cog	zstd	no	19		2457.58	583858
+deflate_predictor-3_level-1	5	cog	deflate	3	1		2242.44	189427
+deflate_predictor-3_level-2	5	cog	deflate	3	2		2233.76	189236
+zstd_predictor-3_level-1	5	cog	zstd	3	1		2226.35	189200
+deflate_predictor-3_level-3	5	cog	deflate	3	3		2222.83	189439
+zstd_predictor-3_level-2	5	cog	zstd	3	2		2216.61	189658
+deflate_predictor-3_level-4	5	cog	deflate	3	4		2216.34	190394
+deflate_predictor-3_level-5	5	cog	deflate	3	5		2210.15	189653
+zstd_predictor-3_level-3	5	cog	zstd	3	3		2202.93	189154
+zstd_predictor-3_level-4	5	cog	zstd	3	4		2199.81	189859
+deflate_predictor-3_level-6	5	cog	deflate	3	6		2189.09	189744
+deflate_predictor-3_level-7	5	cog	deflate	3	7		2185.75	191145
+deflate_predictor-3_level-8	5	cog	deflate	3	8		2183.94	192789
+zstd_predictor-3_level-5	5	cog	zstd	3	5		2180.49	190763
+zstd_predictor-3_level-6	5	cog	zstd	3	6		2175.70	191425
+zstd_predictor-3_level-8	5	cog	zstd	3	8		2170.87	192819
+zstd_predictor-3_level-7	5	cog	zstd	3	7		2165.69	191601
+zstd_predictor-3_level-9	5	cog	zstd	3	9		2164.78	201235
+zstd_predictor-3_level-10	5	cog	zstd	3	10		2164.68	215273
+zstd_predictor-3_level-11	5	cog	zstd	3	11		2164.68	232853
+deflate_predictor-3_level-9	5	cog	deflate	3	9		2161.31	221084
+zstd_predictor-3_level-12	5	cog	zstd	3	12		2159.16	234728
+zstd_predictor-3_level-13	5	cog	zstd	3	13		2148.25	252818
+zstd_predictor-3_level-14	5	cog	zstd	3	14		2148.25	376308
+zstd_predictor-3_level-15	5	cog	zstd	3	15		2147.07	432592
+zstd_predictor-3_level-18	5	cog	zstd	3	18		2121.84	404532
+zstd_predictor-3_level-16	5	cog	zstd	3	16		2120.23	331737
+zstd_predictor-3_level-19	5	cog	zstd	3	19		2118.72	525395
+zstd_predictor-3_level-20	5	cog	zstd	3	20		2118.72	791193
+deflate_predictor-2_level-7	5	cog	deflate	2	7		2112.21	191287
+deflate_predictor-2_level-8	5	cog	deflate	2	8		2112.19	191365
+zstd_predictor-3_level-17	5	cog	zstd	3	17		2110.94	384622
+zstd_predictor-2_level-2	5	cog	zstd	2	2		2101.09	189221
+zstd_predictor-2_level-3	5	cog	zstd	2	3		2064.04	189413
+deflate_predictor-2_level-1	5	cog	deflate	2	1		2063.86	189309
+deflate_predictor-2_level-5	5	cog	deflate	2	5		2052.36	189682
+deflate_predictor-2_level-2	5	cog	deflate	2	2		2043.65	189904
+deflate_predictor-2_level-3	5	cog	deflate	2	3		2033.53	189678
+deflate_predictor-2_level-4	5	cog	deflate	2	4		2029.43	189295
+zstd_predictor-2_level-4	5	cog	zstd	2	4		2029.14	189633
+deflate_predictor-2_level-6	5	cog	deflate	2	6		2025.28	190054
+deflate_predictor-2_level-9	5	cog	deflate	2	9		1982.15	208897
+zstd_predictor-2_level-5	5	cog	zstd	2	5		1978.85	193257
+zstd_predictor-2_level-8	5	cog	zstd	2	8		1974.32	206356
+zstd_predictor-2_level-9	5	cog	zstd	2	9		1973.11	233681
+zstd_predictor-2_level-10	5	cog	zstd	2	10		1972.01	256630
+zstd_predictor-2_level-11	5	cog	zstd	2	11		1971.98	266974
+zstd_predictor-2_level-6	5	cog	zstd	2	6		1970.96	200425
+zstd_predictor-2_level-12	5	cog	zstd	2	12		1970.78	287035
+zstd_predictor-2_level-7	5	cog	zstd	2	7		1969.28	202928
+zstd_predictor-2_level-13	5	cog	zstd	2	13		1965.76	349746
+zstd_predictor-2_level-14	5	cog	zstd	2	14		1965.76	455057
+zstd_predictor-2_level-15	5	cog	zstd	2	15		1965.72	508861
+zstd_predictor-2_level-16	5	cog	zstd	2	16		1914.33	425671
+zstd_predictor-2_level-18	5	cog	zstd	2	18		1873.59	500459
+zstd_predictor-2_level-19	5	cog	zstd	2	19		1872.02	610066
+zstd_predictor-2_level-20	5	cog	zstd	2	20		1872.02	872286
+zstd_predictor-2_level-17	5	cog	zstd	2	17		1858.77	469185
+lerc_z-error-0.0001	5	cog	lerc			0.0001	1718.90	230132
+lerc_z-error-0.0005	5	cog	lerc			0.0005	1439.58	228535
+lerc_z-error-0.001	5	cog	lerc			0.001	1319.11	228775
+lerc_z-error-0.002	5	cog	lerc			0.002	1198.78	227316
+lerc_z-error-0.005	5	cog	lerc			0.005	1040.08	230138
