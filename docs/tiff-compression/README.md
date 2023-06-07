@@ -2,7 +2,7 @@
 
 ## TLDR
 
-Toitū Te Whenua has decided to store all it's DEM and DSM as `lerc` Cloud optimized geotiffs in `s3://linz-elevation`
+Toitū Te Whenua has decided to store all its DEM and DSM as `lerc` Cloud Optimized GeoTIFFs in `s3://linz-elevation`
 
 
 ## Background
