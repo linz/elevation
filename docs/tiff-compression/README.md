@@ -130,7 +130,7 @@ So using LERC (1mm) for 1TB of input data would result in approx $190 USD / year
 
 ## LERC support in GDAL/QGIS on Ubuntu Linux 22.04 Long Term Support (LTS)
 
-LERC support is included in GDAL on Ubuntu Linux 22.10 and above, including 24.04 LTS 
+LERC support is included in GDAL on Ubuntu Linux 22.10 and above, including 24.04 LTS (release date April 2024).
 
 To enable support for LERC on Ubuntu Linux 22.04 LTS, GDAL needs to be recompiled.
 
