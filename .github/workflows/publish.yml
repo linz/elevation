@@ -12,3 +12,31 @@ jobs:
 
     steps:
       - uses: linz/action-typescript@v3
+
+      # FIXME: catalog.json is not pushed to the repository (temporary solution)
+      - name: Create Catalog
+        uses: docker://ghcr.io/linz/argo-tasks:v2
+        with:
+          args: stac-catalog --output stac/catalog.json --template template/catalog.json /github/workspace/stac/
+
+      # FIXME: no collections exist so nothing to validate
+      # - name: Validate STAC
+      #   run: |
+      #     # Enable double star operator
+      #     shopt -s globstar
+      #     docker run -v $PWD:$PWD ghcr.io/linz/argo-tasks:v2 stac-validate $PWD/stac/**/collection.json
+
+      - name: AWS Configure
+        if: github.ref == 'refs/heads/master'
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-region: ap-southeast-2
+          mask-aws-account-id: true
+          role-to-assume: ${{ secrets.AWS_CI_ROLE }}
+
+      # Sync STAC files only on push to 'master'
+      - name: Sync STAC
+        uses: docker://ghcr.io/linz/argo-tasks:v2
+        if: github.ref == 'refs/heads/master'
+        with:
+          args: stac-sync /github/workspace/stac/ s3://linz-elevation/
