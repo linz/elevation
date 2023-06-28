@@ -4,7 +4,6 @@
 
 Toitū Te Whenua has decided to store all its DEM and DSM as `lerc` Cloud Optimized GeoTIFFs in `s3://linz-elevation`
 
-
 ## Background
 
 Toitū Te Whenua (LINZ) holds DEM (Digital Elevation Model) and DSM (Digital Surface Model) data for [most of New Zealand](https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data).
@@ -128,3 +127,42 @@ Egress - Cost to send the data out of AWS
 |lerc_z-error-0.001         |   $114.50|   $63.20| $45.51 |
 
 So using LERC (1mm) for 1TB of input data would result in approx $190 USD / year in storage costs savings, and $70 in savings for every copy of the data that was egressed out of AWS.
+
+## LERC support in GDAL/QGIS on Ubuntu Linux 22.04 Long Term Support (LTS)
+
+LERC support is included in GDAL on Ubuntu Linux 22.10 and above, including 24.04 LTS (release date April 2024).
+
+To enable support for LERC on Ubuntu Linux 22.04 LTS, GDAL needs to be recompiled.
+
+Instructions:
+
+```bash
+
+# Need GCC
+sudo apt-get install build-essential
+
+# Need PROJ, WEBP, ZSTD libs
+sudo apt-get install libproj-dev
+sudo apt-get install libwebp-dev
+sudo apt-get install libzstd-dev
+
+# Download GDAL for specific QGIS version you already have installed
+# e.g. QGIS 3.22.4 uses GDAL 3.4.1 
+wget -c http://download.osgeo.org/gdal/3.4.1/gdal-3.4.1.tar.gz
+tar -xvzf gdal-3.4.1.tar.gz
+cd gdal-3.4.1
+./configure --with-geotiff=internal --with-rename-internal-libgeotiff-symbols=yes --with-libtiff=internal --with-rename-internal-libtiff-symbols=yes --with-sqlite3 --with-proj=yes --with-python --with-hide-internal-symbols=yes
+
+# Compile - takes a lot of time...
+make -j$(nproc)
+
+# Install
+sudo make install
+
+# Set variables
+echo 'export LD_LIBRARY_PATH=/usr/local/lib' >> ~/.profile
+echo 'export LD_LIBRARY_PATH=/usr/local/lib' >> ~/.bashrc
+GDAL_DATA="/usr/local/share/gdal"
+sudo ldconfig
+
+```
