@@ -1,0 +1,29 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01H6MXWHVY6AJPGB0BCP7EB22F",
+  "title": "Northland - Marsden Point LiDAR 1m DEM (2016)",
+  "description": "Digital Elevation Model within the Northland - Marsden Point region captured in 2016.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX30_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX30_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0401.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Land Information New Zealand", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "extent": {
+    "spatial": { "bbox": [[174.4073784, -35.909242, 174.516032, -35.7781586]] },
+    "temporal": { "interval": [["2016-11-08T11:00:00Z", "2016-11-20T11:00:00Z"]] }
+  }
+}
