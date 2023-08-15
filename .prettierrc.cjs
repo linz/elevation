@@ -1,3 +1,1 @@
-module.exports = {
-  ...require('@linzjs/style/.prettierrc.cjs'),
-};
+module.exports = { ...require('@linzjs/style/.prettierrc.cjs') };
