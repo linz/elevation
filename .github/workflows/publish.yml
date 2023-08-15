@@ -21,12 +21,11 @@ jobs:
         with:
           args: stac-catalog --output stac/catalog.json --template template/catalog.json /github/workspace/stac/
 
-      # FIXME: add when content in repo
-      # - name: Validate STAC
-      #   run: |
-      #     # Enable double star operator
-      #     shopt -s globstar
-      #     docker run -v $PWD:$PWD ghcr.io/linz/argo-tasks:v2 stac-validate $PWD/stac/**/collection.json
+      - name: Validate STAC
+        run: |
+          # Enable double star operator
+          shopt -s globstar
+          docker run -v $PWD:$PWD ghcr.io/linz/argo-tasks:v2 stac-validate $PWD/stac/**/collection.json
 
       - name: AWS Configure
         if: github.ref == 'refs/heads/master'
