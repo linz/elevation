@@ -1,0 +1,37 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01H6N2AC8W252PEAX6GNS0W4BX",
+  "title": "Wellington - Hutt City LiDAR 1m DEM (2021)",
+  "description": "Digital Elevation Model within the Wellington - Hutt City region captured in 2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0302.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "AAM NZ", "roles": ["producer"] },
+    { "name": "Hutt City Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "extent": {
+    "spatial": { "bbox": [[174.802131, -41.3527997, 175.034859, -41.0906186]] },
+    "temporal": { "interval": [["2021-03-22T11:00:00Z", "2021-03-26T11:00:00Z"]] }
+  }
+}
