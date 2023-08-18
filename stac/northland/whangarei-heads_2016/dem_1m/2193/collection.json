@@ -24,8 +24,7 @@
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
-    { "name": "Land Information New Zealand", "roles": ["licensor"] },
-    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] }
   ],
   "extent": {
     "spatial": { "bbox": [[174.3531843, -35.9079461, 174.6223831, -35.7132637]] },
