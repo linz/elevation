@@ -1,0 +1,38 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01H6N256ZF2SRWMDZAJJYF8WP6",
+  "title": "Otago - Queenstown LiDAR 1m DSM (2021)",
+  "description": "Digital Surface Model within the Otago - Queenstown region captured in 2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0204.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Queenstown-Lakes District Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "extent": {
+    "spatial": { "bbox": [[168.5763338, -45.1165141, 168.8945028, -44.9157948]] },
+    "temporal": { "interval": [["2021-03-12T11:00:00Z", "2021-03-13T11:00:00Z"]] }
+  }
+}
