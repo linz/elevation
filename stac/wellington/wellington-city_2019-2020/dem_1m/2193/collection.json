@@ -1,0 +1,37 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01H7GWW48C9K2AXK5MRSA6BGGP",
+  "title": "Wellington City LiDAR 1m DEM (2019-2020)",
+  "description": "Digital Elevation Model within the Wellington City region captured in 2019-2020.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP31_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0201.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Wellington City Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "extent": {
+    "spatial": { "bbox": [[174.6877591, -41.4202865, 174.9202826, -41.0935096]] },
+    "temporal": { "interval": [["2019-03-19T11:00:00Z", "2020-03-13T11:00:00Z"]] }
+  }
+}
