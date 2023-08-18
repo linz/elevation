@@ -1,0 +1,34 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01H6MWQ6ZS9139WD54VAK2Z5AM",
+  "title": "Northland - Whangarei Heads LiDAR 1m DEM (2016)",
+  "description": "Digital Elevation Model within the Northland - Whangarei Heads region captured in 2016.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX30_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX30_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX30_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./AX31_10000_0403.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Land Information New Zealand", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "extent": {
+    "spatial": { "bbox": [[174.3531843, -35.9079461, 174.6223831, -35.7132637]] },
+    "temporal": { "interval": [["2016-11-20T11:00:00Z", "2016-11-21T11:00:00Z"]] }
+  }
+}
