@@ -13,7 +13,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: linz/action-typescript@v3
+      - uses: linz/action-typescript@dee99184c4305aea6c380a52db9b2d7abaaa3e78 # v3
 
       # FIXME: catalog.json is not pushed to the repository (temporary solution)
       - name: Create Catalog
@@ -29,7 +29,7 @@ jobs:
 
       - name: AWS Configure
         if: github.ref == 'refs/heads/master'
-        uses: aws-actions/configure-aws-credentials@v2
+        uses: aws-actions/configure-aws-credentials@5fd3084fc36e372ff1fff382a39b10d03659f355 # v2
         with:
           aws-region: ap-southeast-2
           mask-aws-account-id: true
