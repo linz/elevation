@@ -16,7 +16,7 @@ The elevation dataset S3 path is also constructed from similar metadata.
 
 ```
 <region>/
-  <geographic_description|region>_<start_year>[-<end_year>?]/
+  [<geographic_description>|<region>]_<start_year>[-<end_year>?]/
     <product>_<gsd>m/
       <crs>/
 ```
