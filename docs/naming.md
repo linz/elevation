@@ -43,7 +43,7 @@ EPSG Code for the coordinate reference system of the elevation data. Generally t
 
 ### `geographic_description`
 
-This is free text and at the elevation data maintainers discretion. A specific city or sub-region or event name may be used to help describe the elevation data capture area. The [Gazetteer](https://gazetteer.linz.govt.nz/) is referenced to ensure official names with correct spelling are used. If the region has full coverage, then the geographic description can be empty and the region name will be repeated.
+This is free text and at the elevation data maintainers discretion. A specific city or sub-region or event name may be used to help describe the elevation data capture area. The [Gazetteer](https://gazetteer.linz.govt.nz/) is referenced to ensure official names with correct spelling are used. If the region has full coverage, then the geographic description can be empty and the region name will be repeated in the S3 path.
 
 ### `geospatial_category`
 
