@@ -41,8 +41,8 @@ jobs:
           role-to-assume: ${{ secrets.AWS_CI_ROLE }}
 
       # Sync STAC files only on push to 'master'
-      - name: Sync STAC
-        uses: docker://ghcr.io/linz/argo-tasks:v2
-        if: github.ref == 'refs/heads/master'
-        with:
-          args: stac-sync /github/workspace/stac/ s3://linz-elevation/
+      # - name: Sync STAC
+      #   uses: docker://ghcr.io/linz/argo-tasks:v2
+      #   if: github.ref == 'refs/heads/master'
+      #   with:
+      #     args: stac-sync /github/workspace/stac/ s3://linz-elevation/
