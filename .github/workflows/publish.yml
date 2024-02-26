@@ -87,7 +87,6 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ODR_DATA_MANAGER_ROLE }}
           role-chaining: true
 
-      # Sync STAC files only on push to 'master'
       - name: Sync STAC
         uses: docker://ghcr.io/linz/argo-tasks:v2
         with:
