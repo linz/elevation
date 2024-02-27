@@ -1,10 +1,10 @@
 {
   "stac_version": "1.0.0",
   "type": "Catalog",
-  "id": "linz-elevation",
+  "id": "nz-elevation",
   "description": "Toitū Te Whenua Land Information New Zealand makes New Zealand's publicly owned elevation archive freely available to use under an open licence.",
   "links": [
-    { "rel": "self", "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json" },
+    { "rel": "self", "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json" },
     { "rel": "root", "href": "./catalog.json" }
   ]
 }
