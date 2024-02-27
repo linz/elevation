@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H7GWW48C9K2AXK5MRSA6BGGP",
-  "title": "Wellington City LiDAR 1m DEM (2019-2020)",
-  "description": "Digital Elevation Model within the Wellington City region captured in 2019-2020.",
+  "id": "01HQMBZ0CC3ZD705NJ8GTHFKA1",
+  "title": "Wellington - Wellington City LiDAR 1m DEM (2019-2020)",
+  "description": "Digital Elevation Model within the Wellington region captured in 2019-2020.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -30,8 +30,24 @@
     { "name": "Wellington City Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Wellington City",
   "extent": {
     "spatial": { "bbox": [[174.6877591, -41.4202865, 174.9202826, -41.0935096]] },
     "temporal": { "interval": [["2019-03-19T11:00:00Z", "2020-03-13T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122030d81e99d842a5791df0b36050b307569728b0b56afdd071c5243a9ad4ac3890",
+      "file:size": 4165
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
