@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N0H9ZGG2Y8QFTAJBZ0R8A2",
+  "id": "01HQPAA86PG6F76DG59SHZ76ZA",
   "title": "Tasman - Abel Tasman and Golden Bay LiDAR 1m DSM (2016)",
-  "description": "Digital Surface Model within the Tasman - Abel Tasman and Golden Bay region captured in 2016.",
+  "description": "Digital Surface Model within the Tasman region captured in 2016.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -46,8 +46,24 @@
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Abel Tasman and Golden Bay",
   "extent": {
     "spatial": { "bbox": [[172.6868094, -41.1733388, 173.0857515, -40.7188997]] },
     "temporal": { "interval": [["2016-12-12T11:00:00Z", "2016-12-13T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220fb5aead8951a43e80be9470ab27f4067d639daed7f6d27b9c4ac334d281b4db7",
+      "file:size": 364919
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
