@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MY8NJYXBB9V98DRSE5QD1K",
+  "id": "01HQP9QP6RXGNJTPDK3GFV0HBQ",
   "title": "Canterbury - Christchurch and Ashley River LiDAR 1m DSM (2018-2019)",
-  "description": "Digital Surface Model within the Canterbury - Christchurch and Ashley River region captured in 2018-2019.",
+  "description": "Digital Surface Model within the Canterbury region captured in 2018-2019.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -54,8 +54,24 @@
     { "name": "Environment Canterbury", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Christchurch and Ashley River",
   "extent": {
     "spatial": { "bbox": [[172.3758499, -43.7020304, 172.8513887, -43.1818868]] },
     "temporal": { "interval": [["2018-07-19T12:00:00Z", "2019-02-28T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f874cb39914819aae3f04acf4026558ca96faf5474fde1343c0b57c9bdb15ca6",
+      "file:size": 7546
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
