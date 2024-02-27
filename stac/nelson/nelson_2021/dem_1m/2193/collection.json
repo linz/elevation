@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N2Y0PGT5F5YFDPW62BTS7J",
+  "id": "01HQPFCF2E6EG5YC1G2RPXKBST",
   "title": "Nelson LiDAR 1m DEM (2021)",
   "description": "Digital Elevation Model within the Nelson region captured in 2021.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -46,8 +46,23 @@
     { "name": "Nelson City Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "nelson",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[173.1432012, -41.4325902, 173.657408, -41.0417549]] },
     "temporal": { "interval": [["2021-01-09T11:00:00Z", "2021-06-23T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220e9e3bb74d994ee9cedd17359c96e7b11c38fbf29096f4dae001641671137961c",
+      "file:size": 63593
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
