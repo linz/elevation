@@ -1,9 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01HQPAA86PG6F76DG59SHZ76ZA",
-  "title": "Tasman - Abel Tasman and Golden Bay LiDAR 1m DSM (2016)",
-  "description": "Digital Surface Model within the Tasman region captured in 2016.",
+  "id": "01HQMDGG25AWBPBT4F3T2NFRZH",
+  "title": "Tasman - Abel Tasman and Golden Bay LiDAR 1m DEM (2023)",
+  "description": "Digital Elevation Model within the Tasman region captured in 2023.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -12,6 +12,17 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN23_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN23_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN23_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN23_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BN24_10000_0402.json", "type": "application/json" },
     { "rel": "item", "href": "./BN24_10000_0403.json", "type": "application/json" },
     { "rel": "item", "href": "./BN24_10000_0404.json", "type": "application/json" },
     { "rel": "item", "href": "./BN24_10000_0503.json", "type": "application/json" },
@@ -22,13 +33,17 @@
     { "rel": "item", "href": "./BN25_10000_0501.json", "type": "application/json" },
     { "rel": "item", "href": "./BN25_10000_0502.json", "type": "application/json" },
     { "rel": "item", "href": "./BN25_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP23_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP23_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP23_10000_0105.json", "type": "application/json" },
     { "rel": "item", "href": "./BP24_10000_0104.json", "type": "application/json" },
     { "rel": "item", "href": "./BP24_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP24_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP24_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP24_10000_0305.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0101.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0103.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0104.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP25_10000_0202.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP25_10000_0203.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0204.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0301.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0302.json", "type": "application/json" },
@@ -37,23 +52,21 @@
     { "rel": "item", "href": "./BP25_10000_0401.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0402.json", "type": "application/json" },
     { "rel": "item", "href": "./BP25_10000_0403.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP25_10000_0404.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP25_10000_0501.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP25_10000_0502.json", "type": "application/json" }
+    { "rel": "item", "href": "./BP25_10000_0404.json", "type": "application/json" }
   ],
   "providers": [
-    { "name": "AAM NZ", "roles": ["producer"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
   "linz:lifecycle": "completed",
-  "linz:geospatial_category": "dsm",
+  "linz:geospatial_category": "dem",
   "linz:region": "tasman",
   "linz:security_classification": "unclassified",
   "linz:geographic_description": "Abel Tasman and Golden Bay",
   "extent": {
-    "spatial": { "bbox": [[172.6868094, -41.1733388, 173.0857515, -40.7188997]] },
-    "temporal": { "interval": [["2016-12-12T11:00:00Z", "2016-12-13T11:00:00Z"]] }
+    "spatial": { "bbox": [[172.401518, -41.1084811, 173.0857515, -40.589008]] },
+    "temporal": { "interval": [["2023-08-06T12:00:00Z", "2023-08-16T12:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -61,8 +74,8 @@
       "title": "Capture area",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220fb5aead8951a43e80be9470ab27f4067d639daed7f6d27b9c4ac334d281b4db7",
-      "file:size": 364919
+      "file:checksum": "12202e42e69f3ffa27bdff3995e93471f0c1f8ad0b5f6f0c31d1f09829a0ba9fa2b7",
+      "file:size": 8762
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]

@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MX1VM221WN8QYRYH99QVAJ",
+  "id": "01HQP7J14PCMV3YDFNG4C1Z4AZ",
   "title": "Canterbury LiDAR 1m DSM (2018-2019)",
   "description": "Digital Surface Model within the Canterbury region captured in 2018-2019.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -308,8 +308,23 @@
     { "name": "Environment Canterbury", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[170.6822667, -44.98452, 173.1465831, -42.5999333]] },
     "temporal": { "interval": [["2018-03-13T11:00:00Z", "2019-04-30T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12204386d7937f59610dc50fabd096c6ca6d84fcd8a45e69cc724aa23d8736fb78fa",
+      "file:size": 60723
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
