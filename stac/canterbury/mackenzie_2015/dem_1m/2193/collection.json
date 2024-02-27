@@ -59,8 +59,7 @@
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
-    { "name": "Land Information New Zealand", "roles": ["licensor"] },
-    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["licensor", "host", "processor"] }
   ],
   "linz:lifecycle": "completed",
   "linz:geospatial_category": "dem",
