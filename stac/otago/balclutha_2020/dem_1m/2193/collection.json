@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N0KFCMHWZKTGRRRJBW8P88",
+  "id": "01HQPAVJYFD06QZP1ET2GDPKRY",
   "title": "Otago - Balclutha LiDAR 1m DEM (2020)",
-  "description": "Digital Elevation Model within the Otago - Balclutha region captured in 2020.",
+  "description": "Digital Elevation Model within the Otago region captured in 2020.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -42,8 +42,24 @@
     { "name": "Otago Regional Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Balclutha",
   "extent": {
     "spatial": { "bbox": [[169.5984967, -46.4456066, 169.9866335, -46.1150135]] },
     "temporal": { "interval": [["2020-01-15T11:00:00Z", "2020-01-17T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220a137e1639ca8b9454530c728d902046cbf9081cffb089db9cd4360463e5efe2f",
+      "file:size": 1430
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

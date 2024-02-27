@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MW0YMT940QHDBFKNBYWFB7",
+  "id": "01HQMBBBQN2Q73KEVPB3BKS8FD",
   "title": "Tasman - Motueka River Valley LiDAR 1m DSM (2018-2019)",
-  "description": "Digital Surface Model within the Tasman - Motueka River Valley region captured in 2018-2019.",
+  "description": "Digital Surface Model within the Tasman region captured in 2018-2019.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -47,8 +47,24 @@
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Motueka River Valley",
   "extent": {
     "spatial": { "bbox": [[172.5686916, -41.4975302, 173.1434853, -41.0435377]] },
     "temporal": { "interval": [["2018-11-14T11:00:00Z", "2019-02-12T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220aa35367b5abd9a671b92ca64cb52283b2ccc89d6c14a02ee244bb41e8c7e0be9",
+      "file:size": 8711
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

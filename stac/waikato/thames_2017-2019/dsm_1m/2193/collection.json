@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MWZRNCK20A9R8H68SBGFWN",
+  "id": "01HQMCC7SQYQWQ2QQ98W4R5X92",
   "title": "Waikato - Thames LiDAR 1m DSM (2017-2019)",
-  "description": "Digital Surface Model within the Waikato - Thames region captured in 2017-2019.",
+  "description": "Digital Surface Model within the Waikato region captured in 2017-2019.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -31,8 +31,24 @@
     { "name": "Waikato Regional Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Thames",
   "extent": {
     "spatial": { "bbox": [[175.5102693, -37.4459782, 175.7400516, -37.0581599]] },
     "temporal": { "interval": [["2017-07-01T12:00:00Z", "2019-02-03T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220bf1b806cd6dbc104e9d7f48c0e9f20d983c833fd24505e7147c50f81d6171710",
+      "file:size": 1931
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
