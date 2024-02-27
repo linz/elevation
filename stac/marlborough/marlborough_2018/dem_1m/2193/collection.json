@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H7GXPYWA568JTM3S66RK5ZMR",
+  "id": "01HQP9JYBMEF9T8D9YNTBN32TT",
   "title": "Marlborough LiDAR 1m DEM (2018)",
   "description": "Digital Elevation Model within the Marlborough region captured in 2018.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -70,8 +70,23 @@
     { "name": "Marlborough District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "marlborough",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[173.2590459, -41.948916, 174.2425113, -41.2327826]] },
     "temporal": { "interval": [["2018-05-25T12:00:00Z", "2018-09-11T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12201bead08e7cd674269ee3a7448827ecdac617779180b3ffa2136bba55e85bc4fd",
+      "file:size": 58696
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
