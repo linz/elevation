@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MZPSK3G7GBJWQQZSNPBQHZ",
+  "id": "01HQP9XA866M33YXQE74N20HRR",
   "title": "Canterbury - Banks Peninsula LiDAR 1m DEM (2018-2019)",
-  "description": "Digital Elevation Model within the Canterbury - Banks Peninsula region captured in 2018-2019.",
+  "description": "Digital Elevation Model within the Canterbury region captured in 2018-2019.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -65,8 +65,24 @@
     { "name": "Environment Canterbury", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Banks Peninsula",
   "extent": {
     "spatial": { "bbox": [[172.5527303, -43.9615254, 173.149415, -43.5716925]] },
     "temporal": { "interval": [["2018-07-17T12:00:00Z", "2019-02-09T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12200841314535bd72f6f3021d9f1466b1ea51731bcdf7b2014ca8b65d05ea7944d6",
+      "file:size": 10752
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
