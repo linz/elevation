@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MW0YTX56BV5Q6QJ8GF6S0B",
+  "id": "01HQMB8SCQQRJ98W6CG5WFP32E",
   "title": "Otago LiDAR 1m DSM (2016)",
   "description": "Digital Surface Model within the Otago region captured in 2016.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -178,8 +178,23 @@
     { "name": "Otago Regional Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[168.8244481, -46.4456066, 171.2058988, -44.6725407]] },
     "temporal": { "interval": [["2016-03-01T11:00:00Z", "2016-04-09T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220bd5a570ccc5a1f05bddb6b88ad196b48ee87442e7453cc35941ceb2c1331ce5d",
+      "file:size": 24585
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
