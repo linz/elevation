@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N256ZF2SRWMDZAJJYF8WP6",
+  "id": "01HQPF571HHNWJVZ26NE0ZZPRC",
   "title": "Otago - Queenstown LiDAR 1m DSM (2021)",
-  "description": "Digital Surface Model within the Otago - Queenstown region captured in 2021.",
+  "description": "Digital Surface Model within the Otago region captured in 2021.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -31,8 +31,24 @@
     { "name": "Queenstown-Lakes District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Queenstown",
   "extent": {
     "spatial": { "bbox": [[168.5763338, -45.1165141, 168.8945028, -44.9157948]] },
     "temporal": { "interval": [["2021-03-12T11:00:00Z", "2021-03-13T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220458d0723ed665cd18ce2d6f35936ad93f54d9d84630ca09c23a9243a5708e6fc",
+      "file:size": 5075
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
