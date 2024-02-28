@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N6NQMW470GHJ6N0WKFZ397",
+  "id": "01HQPQSPW1313HC98GYNQJQX42",
   "title": "Nelson and Tasman - Top of the South Flood LiDAR 1m DSM (2022)",
-  "description": "Digital Surface Model within the Nelson and Tasman - Top of the South Flood region captured in 2022.",
+  "description": "Digital Surface Model within the Nelson region captured in 2022, published as a record of the Top of the South Flood event.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -77,8 +77,25 @@
     { "name": "National Emergency Management Agency", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "nelson",
+  "linz:security_classification": "unclassified",
+  "linz:event_name": "Top of the South Flood",
+  "linz:geographic_description": "Top of the South Flood",
   "extent": {
     "spatial": { "bbox": [[172.7437525, -41.5623833, 173.715274, -40.7839011]] },
     "temporal": { "interval": [["2022-08-22T12:00:00Z", "2022-09-05T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f87300f3cbde5cf9f3af768856abe21467f1abaec0c4cbb64a845b7651646a24",
+      "file:size": 16724
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
