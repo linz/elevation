@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H7H2JPJCJ1XXHDXW9QK2C04P",
+  "id": "01HQPFPN0JN80JMY68GRFCNYPN",
   "title": "West Coast LiDAR 1m DSM (2020-2022)",
   "description": "Digital Surface Model within the West Coast region captured in 2020-2022.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -273,8 +273,23 @@
     { "name": "West Coast Regional Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "west-coast",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[168.0352097, -44.3199292, 171.6419363, -41.8108859]] },
     "temporal": { "interval": [["2020-05-15T12:00:00Z", "2022-02-13T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220afe8abd9d186fb402561844f22b56d312e74eb6357ccd6cf245690a0a10fe604",
+      "file:size": 45797
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
