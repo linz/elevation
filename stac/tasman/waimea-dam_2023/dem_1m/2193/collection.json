@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N6J5ZGVQXCHQA2KY9PA6CG",
+  "id": "01HQPPHEVZR2HR6QSF2FX41TVY",
   "title": "Tasman - Waimea Dam LiDAR 1m DEM (2023)",
-  "description": "Digital Elevation Model within the Tasman - Waimea Dam region captured in 2023.",
+  "description": "Digital Elevation Model within the Tasman region captured in 2023.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -19,8 +19,24 @@
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Waimea Dam",
   "extent": {
     "spatial": { "bbox": [[173.143628, -41.4975302, 173.2012794, -41.4325902]] },
     "temporal": { "interval": [["2023-03-08T11:00:00Z", "2023-03-08T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122028f391ae3fde2da713cf3683525beff208987a7cc04e8366b61504d553f92c1a",
+      "file:size": 719
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
