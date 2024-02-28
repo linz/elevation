@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6Q06X72KREAS83PXSCBM7W1",
+  "id": "01HQPS5XWMYXT4PD4TY40AXV0Y",
   "title": "Bay of Plenty LiDAR 1m DEM (2019-2022)",
   "description": "Digital Elevation Model within the Bay of Plenty region captured in 2019-2022.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -472,8 +472,23 @@
     { "name": "BOPLASS", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[175.7942516, -38.909689, 178.1384604, -37.2338091]] },
     "temporal": { "interval": [["2019-10-26T11:00:00Z", "2022-10-23T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220848732a4444cfbec24af748221618c3f4dee1aa63673bad102e2e45d4276d947",
+      "file:size": 33577
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
