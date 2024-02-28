@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MYEVKNBME6K5GBXJ3AGR7C",
-  "title": "Manawatū - Whanganui LiDAR 1m DSM (2015-2016)",
-  "description": "Digital Surface Model within the Manawatū - Whanganui region captured in 2015-2016.",
+  "id": "01HQRGJ6ZK9RN50A1MAZTVW9S4",
+  "title": "Manawatū-Whanganui LiDAR 1m DSM (2015-2016)",
+  "description": "Digital Surface Model within the Manawatū-Whanganui region captured in 2015-2016.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -171,8 +171,23 @@
     { "name": "Horizons Regional Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[174.7100346, -40.765512, 176.0833559, -38.7557257]] },
     "temporal": { "interval": [["2015-12-26T11:00:00Z", "2016-12-16T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220d8648b135d9c2b5a8ee67d7affe1f4a48f3361286ef2bd323286df19c54aa15e",
+      "file:size": 156390
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
