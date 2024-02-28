@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N4KDD0JJBYHTG9V1HGKG3K",
+  "id": "01HQPP62407807PEYMT6YQDAVT",
   "title": "Stewart Island / Rakiura - Oban LiDAR 1m DEM (2021)",
-  "description": "Digital Elevation Model within the Stewart Island / Rakiura - Oban region captured in 2021.",
+  "description": "Digital Elevation Model within the Southland region captured in 2021.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -22,8 +22,24 @@
     { "name": "Environment Southland", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Stewart Island / Rakiura - Oban",
   "extent": {
     "spatial": { "bbox": [[168.0465809, -46.970433, 168.1839243, -46.8359485]] },
     "temporal": { "interval": [["2021-09-02T12:00:00Z", "2021-09-02T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220c3478a8823c9c4b53ae87b539e783db18c8f67812dfccc9321018d3f1903803e",
+      "file:size": 1342
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
