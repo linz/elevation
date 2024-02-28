@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N21YSARGW5D7EHGZGME1Q4",
+  "id": "01HQRFZTFCFMTY29QR1TK6MGEJ",
   "title": "Manawatū-Whanganui - Whanganui Urban LiDAR 1m DEM (2020-2021)",
-  "description": "Digital Elevation Model within the Manawatū-Whanganui - Whanganui Urban region captured in 2020-2021.",
+  "description": "Digital Elevation Model within the Manawatū-Whanganui region captured in 2020-2021.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -42,8 +42,24 @@
     { "name": "Whanganui District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Whanganui Urban",
   "extent": {
     "spatial": { "bbox": [[174.8799205, -40.0534343, 175.386853, -39.7867148]] },
     "temporal": { "interval": [["2020-09-07T12:00:00Z", "2021-02-02T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ee926561bab6f6c32b4f9846fed070a5c120cb25e82ad33f6219290d385aae50",
+      "file:size": 3840
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
