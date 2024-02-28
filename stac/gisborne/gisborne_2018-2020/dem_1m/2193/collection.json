@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6QJG0DJ7CK1V18EV9M7B7YF",
+  "id": "01HQPFS47XJEWC1PYV4EGVXEPW",
   "title": "Gisborne LiDAR 1m DEM (2018-2020)",
   "description": "Digital Elevation Model within the Gisborne region captured in 2018-2020.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -58,6 +58,7 @@
     { "rel": "item", "href": "./BD45_10000_0502.json", "type": "application/json" },
     { "rel": "item", "href": "./BD45_10000_0503.json", "type": "application/json" },
     { "rel": "item", "href": "./BD45_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD46_10000_0401.json", "type": "application/json" },
     { "rel": "item", "href": "./BE42_10000_0303.json", "type": "application/json" },
     { "rel": "item", "href": "./BE42_10000_0304.json", "type": "application/json" },
     { "rel": "item", "href": "./BE42_10000_0305.json", "type": "application/json" },
@@ -322,8 +323,23 @@
     { "name": "Gisborne District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
   "extent": {
-    "spatial": { "bbox": [[177.1042804, -38.9989083, 178.5813461, -37.4863429]] },
+    "spatial": { "bbox": [[177.1042804, -38.9989083, 178.6355576, -37.4863429]] },
     "temporal": { "interval": [["2018-12-30T11:00:00Z", "2020-10-08T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202c655ed16c76f4efd71660102e1345e7f4d7c2073eb6278f618c528cc37cb8e7",
+      "file:size": 23704
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
