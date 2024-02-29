@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N2AA5XW4KE4PTZW9P27ZVZ",
+  "id": "01HQS6CAGWRKSSF27B93CNZ33E",
   "title": "Auckland North LiDAR 1m DSM (2016-2018)",
-  "description": "Digital Surface Model within the Auckland North region captured in 2016-2018.",
+  "description": "Digital Surface Model within the Auckland region captured in 2016-2018.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -210,8 +210,24 @@
     { "name": "Auckland Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Auckland North",
   "extent": {
     "spatial": { "bbox": [[174.0977806, -37.0772518, 175.5940431, -36.0228458]] },
     "temporal": { "interval": [["2016-08-15T12:00:00Z", "2018-08-08T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12206e86a68dc9e70b9e8b5f152c5220cc4cef551f13ea0229492fa8ffe17b1daa28",
+      "file:size": 32410
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
