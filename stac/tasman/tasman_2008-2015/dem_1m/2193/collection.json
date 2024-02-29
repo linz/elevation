@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N1T7QR9JYSTHY5Q5DXH1NX",
+  "id": "01HQS7QXBZMDN9Z89E6B7JR05P",
   "title": "Nelson and Tasman LiDAR 1m DEM (2008-2015)",
-  "description": "Digital Elevation Model within the Nelson and Tasman region captured in 2008-2015.",
+  "description": "Digital Elevation Model within the Nelson and Tasman regions captured in 2008-2015.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -133,8 +133,23 @@
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[172.2197649, -41.8218466, 173.6014303, -40.4594477]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2015-12-30T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ddd347b83466a903c197a87b6d6ba39320239fd7ead5a7403dd40641eecc48b5",
+      "file:size": 507176
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
