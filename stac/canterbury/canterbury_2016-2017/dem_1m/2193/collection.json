@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N06W6QGTVZDRDBHV2P57EV",
+  "id": "01HQPA82N0Z166TZF11BF6XD0H",
   "title": "Canterbury LiDAR 1m DEM (2016-2017)",
   "description": "Digital Elevation Model within the Canterbury region captured in 2016-2017.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -193,8 +193,23 @@
     { "name": "Environment Canterbury", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[169.7662116, -45.432701, 172.672706, -43.4392042]] },
     "temporal": { "interval": [["2016-10-31T11:00:00Z", "2017-01-30T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220cfac86b951e7987884dc626d589ddcbadb9c5589de33cae47549ab4b4aecf1ea",
+      "file:size": 247367
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

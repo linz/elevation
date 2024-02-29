@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N05QZCR6M04B93K27WRFZ1",
+  "id": "01HQP9Y7N922VPERFXMBKYQSCP",
   "title": "Tasman - Richmond and Motueka LiDAR 1m DEM (2015)",
-  "description": "Digital Elevation Model within the Tasman - Richmond and Motueka region captured in 2015.",
+  "description": "Digital Elevation Model within the Tasman region captured in 2015.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -40,8 +40,24 @@
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Richmond and Motueka",
   "extent": {
     "spatial": { "bbox": [[172.914164, -41.4976164, 173.2582727, -41.0435943]] },
     "temporal": { "interval": [["2015-11-12T11:00:00Z", "2015-11-13T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12206f9f281794b5dc95e331d354a5ed5ec71a93d68faec30181d085a85e7d9cc7e1",
+      "file:size": 1922
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

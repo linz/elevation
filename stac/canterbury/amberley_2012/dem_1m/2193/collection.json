@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQSCNYEGTZY2AB66M49HJMJQ",
+  "title": "Canterbury - Amberley LiDAR 1m DEM (2012)",
+  "description": "Digital Elevation Model within the Canterbury region captured in 2012.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV24_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV24_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV24_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV24_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV24_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0304.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Environment Canterbury", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Amberley",
+  "extent": {
+    "spatial": { "bbox": [[172.6156695, -43.3130477, 172.8524917, -42.9886025]] },
+    "temporal": { "interval": [["2012-07-09T12:00:00Z", "2012-07-16T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12203a876232fc54a4f3b900ddcd5b77ceea0742f1a43719c42823557c59d0f9ced1",
+      "file:size": 5354
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

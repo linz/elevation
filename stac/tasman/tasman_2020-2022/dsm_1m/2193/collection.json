@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N6RXCY1KMYMJ62JEND4HDG",
+  "id": "01HQRERMM4Z22F9567QNDS7T1F",
   "title": "Tasman LiDAR 1m DSM (2020-2022)",
   "description": "Digital Surface Model within the Tasman region captured in 2020-2022.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -328,8 +328,23 @@
     { "name": "Tasman District Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
   "extent": {
     "spatial": { "bbox": [[172.0435002, -42.3395863, 173.3166108, -40.5883396]] },
     "temporal": { "interval": [["2020-01-27T11:00:00Z", "2022-01-29T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202453b979e42a0e6e87c65595755c18fe991ee45375418c66574a25677c607aa2",
+      "file:size": 33455
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

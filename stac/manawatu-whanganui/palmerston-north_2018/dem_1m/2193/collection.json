@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N0TBSG9Q1D7N0C2FWGQRHW",
+  "id": "01HQRG5W7HXDXWB1M449TA6B48",
   "title": "Manawatū-Whanganui - Palmerston North LiDAR 1m DEM (2018)",
-  "description": "Digital Elevation Model within the Manawatū-Whanganui - Palmerston North region captured in 2018.",
+  "description": "Digital Elevation Model within the Manawatū-Whanganui region captured in 2018.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -41,8 +41,24 @@
     { "name": "Palmerston North City Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Palmerston North",
   "extent": {
     "spatial": { "bbox": [[175.4592799, -40.5620358, 175.8008159, -40.231557]] },
     "temporal": { "interval": [["2018-08-28T12:00:00Z", "2018-09-27T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122022d94cc07325fe3e19d637b041da276fd6796bea4e34a7be0fb578cb76e98f6d",
+      "file:size": 5996
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MT3W2070RQTV2GYW4P1MXE",
+  "id": "01HQM8KTDJ4NTX0TSBQ59M58N6",
   "title": "Canterbury - Mackenzie LiDAR 1m DSM (2015)",
-  "description": "Digital Surface Model within the Canterbury - Mackenzie region captured in 2015.",
+  "description": "Digital Surface Model within the Canterbury region captured in 2015.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -59,10 +59,26 @@
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
-    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] }
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["licensor", "host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Mackenzie",
   "extent": {
     "spatial": { "bbox": [[169.9006493, -44.5118652, 170.5154636, -43.9938781]] },
     "temporal": { "interval": [["2015-02-09T11:00:00Z", "2015-02-10T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12204ce9621accd67b824480f351309531088541f5edaecea92347bdc7ec956b0e14",
+      "file:size": 54581
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H7GYMZBF93Q76DR24K0AP3AC",
+  "id": "01HQREEBV79GH7Y7YGR103KRGT",
   "title": "Canterbury - Christchurch LiDAR 1m DEM (2020-2021)",
-  "description": "Digital Elevation Model within the Canterbury - Christchurch region captured in 2020-2021.",
+  "description": "Digital Elevation Model within the Canterbury region captured in 2020-2021.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -42,12 +42,28 @@
   ],
   "providers": [
     { "name": "Landpro", "roles": ["producer"] },
-    { "name": "\"Christchurch City Council", "roles": ["licensor"] },
-    { "name": "Environment Canterbury\"", "roles": ["licensor"] },
+    { "name": "Christchurch City Council", "roles": ["licensor"] },
+    { "name": "Environment Canterbury", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Christchurch",
   "extent": {
     "spatial": { "bbox": [[172.3758499, -43.7020304, 172.8513887, -43.376959]] },
     "temporal": { "interval": [["2020-12-17T11:00:00Z", "2021-02-16T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12204ad4efd1577203af0c0a65c9811aa34938f34c1a88e31eaae83c73d34735678f",
+      "file:size": 20442
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

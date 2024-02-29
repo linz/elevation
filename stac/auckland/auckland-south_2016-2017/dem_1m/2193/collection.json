@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H7GYMZBFZTRDFZ87Q2C4JXV6",
+  "id": "01HQPD3ZCFA9VXMTSQD85QRY4Q",
   "title": "Auckland South LiDAR 1m DEM (2016-2017)",
-  "description": "Digital Elevation Model within the Auckland South region captured in 2016-2017.",
+  "description": "Digital Elevation Model within the Auckland region captured in 2016-2017.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -101,8 +101,24 @@
     { "name": "Auckland Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Auckland South",
   "extent": {
     "spatial": { "bbox": [[174.4837264, -37.3346925, 175.3504479, -36.8082191]] },
     "temporal": { "interval": [["2016-09-21T12:00:00Z", "2017-06-21T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12203c0191c1f0c51f8a0f6d92ba421ad83d74579ef2296e433be7e86ceb506ac3ff",
+      "file:size": 485157
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

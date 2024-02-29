@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6N3CFW4H84GCJPKT4JMN3QG",
+  "id": "01HQPFMCE4RDF6BR8YZNVDT2TV",
   "title": "Otago - Dunedin and Mosgiel LiDAR 1m DSM (2021)",
-  "description": "Digital Surface Model within the Otago - Dunedin and Mosgiel region captured in 2021.",
+  "description": "Digital Surface Model within the Otago region captured in 2021.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -25,8 +25,24 @@
     { "name": "Otago Regional Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Dunedin and Mosgiel",
   "extent": {
     "spatial": { "bbox": [[170.3063778, -45.9445839, 170.5595063, -45.8095509]] },
     "temporal": { "interval": [["2021-06-23T12:00:00Z", "2021-06-23T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122000449178693c1d1702bb5a46023998b8e04196064e41429e6000071c32e4c154",
+      "file:size": 2149
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

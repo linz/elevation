@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H7GYNVQ0015G7NNJYV5DQG0M",
+  "id": "01HQS6C8F88JGM04345RY84N9D",
   "title": "Auckland North LiDAR 1m DEM (2016-2018)",
-  "description": "Digital Elevation Model within the Auckland North region captured in 2016-2018.",
+  "description": "Digital Elevation Model within the Auckland region captured in 2016-2018.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -53,7 +53,6 @@
     { "rel": "item", "href": "./AY34_10000_0504.json", "type": "application/json" },
     { "rel": "item", "href": "./AY34_10000_0505.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ29_10000_0205.json", "type": "application/json" },
-    { "rel": "item", "href": "./AZ29_10000_0304.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ29_10000_0305.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ29_10000_0405.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ30_10000_0101.json", "type": "application/json" },
@@ -119,7 +118,6 @@
     { "rel": "item", "href": "./AZ32_10000_0501.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ32_10000_0502.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ32_10000_0503.json", "type": "application/json" },
-    { "rel": "item", "href": "./AZ32_10000_0504.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ34_10000_0103.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ34_10000_0104.json", "type": "application/json" },
     { "rel": "item", "href": "./AZ34_10000_0105.json", "type": "application/json" },
@@ -132,12 +130,10 @@
     { "rel": "item", "href": "./BA30_10000_0203.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0204.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0205.json", "type": "application/json" },
-    { "rel": "item", "href": "./BA30_10000_0303.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0304.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0305.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0404.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0405.json", "type": "application/json" },
-    { "rel": "item", "href": "./BA30_10000_0504.json", "type": "application/json" },
     { "rel": "item", "href": "./BA30_10000_0505.json", "type": "application/json" },
     { "rel": "item", "href": "./BA31_10000_0101.json", "type": "application/json" },
     { "rel": "item", "href": "./BA31_10000_0102.json", "type": "application/json" },
@@ -166,7 +162,6 @@
     { "rel": "item", "href": "./BA31_10000_0505.json", "type": "application/json" },
     { "rel": "item", "href": "./BA32_10000_0101.json", "type": "application/json" },
     { "rel": "item", "href": "./BA32_10000_0102.json", "type": "application/json" },
-    { "rel": "item", "href": "./BA32_10000_0103.json", "type": "application/json" },
     { "rel": "item", "href": "./BA32_10000_0201.json", "type": "application/json" },
     { "rel": "item", "href": "./BA32_10000_0203.json", "type": "application/json" },
     { "rel": "item", "href": "./BA32_10000_0204.json", "type": "application/json" },
@@ -210,8 +205,24 @@
     { "name": "Auckland Council", "roles": ["licensor"] },
     { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Auckland North",
   "extent": {
-    "spatial": { "bbox": [[174.0977806, -37.0772518, 175.5940431, -36.0228458]] },
+    "spatial": { "bbox": [[174.1503643, -37.0772518, 175.5940431, -36.0228458]] },
     "temporal": { "interval": [["2016-08-15T12:00:00Z", "2018-08-08T12:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122039942a5b46234c077a134693078b0265e8a0e8cdf63d900c81177515eb470b13",
+      "file:size": 40235
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }

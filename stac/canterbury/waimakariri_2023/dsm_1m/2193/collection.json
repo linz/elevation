@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQRHZFPDNBW416DPVBGNYDJH",
+  "title": "Canterbury - Waimakariri LiDAR 1m DSM (2023)",
+  "description": "Digital Surface Model within the Canterbury region captured in 2023.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW22_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW22_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW22_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW22_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW22_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW22_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW23_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW23_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW23_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BW24_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX22_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX22_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX23_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX23_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX23_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX23_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BX23_10000_0105.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Environment Canterbury", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Waimakariri",
+  "extent": {
+    "spatial": { "bbox": [[172.0213315, -43.506864, 172.7333572, -43.3090661]] },
+    "temporal": { "interval": [["2023-06-13T12:00:00Z", "2023-07-16T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12207faa642c46168e9d0488c1072fe4afa1bb818d43eb37f55e775e6cd6e0809bb0",
+      "file:size": 3878
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

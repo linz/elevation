@@ -1,14 +1,14 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01H6MWQ6ZS9139WD54VAK2Z5AM",
+  "id": "01HQMBSMQY950TP25ZV0Q9YZN2",
   "title": "Northland - Whangarei Heads LiDAR 1m DEM (2016)",
-  "description": "Digital Elevation Model within the Northland - Whangarei Heads region captured in 2016.",
+  "description": "Digital Elevation Model within the Northland region captured in 2016.",
   "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
-      "href": "https://linz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
@@ -24,10 +24,26 @@
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
-    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] }
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["licensor", "host", "processor"] }
   ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "northland",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Whangarei Heads",
   "extent": {
     "spatial": { "bbox": [[174.3531843, -35.9079461, 174.6223831, -35.7132637]] },
     "temporal": { "interval": [["2016-11-20T11:00:00Z", "2016-11-21T11:00:00Z"]] }
-  }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220416e4f36e79a6bf88333cbeac78afabf816aaa3e8bf2b05c9c001f6ed36d2a13",
+      "file:size": 23045
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
 }
