@@ -1,0 +1,46 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQS7W3T1D5D5R04QTCG7TGG8",
+  "title": "Canterbury - Cheviot LiDAR 1m DEM (2015)",
+  "description": "Digital Elevation Model within the Canterbury region captured in 2015.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BU26_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BU26_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BU26_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV26_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BV26_10000_0103.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Environment Canterbury", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Cheviot",
+  "extent": {
+    "spatial": { "bbox": [[173.1465831, -42.8592009, 173.3231548, -42.7292537]] },
+    "temporal": { "interval": [["2015-03-31T11:00:00Z", "2015-03-31T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220538d0a5ce6ded156608353c917ef1e0bb29ef5d322e6c9543fde49f058dfb4dc",
+      "file:size": 3180
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
