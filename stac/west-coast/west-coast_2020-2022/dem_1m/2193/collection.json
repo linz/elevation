@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01HQPFNVQXKAFY9REJGE82AKZ9",
+  "id": "01HQVVCM7AR4J34QDDYVA54Q6D",
   "title": "West Coast LiDAR 1m DEM (2020-2022)",
   "description": "Digital Elevation Model within the West Coast region captured in 2020-2022.",
   "license": "CC-BY-4.0",
@@ -12,6 +12,30 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR20_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BR21_10000_0503.json", "type": "application/json" },
     { "rel": "item", "href": "./BS19_10000_0205.json", "type": "application/json" },
     { "rel": "item", "href": "./BS19_10000_0305.json", "type": "application/json" },
     { "rel": "item", "href": "./BS19_10000_0405.json", "type": "application/json" },
@@ -21,6 +45,7 @@
     { "rel": "item", "href": "./BS20_10000_0102.json", "type": "application/json" },
     { "rel": "item", "href": "./BS20_10000_0103.json", "type": "application/json" },
     { "rel": "item", "href": "./BS20_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BS20_10000_0105.json", "type": "application/json" },
     { "rel": "item", "href": "./BS20_10000_0201.json", "type": "application/json" },
     { "rel": "item", "href": "./BS20_10000_0202.json", "type": "application/json" },
     { "rel": "item", "href": "./BS20_10000_0203.json", "type": "application/json" },
@@ -278,7 +303,7 @@
   "linz:region": "west-coast",
   "linz:security_classification": "unclassified",
   "extent": {
-    "spatial": { "bbox": [[168.0352097, -44.3199292, 171.6419363, -41.8108859]] },
+    "spatial": { "bbox": [[168.0352097, -44.3199292, 171.9916607, -41.5564186]] },
     "temporal": { "interval": [["2020-05-15T12:00:00Z", "2022-02-13T11:00:00Z"]] }
   },
   "assets": {
@@ -287,8 +312,8 @@
       "title": "Capture area",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220a8ffb8a7f3adf42dbac72d38b802580327ae2b5fc7b4b54eab694f19c3cf42d0",
-      "file:size": 43499
+      "file:checksum": "1220200b1c9f054cc01e3d8d1e8d5d5e8007a478102eb0010c6536aaa227192f54fe",
+      "file:size": 62963
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
