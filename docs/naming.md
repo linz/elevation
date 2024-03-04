@@ -10,6 +10,17 @@ The elevation dataset title is constructed from metadata that is entered when an
 <region>[ - <geographic_description>?] LiDAR <gsd>m <geospatial_category> (<start_year>[-<end_year>?])[ - <lifecycle>?]
 ```
 
+which can be broken down as:
+
+- the main `<region>` that the dataset covers
+- then if it exists, the `<geographic_description>` is used
+- then "LiDAR"
+- then `<gsd>` (which is always in metres)
+- then `<geospatial_category>`
+- then `<start_year>` (using all four digits to indicate the year)
+- if the elevation dataset was captured over multiple years, include a hyphen and the `<end_year>` (using all four digits to indicate the year)
+- if the elevation dataset has been processed as a QC preview or if it only represents partial capture, include "- Preview" or "- Draft" at the end of the title, from the dataset `<lifecycle>`
+
 ## Elevation Dataset S3 Paths
 
 The elevation dataset S3 path is also constructed from similar metadata.
@@ -21,19 +32,43 @@ The elevation dataset S3 path is also constructed from similar metadata.
       <crs>/
 ```
 
+which can be broken down as:
+
+- the main `<region>` that the dataset covers
+- then if it exists, the `<geographic_description>` is used, if not, `<region>` is repeated instead (this would be the case where the elevation dataset contains full coverage of the region)
+- then `<start_year>` (using all four digits to indicate the year)
+- if the imagery dataset was captured over multiple years, include a hyphen and the `<end_year>` (using all four digits to indicate the year)
+- then `<product>` as multiple products may be created from the same elevation survey
+- then `<gsd>` (which is always in metres)
+- then `<crs>` as we may store the data in different coordinate reference systems for different purposes
+
 ### S3 Path Restrictions
 
-#### Characters
+The _path_ is restricted to a limited set of characters with no whitespace: lowercase "a through "z", numbers "0" through "9", hyphen ("-"), and underscore ("_"). When generating a [dataset S3 path](#imagery-dataset-s3-paths), the system will pass through these characters unchanged to the path, and will transform many others to allowed characters - see the subsections for details. Any characters not mentioned in this section or subsections will result in an error.
 
-The path is restricted to a limited set of characters (a-z, A-Z, 0-9, -, \_ ) and no whitespace.
+#### Uppercase characters
 
-#### Macrons
+Uppercase characters are changed to lowercase. For example, "Wellington" is changed to "wellington".
 
-When a name contains macrons "Ōtorohanga" the macron is removed from the path but retained in the STAC Collection's Title / Description.
+#### Diacritics
+
+Characters with [diacritics](https://www.compart.com/en/unicode/block/U+0300), such as macrons ("ā", "ē", etc), are transliterated into Latin script. For example, a dataset with "Ōmāpere" in the title would have "omapere" in the path.
+
+#### Spaces, commas, and slashes
+
+These characters are replaced with a hyphen. For example, "Tikitapu/Blue Lake" is changed to "tikitapu-blue-lake".
 
 #### Apostrophes
 
-Where a name contains an apostrophe "Hawke's Bay" the apostrophe is removed from the path but retained in the STAC Collection's Title / Description.
+These are *removed,* so "Hawke's Bay" is changed to "hawkes-bay".
+
+#### Ampersands
+
+These are replaced with "-and-", so "Gore A&P Showgrounds" is changed to "gore-a-and-p-showgrounds".
+
+#### Other characters
+
+"ø" is transliterated to "o", so "Mount Brøgger" is changed to "mount-brogger".
 
 ## Title and S3 Path Components
 
@@ -43,7 +78,7 @@ EPSG Code for the coordinate reference system of the elevation data. Generally t
 
 ### `geographic_description`
 
-This is free text and at the elevation data maintainers discretion. A specific city or sub-region or event name may be used to help describe the elevation data capture area. The [Gazetteer](https://gazetteer.linz.govt.nz/) is referenced to ensure official names with correct spelling are used. If the region has full coverage, then the geographic description can be empty and the region name will be repeated in the S3 path.
+This is free text and at the imagery maintainer's discretion. A specific city or sub-region or event name may be used to help describe the elevation data capture area. The [Gazetteer](https://gazetteer.linz.govt.nz/) is referenced to ensure official names with correct spelling are used. If the region has full coverage, then the geographic description can be empty and the region will be used instead.
 
 ### `geospatial_category`
 
@@ -58,7 +93,7 @@ The GSD or spatial resolution is the area covered on the ground by a single pixe
 
 ### `lifecycle`
 
-If `lifecycle = preview` then ` - Draft` is appended to the end of the elevation dataset title. 
+If `lifecycle = preview` then ` - Preview` is appended to the end of the imagery dataset title and if `lifecycle = ongoing` then ` - Draft` is appended to the end of the imagery dataset title. For any other lifecycle values, nothing is appended.
 
 ### `product`
 
