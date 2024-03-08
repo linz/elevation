@@ -104,7 +104,7 @@ s5cmd --no-sign-request cp s3://nz-elevation/canterbury/christchurch_2020-2021/d
 
 ### Virtual file system
 
-GDAL allows you to run command on a file that is not on your local machine using a virtual file systems path:
+GDAL allows you to run commands on a file that is not on your local machine using a virtual file system path:
 
 - `/vsicurl/https://nz-elevation.s3-ap-southeast-2.amazonaws.com/[PATH]`
 - `/vsis3/s3://nz-elevation/[PATH]`
