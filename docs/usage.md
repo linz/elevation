@@ -6,7 +6,7 @@ Our public New Zealand Elevation bucket can be used with a number of application
 
 The STAC Catalog, https://nz-elevation.s3-ap-southeast-2.amazonaws.com/catalog.json, is the entry point of the LINZ elevation data. It points to the different STAC Collections representing a dataset.
 
-> **_Note:_** The files on the AWS S3 bucket `nz-elevation` can be accessed with a `s3` path `s3://nz-elevation` or a `https` URL `https://nz-elevation.s3-ap-southeast-2.amazonaws.com/`.
+> **_Note:_** The files in the *nz-elevation* bucket can be accessed via `s3://nz-elevation` or `https://nz-elevation.s3-ap-southeast-2.amazonaws.com/`.
 
 ### Manually navigate through the STAC Catalog to a get a TIFF
 
