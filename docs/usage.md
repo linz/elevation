@@ -1,6 +1,6 @@
 # Usage
 
-Our public New Zealand Elevation bucket can be used with a number of applications, including [STAC Browser](#stac-browser), [s5cmd](#s5cmd), [GDAL](#gdal), [QGIS](#qgis), [ArcGIS Pro](#arcgis-pro) and [Cyberduck](#cyberduck).
+Our public New Zealand Elevation bucket can be used with a number of applications, including [s5cmd](#s5cmd), [GDAL](#gdal), [QGIS](#qgis), [ArcGIS Pro](#arcgis-pro) and [Cyberduck](#cyberduck).
 
 ## Get the link to the TIFF
 
