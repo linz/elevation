@@ -212,14 +212,14 @@ Band 1 Block=512x512 Type=Float32, ColorInterp=Gray
 1. On the "Insert" ribbon, select "Connections" then "Cloud Store" then "New Cloud Storage Connection".
 
     ![ArcGIS Pro New Cloud Storage Connection](img/usage/arcgis_pro_new_cloud_connection.png)
-2. In the "Create Cloud Storage Connection" dialog, add a "Connection File Name" e.g. `New Zealand Elevation`, "Servicer Provider" as `AMAZON`, "Bucket Name" as `nz-elevation`, "Region" as `Asia Pacific (Sydney)` and "Service Endpoint" as `s3.ap-southeast-2.amazon.com`.
+2. In the "Create Cloud Storage Connection" dialog, add a "Connection File Name" e.g. `New Zealand Elevation`, "Service Provider" as `AMAZON`, "Bucket Name" as `nz-elevation`, "Region" as `Asia Pacific (Sydney)` and "Service Endpoint" as `s3.ap-southeast-2.amazon.com`.
 3. Because this is a Public Bucket, add a "Provider Option" with "Name" of `AWS_NO_SIGN_REQUEST` and "Value" of `YES`. This means that you won't need an Access Key ID or Secret Access Key.
 
     ![ArcGIS Pro Cloud Storage Connection Details](img/usage/arcgis_pro_connection_details.png)
 4. Click "OK". The cloud storage connection will appear in the "Catalog" pane, where the bucket structure can be explored.
 
     ![ArcGIS Pro Catalog View](img/usage/arcgis_pro_catalog_view.png)
-5. From here you can add individual TIFFs to the map, export them to different image formats, etc.
+5. From here you can add individual TIFFs to the map, export them to different data formats, etc.
 
 ## Cyberduck
 
