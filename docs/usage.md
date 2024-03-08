@@ -28,7 +28,7 @@ This is an example using the "Taranaki LiDAR 1m DEM (2021)" dataset.
     ```json
     { "rel": "item", "href": "./BH31_10000_0403.json", "type": "application/json" }
     ```
-3. The Item can be accessible from `https://nz-elevation.s3-ap-southeast-2.amazonaws.com/taranaki/taranaki_2021/dem_1m/2193/BH31_10000_0403.json`. A list of assets can be found:
+3. The Item can be accessed from `https://nz-elevation.s3-ap-southeast-2.amazonaws.com/taranaki/taranaki_2021/dem_1m/2193/BH31_10000_0403.json`. A list of assets can be found:
 
     ```json
     "assets": {
@@ -39,7 +39,7 @@ This is an example using the "Taranaki LiDAR 1m DEM (2021)" dataset.
       }
     }
     ```
-4. In this case, the TIFF can be accessible from `https://nz-elevation.s3-ap-southeast-2.amazonaws.com/taranaki/taranaki_2021/dem_1m/2193/BH31_10000_0403.tiff`
+4. In this case, the TIFF can be accessed from `https://nz-elevation.s3-ap-southeast-2.amazonaws.com/taranaki/taranaki_2021/dem_1m/2193/BH31_10000_0403.tiff`
 
 > **_Note:_** Our TIFF files and STAC Item files use the same base name. Having the link to the STAC Item, you can determine the TIFF link by changing its suffix from `.json` to `.tiff`.
 
