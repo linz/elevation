@@ -1,0 +1,7 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-04/21-es-hamilton-2023-dem-1m-gdldq/flat/",
+  "target": "s3://nz-elevation/waikato/hamilton_2023/dem_1m/2193/",
+  "ticket": "EDS-94",
+  "copy_option": "--no-clobber",
+  "region": "waikato"
+}
