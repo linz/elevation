@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HW190TPDAKZK8A0NM7NN9C4J",
+  "title": "Bay of Plenty - Tauranga LiDAR 1m DEM (2022)",
+  "description": "Digital Elevation Model within the Bay of Plenty region captured in 2022.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD36_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD37_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD38_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BD38_10000_0401.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Woolpert", "roles": ["producer"] },
+    { "name": "BOPLASS", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Tauranga",
+  "extent": {
+    "spatial": { "bbox": [[175.9696946, -37.8919503, 176.4623641, -37.562256]] },
+    "temporal": { "interval": [["2022-12-01T11:00:00Z", "2022-12-02T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122004b9ff9447f515775e415ca7b7b4f0739bf91a9abed049910c97dd274b211419",
+      "file:size": 4039
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
