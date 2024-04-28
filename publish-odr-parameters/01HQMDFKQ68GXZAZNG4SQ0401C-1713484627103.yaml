@@ -1,0 +1,7 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-04/18-es-gisborne-2023-dem-1m-gghtd/flat/",
+  "target": "s3://nz-elevation/gisborne/gisborne_2023/dem_1m/2193/",
+  "ticket": "EDS-90",
+  "copy_option": "--force",
+  "region": "gisborne"
+}
