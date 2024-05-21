@@ -1,0 +1,7 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-05/21-es-hawkes-bay-2023-dem-1m-64fc5/flat/",
+  "target": "s3://nz-elevation/hawkes-bay/hawkes-bay_2023/dem_1m/2193/",
+  "ticket": "EDS-72",
+  "copy_option": "--no-clobber",
+  "region": "hawkes-bay"
+}
