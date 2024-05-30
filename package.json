@@ -5,7 +5,7 @@
   "repository": "git@github.com:linz/elevation.git",
   "license": "MIT",
   "scripts": {
-    "format": "prettier -w template/ *.md",
+    "format": "prettier --check --write .",
     "lint": "eslint --quiet --fix --ignore-path=.gitignore ."
   },
   "devDependencies": {
