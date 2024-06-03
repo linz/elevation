@@ -17,7 +17,7 @@ LINZ is required to store the elevation data in a safe and secure manner while a
 
 ## Goals
 
-As the data is stored in [AWS S3](https://aws.amazon.com/s3/) every GB of data stored costs LINZ [$0.0025 USD / month](https://aws.amazon.com/s3/pricing/?nc=sn&loc=4), to reduce costs for new zealand the imagery needs to be compressed to ensure cost efficient storage. 
+As the data is stored in [AWS S3](https://aws.amazon.com/s3/) every GB of data stored costs LINZ [$0.0025 USD / month](https://aws.amazon.com/s3/pricing/?nc=sn&loc=4), to reduce costs for new zealand the imagery needs to be compressed to ensure cost efficient storage.
 
 This data is large and will also be accessed remotely it should be stored in a cloud optimized format so users can extract only the parts of the data they need, [Cloud optimised geotiff (COG)](https://www.cogeo.org/) without downloading the entire TIFF.
 
@@ -35,26 +35,25 @@ Stacked lerc compression was not tested due to increased testing complexity and 
 
 GDAL provides a two options for most compression type
 
-- Compression Level 
+- Compression Level
 - Predictor (none), Predictor 2 (Integer data type) or 3 (floating-point predictor)
 
 LERC has additional options for adjusting how much error is allowed, as the datasets generally have a ~20cm vertical accuracy, to keep the accuracy high only small amounts of allowed z error were tested (<5mm);
 
 - ZSTD (66 Tests)
-    - Predictor NO/1/2
-    - Level 1-22
+  - Predictor NO/1/2
+  - Level 1-22
 - Deflate (27 Tests)
-    - Predictor NO/1/2
-    - level 1-9
+  - Predictor NO/1/2
+  - level 1-9
 - LZW (3 Tests)
-    - Predictor NO/1/2
+  - Predictor NO/1/2
 - LERC (5 Tests)
-    - max z error: 0.1mm, 0.5mm, 1mm, 2mm, 5mm
+  - max z error: 0.1mm, 0.5mm, 1mm, 2mm, 5mm
 
 Testing data was selected from [CF15](https://data.linz.govt.nz/data/?mv.basemap=Streets&mv.content=layer.104687.color:003399.opacity:100,layer.109627.opacity:100&mv.zoom=9&mv.centre=169.8493143938876,-45.98894052690091) in [Otago - Coastal Catchments LiDAR 1m DEM (2021)](https://data.linz.govt.nz/layer/109627-otago-coastal-catchments-lidar-1m-dem-2021/) as it provided a mix of flat and hilly regions. which resulted in 2,999 source tiff files approximately 3.4GB
 
-to provide a somewhat reproducible result A docker container [`gdal-ubuntu-small-3.7.0`](https://github.com/OSGeo/gdal/pkgs/container/gdal/91692621?tag=ubuntu-small-3.7.0) was used 
-
+to provide a somewhat reproducible result A docker container [`gdal-ubuntu-small-3.7.0`](https://github.com/OSGeo/gdal/pkgs/container/gdal/91692621?tag=ubuntu-small-3.7.0) was used
 
 ### Process
 
@@ -85,46 +84,45 @@ docker run \
     /output/cf15-${compression}_predictor-${precdictor}_level-${level}_error-${error}.tiff
 ```
 
-
 ## Results
-
 
 A full table of results can be found in the [output.tsv](./compression-results.tsv)
 
 Key results
 
-|Id|File Size (mb)|Duration for 5 runs (ms)|
-|-|-|-|
-|base                       |   3456.00|         0|
-|lzw_predictor-2            |   2686.27|    190926|
-|deflate_predictor-2_level-9|   1982.15|    208897|
-|zstd_predictor-2_level-17  |   1858.77|    469185|
-|lerc_z-error-0.001         |   1319.11|    192573|
-
+| Id                          | File Size (mb) | Duration for 5 runs (ms) |
+| --------------------------- | -------------- | ------------------------ |
+| base                        | 3456.00        | 0                        |
+| lzw_predictor-2             | 2686.27        | 190926                   |
+| deflate_predictor-2_level-9 | 1982.15        | 208897                   |
+| zstd_predictor-2_level-17   | 1858.77        | 469185                   |
+| lerc_z-error-0.001          | 1319.11        | 192573                   |
 
 LERC is by far the best compression and speed for converting the DEMS into COGs. if having a minor (1mm) error is allowed it is a huge savings.
-
 
 As most of this work is for cost reduction for storage and egress of data, what level of cost reduction would this have for 1TB of input data.
 
 With the current [AWS S3 pricing](https://aws.amazon.com/s3/pricing/) the following metrics were used
 
-Standard Access - used for frequently accessed data 
+Standard Access - used for frequently accessed data
+
 - $0.025 / GB / month = $300 / TB /Year
 
 Infrequent Access - used for infrequently accessed data (most of our DEMs would fit into this category)
+
 - $0.0138 / GB / month = $165 / TB / Year
 
 Egress - Cost to send the data out of AWS
+
 - $0.114 / GB = $114.00 / TB
 
-|Id|Cost/TB/Year (Standard)| Cost/TB/Year (Infrequent)|Egress (1 copy downloaded)|
-|-|-|-|-|
-|base                       |   $300.00|   $165.60| $114.00 |
-|lzw_predictor-2            |   $233.18|   $128.71| $88.61 |
-|deflate_predictor-2_level-9|   $172.06|   $94.78| $65.38 |
-|zstd_predictor-2_level-17  |   $161.35|   $89.06| $61.31 |
-|lerc_z-error-0.001         |   $114.50|   $63.20| $45.51 |
+| Id                          | Cost/TB/Year (Standard) | Cost/TB/Year (Infrequent) | Egress (1 copy downloaded) |
+| --------------------------- | ----------------------- | ------------------------- | -------------------------- |
+| base                        | $300.00                 | $165.60                   | $114.00                    |
+| lzw_predictor-2             | $233.18                 | $128.71                   | $88.61                     |
+| deflate_predictor-2_level-9 | $172.06                 | $94.78                    | $65.38                     |
+| zstd_predictor-2_level-17   | $161.35                 | $89.06                    | $61.31                     |
+| lerc_z-error-0.001          | $114.50                 | $63.20                    | $45.51                     |
 
 So using LERC (1mm) for 1TB of input data would result in approx $190 USD / year in storage costs savings, and $70 in savings for every copy of the data that was egressed out of AWS.
 
@@ -147,7 +145,7 @@ sudo apt-get install libwebp-dev
 sudo apt-get install libzstd-dev
 
 # Download GDAL for specific QGIS version you already have installed
-# e.g. QGIS 3.22.4 uses GDAL 3.4.1 
+# e.g. QGIS 3.22.4 uses GDAL 3.4.1
 wget -c http://download.osgeo.org/gdal/3.4.1/gdal-3.4.1.tar.gz
 tar -xvzf gdal-3.4.1.tar.gz
 cd gdal-3.4.1
