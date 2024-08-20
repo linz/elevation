@@ -32,4 +32,4 @@ Source code is licensed under [MIT](LICENSE).
 
 All metadata and docs are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
-For [more information on imagery attribution](https://www.linz.govt.nz/products-services/data/licensing-and-using-data/attributing-elevation-or-aerial-imagery-data).
+For [more information on elevation attribution](https://www.linz.govt.nz/products-services/data/licensing-and-using-data/attributing-elevation-or-aerial-imagery-data).
