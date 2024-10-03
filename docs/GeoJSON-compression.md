@@ -14,3 +14,5 @@ Pro compression:
 Contra compression:
 
 - Some tools do not seamlessly decompress files
+  - [AWS CLI issue](https://github.com/aws/aws-cli/issues/6765)
+  - [boto3 issue](https://github.com/boto/botocore/issues/1255)
