@@ -2,7 +2,7 @@
   "source": "s3://linz-workflows-scratch/2024-10/07-es-southland-dsm-4nqgk/es-southland-dsm-4nqgk-get-location-1791378195flat/",
   "target": "s3://nz-elevation/southland/southland_2020-2023/dsm_1m/2193/",
   "ticket": "",
-  "copy_option": "--no-clobber",
+  "copy_option": "--force",
   "region": "southland",
   "flatten": "false"
 }
