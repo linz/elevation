@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-10/14-es-bop-dem-rwctr/es-bop-dem-rwctr-get-location-1842088985flat/",
+  "target": "s3://nz-elevation/bay-of-plenty/bay-of-plenty_2024/dem_1m/2193/",
+  "ticket": "LI-1545",
+  "copy_option": "--no-clobber",
+  "region": "bay-of-plenty",
+  "flatten": "false"
+}
