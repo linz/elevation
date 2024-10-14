@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-10/14-es-bop-dsm-8jmq6/es-bop-dsm-8jmq6-get-location-1326859691flat/",
+  "target": "s3://nz-elevation/bay-of-plenty/bay-of-plenty_2024/dsm_1m/2193/",
+  "ticket": "LI-1545",
+  "copy_option": "--no-clobber",
+  "region": "bay-of-plenty",
+  "flatten": "false"
+}
