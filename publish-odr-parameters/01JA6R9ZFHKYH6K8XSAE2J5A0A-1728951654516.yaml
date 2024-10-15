@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-10/15-es-waikato-dem-jkqth/es-waikato-dem-jkqth-get-location-548618316flat/",
+  "target": "s3://nz-elevation/waikato/waikato_2024/dem_1m/2193/",
+  "ticket": "LI-1551",
+  "copy_option": "--no-clobber",
+  "region": "waikato",
+  "flatten": "false"
+}
