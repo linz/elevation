@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-10/15-es-waikato-dsm-n4nxr/es-waikato-dsm-n4nxr-get-location-555473530flat/",
+  "target": "s3://nz-elevation/waikato/waikato_2024/dsm_1m/2193/",
+  "ticket": "LI-1551",
+  "copy_option": "--no-clobber",
+  "region": "waikato",
+  "flatten": "false"
+}
