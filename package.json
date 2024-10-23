@@ -5,10 +5,12 @@
   "repository": "git@github.com:linz/elevation.git",
   "license": "MIT",
   "scripts": {
-    "format": "prettier -w template/ *.md",
-    "lint": "eslint . --quiet --fix --ignore-path .gitignore"
+    "lint": "eslint --quiet --fix --ignore-path=.gitignore . && prettier --check --write ."
   },
   "devDependencies": {
     "@linzjs/style": "^4.0.0"
+  },
+  "engines": {
+    "node": "^20.13.1"
   }
 }

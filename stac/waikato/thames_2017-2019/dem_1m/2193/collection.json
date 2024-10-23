@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQMCC3RDTG6G61TR953B9A1V",
+  "title": "Waikato - Thames LiDAR 1m DEM (2017-2019)",
+  "description": "Digital Elevation Model within the Waikato region captured in 2017-2019.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BB34_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BB34_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BB34_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BB35_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BB35_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BB35_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BC35_10000_0303.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Waikato Regional Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Thames",
+  "extent": {
+    "spatial": { "bbox": [[175.5102693, -37.4459782, 175.7400516, -37.0581599]] },
+    "temporal": { "interval": [["2017-07-01T12:00:00Z", "2019-02-03T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220bf1b806cd6dbc104e9d7f48c0e9f20d983c833fd24505e7147c50f81d6171710",
+      "file:size": 1931
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

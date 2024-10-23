@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HR81C46TWAY0DEF5DQG32XPN",
+  "title": "Tasman - Richmond and Motueka LiDAR 1m DSM (2015)",
+  "description": "Digital Surface Model within the Tasman region captured in 2015.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ26_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ26_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ26_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ26_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ26_10000_0401.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "AAM NZ", "roles": ["producer"] },
+    { "name": "Tasman District Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Richmond and Motueka",
+  "extent": {
+    "spatial": { "bbox": [[172.914164, -41.4976164, 173.2582727, -41.0435943]] },
+    "temporal": { "interval": [["2015-11-12T11:00:00Z", "2015-11-13T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12204a8b2db6c065682bdca9881de7056c3a58319df14796b02d153aebffd53e69a3",
+      "file:size": 4029
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQPEMX4YRZA6FE2P8X42CP8A",
+  "title": "Wellington - Upper Hutt City LiDAR 1m DSM (2021)",
+  "description": "Digital Surface Model within the Wellington region captured in 2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP33_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0104.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "AAM NZ", "roles": ["producer"] },
+    { "name": "Upper Hutt City Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Upper Hutt City",
+  "extent": {
+    "spatial": { "bbox": [[174.9717275, -41.2212486, 175.2023473, -41.0237366]] },
+    "temporal": { "interval": [["2021-03-24T11:00:00Z", "2021-03-26T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12207c7972ea114de61f34d33020c4c72222f2d9244a09716c50b21b52ca5acbf221",
+      "file:size": 4770
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

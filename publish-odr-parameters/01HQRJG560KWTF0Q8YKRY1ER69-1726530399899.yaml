@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-09/16-es-canterbury-2020-dem-msv86/flat/",
+  "target": "s3://nz-elevation/canterbury/canterbury_2020-2023/dem_1m/2193/",
+  "ticket": "LI-1553",
+  "copy_option": "--force",
+  "region": "canterbury",
+  "flatten": "false"
+}

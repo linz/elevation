@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQMB9SANWRMAAJYWCTYPF5W1",
+  "title": "Tasman - Motueka River Valley LiDAR 1m DEM (2018-2019)",
+  "description": "Digital Elevation Model within the Tasman region captured in 2018-2019.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP24_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP25_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ24_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ25_10000_0305.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Tasman District Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Motueka River Valley",
+  "extent": {
+    "spatial": { "bbox": [[172.5686916, -41.4975302, 173.1434853, -41.0435377]] },
+    "temporal": { "interval": [["2018-11-14T11:00:00Z", "2019-02-12T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220aa35367b5abd9a671b92ca64cb52283b2ccc89d6c14a02ee244bb41e8c7e0be9",
+      "file:size": 8711
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

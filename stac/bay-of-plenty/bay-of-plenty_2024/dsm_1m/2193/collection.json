@@ -1,0 +1,498 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01JA6M14V1Y8FA6DY57VFXDMEX",
+  "title": "Bay of Plenty LiDAR 1m DSM (2024)",
+  "description": "Digital Surface Model within the Bay of Plenty region captured in 2024.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC36_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a6d4d1aea910414d7fad1a5f1fa745479aaacc9b0d6b5dee8993bcc5ea5ec4e0"
+    },
+    {
+      "href": "./BC36_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122073be4aea319790d52058de1da82c2a6384e957a9e6e3ff04535489afad1c574e"
+    },
+    {
+      "href": "./BC36_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122002c2b029be1f3748d6850f5af5b6de76a48decb247fca697a106367ee8e224ed"
+    },
+    {
+      "href": "./BC36_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220839dbb1001414be13d4543bb8091197f6b7ab92913e2a335ba8b8d1c37d2e727"
+    },
+    {
+      "href": "./BC36_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202e071027b42615e653bfe6d0f760c10d2c8914347cc224e2014b9af44dcd668a"
+    },
+    {
+      "href": "./BC36_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122018a3e8bbc15b9139869af6e1053ca88f44b1bd6869f2a8f4ff3fe71fbc837d31"
+    },
+    {
+      "href": "./BC36_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122010d6b6658fe34055aabc5977aab4c9aba7a0a673d830fa8f823aa21a275f9498"
+    },
+    {
+      "href": "./BC36_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c19d506c012c75c695f0f29027c68a07777bcada9d6472e637d3da32bb08b73b"
+    },
+    {
+      "href": "./BC36_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122085d7f069da88f5b92eb368b8ff3fd4c4dbda4e39d00207d2bbc08feefb97a7d1"
+    },
+    {
+      "href": "./BC36_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203c6f1deba9b754edc2e54f064f671c25521f9b8837fa73a40136edc81f598db9"
+    },
+    {
+      "href": "./BD36_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e3ece33dc7483b8b7db33adfab07fc65ca7784f4c56716018d546f0aa3a02625"
+    },
+    {
+      "href": "./BD36_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220460ea4576986e4988212a29fd38e1927943631637307e9d5db886de58d991a31"
+    },
+    {
+      "href": "./BD36_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220386a304bb61e7221e33782ff04d36baca7d5e6c684cf750564d2e1e863c55637"
+    },
+    {
+      "href": "./BD36_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202f639ba1c7df1c165124bf5f12104912a53c8c58054764685d9eb0f5b7c61035"
+    },
+    {
+      "href": "./BD36_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043e408454f1e67f2ec8fd5ea3b79ee84cd31b9bab3f8aad30e6cb2e28bd3cb7f"
+    },
+    {
+      "href": "./BD36_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a7ff8384c828962d660500ccf9b7bbb7974a48b89e679918cee4afba433238e1"
+    },
+    {
+      "href": "./BD36_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201f27ca6259b9051989d00ac0b2644711a97f78614c4fc0521e6550700115c432"
+    },
+    {
+      "href": "./BD36_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122001c1d6478a170ef21c821277d0c4260bf0a67f3efb066e20de46479f23be831b"
+    },
+    {
+      "href": "./BD36_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203dacfac3b36e5d61da269a227aec248163eb2c904c99366b2b0aa121907292f1"
+    },
+    {
+      "href": "./BD36_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f19dd62560dfd762a8b629b7175dff2a706839f54ad7554023ca4c165a24ec92"
+    },
+    {
+      "href": "./BD36_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204e492c02878064f0cdc196482202d3bb3b144e39ce85268ed3b1fe59e919bcd0"
+    },
+    {
+      "href": "./BD36_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b1f1157e41cfaaddcc2e303af1db64bbee3adefc46b079f0a78a4c920a64b956"
+    },
+    {
+      "href": "./BD36_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bf1e1742bf5f2f4f6ad8f338519bbe32c0785bb9ef8179c1349d0eb7e6eb2a29"
+    },
+    {
+      "href": "./BD36_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122083db95d2f528bc9a64355a2f758a2089cada56414bcf2863b25609f66c4b74b2"
+    },
+    {
+      "href": "./BD37_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c5f71950963bc27889a5eac185f40f70de1cb9b4c91ac67f9d5c904affec01d0"
+    },
+    {
+      "href": "./BD37_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d235d19be388d94fa7d8a0163f5388b8fdd8976eacf09e97cc624f2afe7de772"
+    },
+    {
+      "href": "./BD37_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204e315239fdd7896fa2c048e059feb3b4f17033ec1e39328fdb3bfa2a613f4645"
+    },
+    {
+      "href": "./BD37_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220abf9de964f088d16be44ed0fe43f5e250615e10c4af932441444d4f5b8c0c465"
+    },
+    {
+      "href": "./BD37_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b52fbf441151db3d1a9fa2a970da44d0763be24273922c8d857f5fd9d6a4627d"
+    },
+    {
+      "href": "./BD37_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b522c70893821fb37022b9bc8c7e03ca6e5af1e598448faf6282b935eb4e5b86"
+    },
+    {
+      "href": "./BD37_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220620245cbe5696fcff1f69885460b73583894c3355b4ad4f31c7f81063a862088"
+    },
+    {
+      "href": "./BD37_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205870a6a50628f6e2d24d3c1b996bcef5885e576a7b138403c9a0a5a7840b96fc"
+    },
+    {
+      "href": "./BD37_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122023e1ac5f0c7b0fd4e45f76841e580889781f6588b8c13947aa43cd7ac9b7eb91"
+    },
+    {
+      "href": "./BD37_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d6c96cc5a982a407268398825ca825992ec0b36d878c4403150df3eb797186e7"
+    },
+    {
+      "href": "./BD37_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c0d669c324374c191f00a7072fa9ad00d09a8346734973b3945a046004e2edf9"
+    },
+    {
+      "href": "./BD37_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d1dc543522e9c5d2298d042b3d54581a2d97b3f0108b9a1fc3e091f7ca03776c"
+    },
+    {
+      "href": "./BD37_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203727139409fe572ab8c27cec87cb08907aa397e7129a15e54681a43353311e81"
+    },
+    {
+      "href": "./BD37_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aa1d1e506dcbf035f2d730a918d6a31607362d4cfd4c5ed8be3fbe41f26f775a"
+    },
+    {
+      "href": "./BD38_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dccead9f3bf01d1d207b1850e796238f7672ee424a5f31b0b747c1d77b5d43e7"
+    },
+    {
+      "href": "./BD38_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206c3884eef905923e927daff96a52fc1bd062f0de8d4a87c2701987eec1fd6b37"
+    },
+    {
+      "href": "./BD38_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fc922c7d5703ae6ec355207c5dbef69bf98b1baa3d65c814f8246a079accb955"
+    },
+    {
+      "href": "./BD38_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204e1fda3b115531595846a0c3dd71c5365a3bad0ce7c6fdc1ed99ced6b1f7571a"
+    },
+    {
+      "href": "./BD38_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220551a304dc424889f2b4d826757ee94347470b4c57be05684ac06d441eb0bf57f"
+    },
+    {
+      "href": "./BD38_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c526a79a73d4240e2cca2248693e2404399725381848364871230b9c0c938b2e"
+    },
+    {
+      "href": "./BD38_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202138ada1ee0aefa3061adea0ed06d367328c605e426ae59d0696f646703bc9a7"
+    },
+    {
+      "href": "./BD38_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202d319d2ee22308522f795cc511eaa787a5b8062d8ba07f268d937657bfc26dc0"
+    },
+    {
+      "href": "./BD39_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204886014ec34f80d144fa418138e7f2a7e43708459f1401eaeb9f15c2600372c2"
+    },
+    {
+      "href": "./BE37_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204759ec8b330eb7079ccd38e0019567becba2090d56bcef1884424078c6c63d64"
+    },
+    {
+      "href": "./BE37_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a453bbbf8bb6ddc7566d14dfcda64be469185c9031127b49040f12602f78cbc"
+    },
+    {
+      "href": "./BE37_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208245e6434574689d2b8bfef274e946ec4f8c459bd8326132ea0de0939e347056"
+    },
+    {
+      "href": "./BE38_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122084b11a58caa6df5fd864b6650bdc0462c08a32e4998ec4af5e14f4f9c0648c10"
+    },
+    {
+      "href": "./BE38_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122097e1b7b8734bdb9384f980c8c714f57711a8385d2caf5ee97c1b0b061d3014e7"
+    },
+    {
+      "href": "./BE38_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122063dc6f3b531e345c68f8cce02e551d7b5ea78df0233f167c61c7735a0ba5ab56"
+    },
+    {
+      "href": "./BE38_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220beb98d71923cd1cb64e630fe2538429e56da66b08b034dc1a8e4bc36d5fc715e"
+    },
+    {
+      "href": "./BE38_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e99270e6ca278e872bb9f23c52bfe56218c5fe3956ccf740dc56a739dcdf4b91"
+    },
+    {
+      "href": "./BE38_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209eca4d7b3084db05bc5c33645c187a5caf627a68abaf02d5c3140b80447f1ab9"
+    },
+    {
+      "href": "./BE38_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122003a9fb302842a647dc443eb7a160381d57915282ec3d30ed0aa02ff6c17bc9f7"
+    },
+    {
+      "href": "./BE39_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122042671f126f45482f346b3b39852e47f1e30115bf3cb87d5d577ba7ce85ef964e"
+    },
+    {
+      "href": "./BE39_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220afbb30d7dcd795d78c200249e5820a799e404e89c80234efd91ae69df8278b37"
+    },
+    {
+      "href": "./BE39_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b86ea0db5f4e86fedb4f07b054b8c6a6462566154747b36f0a2a1ed931bd4f30"
+    },
+    {
+      "href": "./BE39_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b3169750f5fbc4be9ef518d4ae20f147a70d6fe8ec2599fc93f6af33c2a8336a"
+    },
+    {
+      "href": "./BE39_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220daa7ed147bdb4720f5673593c5ef3022cabca3fac9902b046cc0a8547b1a0a81"
+    },
+    {
+      "href": "./BE39_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205ab6460178fa149b9478a566131a7c9993d53953c6c459f3a80bcda4ef4cabf5"
+    },
+    {
+      "href": "./BE39_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207f2287e76971f4bba5442fb80c021b9b8d718321462c1452341ce08d52d3058f"
+    },
+    {
+      "href": "./BE40_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122008377e9bf6224146dcf7873a58f156641079c81e7a8c31444ab8481bab350040"
+    },
+    {
+      "href": "./BE40_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220edf83b0360f1e40bb7b76929a9860d875a9f84940606627cecfdbc1be3a5eef7"
+    },
+    {
+      "href": "./BE40_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f6d5619a7a51b98ba6ad088a3bc94c1d00fb5be13dbb1e50152416651e663a59"
+    },
+    {
+      "href": "./BE40_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208bd06e134829f1f4c7e93617629c5829d2f6641a83e2db09b1ff5796615d4411"
+    },
+    {
+      "href": "./BE40_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201f8af03a7ffb8a890465352e8ec7906ec66d7a2d0c3e86b787bfd14a8c1de5f8"
+    },
+    {
+      "href": "./BE40_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122097f1b10e81b40a8aca5d8569264a391ebad67ec8b089d06bc33ada60488ef453"
+    },
+    {
+      "href": "./BE40_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220da3051cf8888d87dbb3d1f124aa257a26134f998bdc74d5ae46232821041918f"
+    },
+    {
+      "href": "./BE40_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dff15f558a3b3c314f1109a58bc6b19f7222ce68ac60126589823888d92d7920"
+    },
+    {
+      "href": "./BE40_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dc196741e3efcf537fac1537e7b6d0a61fec85189647a6528c0e38cbe55f3580"
+    },
+    {
+      "href": "./BE40_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b9b2b32efcd80eec6bb03460cae667dbea7b9ad5411ef8e20015aa15ffa59976"
+    },
+    {
+      "href": "./BE41_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122020b6aba197cf6dc7aa4cf22b2df7ef24e91cf3cc2d1f263f1d35896b4a5be6d9"
+    },
+    {
+      "href": "./BE41_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122098aeea24ce7e8b0f145e229da4d952209df0c5eaaa81462b1a2603eb1e7f5b11"
+    }
+  ],
+  "providers": [
+    { "name": "Woolpert", "roles": ["producer"] },
+    { "name": "National Institute of Water and Atmospheric Research", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "created": "2024-10-14T23:03:11Z",
+  "updated": "2024-10-14T23:03:11Z",
+  "extent": {
+    "spatial": { "bbox": [[175.8509111, -38.11634, 177.3479462, -37.3721055]] },
+    "temporal": { "interval": [["2024-01-31T11:00:00Z", "2024-04-29T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220bd01afb9968b273ad270894ecbda7d2a336a8440644b1c64a5c01c8c17ba2712",
+      "file:size": 12455
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

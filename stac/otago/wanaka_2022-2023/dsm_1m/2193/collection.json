@@ -1,0 +1,53 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQPR1X9BX2QNGS1NDVB8K0KN",
+  "title": "Otago - Wanaka LiDAR 1m DSM (2022-2023)",
+  "description": "Digital Surface Model within the Otago region captured in 2022-2023.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./CA12_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./CA12_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./CA13_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./CA13_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./CA13_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./CA13_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB12_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB12_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB13_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB13_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB13_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB13_10000_0202.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Queenstown-Lakes District Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Wanaka",
+  "extent": {
+    "spatial": { "bbox": [[169.0896929, -44.8099309, 169.3439075, -44.5472619]] },
+    "temporal": { "interval": [["2022-11-26T11:00:00Z", "2023-01-10T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12209e03aa3f97b6c3b9c3d3025b0e1ab48f1ba400a80ae3be7fa52371b56fdca728",
+      "file:size": 3756
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQPF571HHNWJVZ26NE0ZZPRC",
+  "title": "Otago - Queenstown LiDAR 1m DSM (2021)",
+  "description": "Digital Surface Model within the Otago region captured in 2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0204.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Queenstown-Lakes District Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Queenstown",
+  "extent": {
+    "spatial": { "bbox": [[168.5763338, -45.1165141, 168.8945028, -44.9157948]] },
+    "temporal": { "interval": [["2021-03-12T11:00:00Z", "2021-03-13T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220458d0723ed665cd18ce2d6f35936ad93f54d9d84630ca09c23a9243a5708e6fc",
+      "file:size": 5075
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

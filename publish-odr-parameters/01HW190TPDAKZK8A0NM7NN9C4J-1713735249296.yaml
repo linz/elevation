@@ -1,0 +1,7 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-04/21-es-tauranga-2022-dem-1m-tqwlj/flat/",
+  "target": "s3://nz-elevation/bay-of-plenty/tauranga_2022/dem_1m/2193/",
+  "ticket": "EDS-29",
+  "copy_option": "--no-clobber",
+  "region": "bay-of-plenty"
+}

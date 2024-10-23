@@ -1,0 +1,55 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQRFHMB6E7XTG5KNMVKJ870C",
+  "title": "Wellington - Porirua LiDAR 1m DEM (2023)",
+  "description": "Digital Elevation Model within the Wellington region captured in 2023.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP31_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP31_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP31_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP31_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./BP32_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ31_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BQ32_10000_0101.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Porirua City Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Porirua",
+  "extent": {
+    "spatial": { "bbox": [[174.7415177, -41.2240674, 175.0308433, -40.9619694]] },
+    "temporal": { "interval": [["2023-01-17T11:00:00Z", "2023-04-15T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220c9ba2450b90ac5b7c07e7106f1ee833f823a8c585bef3d32b32fadbda6b0df57",
+      "file:size": 3995
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

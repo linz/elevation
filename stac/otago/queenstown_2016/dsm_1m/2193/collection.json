@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQMAFJ28VVXF5YW2YMYKKSZJ",
+  "title": "Otago - Queenstown LiDAR 1m DSM (2016)",
+  "description": "Digital Surface Model within the Otago region captured in 2016.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB11_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./CB12_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC11_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./CC12_10000_0101.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Otago Regional Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Queenstown",
+  "extent": {
+    "spatial": { "bbox": [[168.5763338, -45.1811534, 168.9551722, -44.9134657]] },
+    "temporal": { "interval": [["2016-02-29T11:00:00Z", "2016-04-20T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f8c6d345c146bdf3c2bca418df6a77e70ce81f9b9c06cbc4252b21752dff3cd8",
+      "file:size": 5087
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

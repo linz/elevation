@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQREQBT1WJ36D6ECVCSY6JN4",
+  "title": "Otago - Central Otago LiDAR 1m DEM (2021)",
+  "description": "Digital Elevation Model within the Otago region captured in 2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0405.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD13_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0303.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0401.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0402.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0403.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0404.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0501.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0502.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0503.json", "type": "application/json" },
+    { "rel": "item", "href": "./CD14_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE13_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE13_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE14_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE14_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE14_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE14_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./CE14_10000_0202.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Ministry of Business, Innovation and Employment", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Central Otago",
+  "extent": {
+    "spatial": { "bbox": [[169.2729518, -45.7897267, 169.7222606, -45.3350418]] },
+    "temporal": { "interval": [["2021-05-21T12:00:00Z", "2021-05-26T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12205bfeb2b89f9bb4e37ee36bae76b25a934ecf0be130c5ef562b4716dbfc2502a6",
+      "file:size": 5043
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

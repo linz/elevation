@@ -1,0 +1,65 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01HQRG1BJ2ZKBN9081P98ANZYM",
+  "title": "Manawatū-Whanganui - Whanganui Urban LiDAR 1m DSM (2020-2021)",
+  "description": "Digital Surface Model within the Manawatū-Whanganui region captured in 2020-2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    { "rel": "item", "href": "./BK32_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BK33_10000_0504.json", "type": "application/json" },
+    { "rel": "item", "href": "./BK33_10000_0505.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0205.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0304.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL32_10000_0305.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0101.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0102.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0103.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0104.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0105.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0201.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0202.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0203.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0204.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0301.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0302.json", "type": "application/json" },
+    { "rel": "item", "href": "./BL33_10000_0303.json", "type": "application/json" }
+  ],
+  "providers": [
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Whanganui District Council", "roles": ["licensor"] },
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Whanganui Urban",
+  "extent": {
+    "spatial": { "bbox": [[174.8799205, -40.0534343, 175.386853, -39.7867148]] },
+    "temporal": { "interval": [["2020-09-07T12:00:00Z", "2021-02-02T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ee926561bab6f6c32b4f9846fed070a5c120cb25e82ad33f6219290d385aae50",
+      "file:size": 3840
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
