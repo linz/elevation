@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-11/12-es-hawkesbayfinal-dem-267dq/flat/",
+  "target": "s3://nz-elevation/hawkes-bay/hawkes-bay_2023/dem_1m/2193/",
+  "ticket": "LI-2378",
+  "copy_option": "--force",
+  "region": "hawkes-bay",
+  "flatten": "false"
+}
