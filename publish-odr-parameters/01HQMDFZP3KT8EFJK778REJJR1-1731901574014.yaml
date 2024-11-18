@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-11/18-es-gisborne2023-dsm-pdhnw/flat/",
+  "target": "s3://nz-elevation/gisborne/gisborne_2023/dsm_1m/2193/",
+  "ticket": "",
+  "copy_option": "--force",
+  "region": "gisborne",
+  "flatten": "false"
+}
