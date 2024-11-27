@@ -12,18 +12,78 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./CA12_10000_0504.json", "type": "application/json" },
-    { "rel": "item", "href": "./CA12_10000_0505.json", "type": "application/json" },
-    { "rel": "item", "href": "./CA13_10000_0401.json", "type": "application/json" },
-    { "rel": "item", "href": "./CA13_10000_0402.json", "type": "application/json" },
-    { "rel": "item", "href": "./CA13_10000_0501.json", "type": "application/json" },
-    { "rel": "item", "href": "./CA13_10000_0502.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB12_10000_0104.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB12_10000_0105.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB13_10000_0101.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB13_10000_0102.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB13_10000_0201.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB13_10000_0202.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./CA12_10000_0504.json",
+      "type": "application/json",
+      "file:checksum": "12206690c48bc169e4c7a73eb414f954058b4762cff76bf0f061690042acbabb8a69"
+    },
+    {
+      "rel": "item",
+      "href": "./CA12_10000_0505.json",
+      "type": "application/json",
+      "file:checksum": "1220984a5c014d8ed42850b44ec222d9b35042aed8e2bed9477e89f123f3707ee19e"
+    },
+    {
+      "rel": "item",
+      "href": "./CA13_10000_0401.json",
+      "type": "application/json",
+      "file:checksum": "12208cd7007085998ca247e10f932f565f9ce384ab84f83747715998a4f3db96eda7"
+    },
+    {
+      "rel": "item",
+      "href": "./CA13_10000_0402.json",
+      "type": "application/json",
+      "file:checksum": "122038b6bcd1ecf047dbed0d4a7fa09d270b7d3df390659b25d1abcaa24fdaa7049c"
+    },
+    {
+      "rel": "item",
+      "href": "./CA13_10000_0501.json",
+      "type": "application/json",
+      "file:checksum": "12200534cb13ee220e28ef892d44d2d700d81711fb081721b93086f20c1885a0f9c1"
+    },
+    {
+      "rel": "item",
+      "href": "./CA13_10000_0502.json",
+      "type": "application/json",
+      "file:checksum": "122060541ee404a3c84222600062e81d81dcb8d78411479e3c7289b2c16303c7fc52"
+    },
+    {
+      "rel": "item",
+      "href": "./CB12_10000_0104.json",
+      "type": "application/json",
+      "file:checksum": "1220b84cbb4629d3a1c5f46e5927c67aa705813d7fe843075c2907707750fb661063"
+    },
+    {
+      "rel": "item",
+      "href": "./CB12_10000_0105.json",
+      "type": "application/json",
+      "file:checksum": "1220d96b2d5e18c841e2f22eec4c2505e43982315bb18347e27dba44dd80ec037159"
+    },
+    {
+      "rel": "item",
+      "href": "./CB13_10000_0101.json",
+      "type": "application/json",
+      "file:checksum": "1220ea38b1ca34bf1c698b6f309444ebf22d3e92c14c2f761e5f83e2d19269fb1bff"
+    },
+    {
+      "rel": "item",
+      "href": "./CB13_10000_0102.json",
+      "type": "application/json",
+      "file:checksum": "1220b0a81418d76089c39a561fd02f14857554594b0a52f257aa8e0be80be7871bc0"
+    },
+    {
+      "rel": "item",
+      "href": "./CB13_10000_0201.json",
+      "type": "application/json",
+      "file:checksum": "12209e1f83b05fa11080e0727bd010ac75e9602955e6c6343d3cdc1df01fb569789b"
+    },
+    {
+      "rel": "item",
+      "href": "./CB13_10000_0202.json",
+      "type": "application/json",
+      "file:checksum": "12202246821cfb1ed0d52bfed8f8bb1ba1b22fd399668b48e2a611c072937f71ef98"
+    }
   ],
   "providers": [
     { "name": "Landpro", "roles": ["producer"] },
@@ -50,5 +110,7 @@
       "file:size": 3756
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

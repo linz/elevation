@@ -12,11 +12,36 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./BU26_10000_0501.json", "type": "application/json" },
-    { "rel": "item", "href": "./BU26_10000_0502.json", "type": "application/json" },
-    { "rel": "item", "href": "./BU26_10000_0503.json", "type": "application/json" },
-    { "rel": "item", "href": "./BV26_10000_0102.json", "type": "application/json" },
-    { "rel": "item", "href": "./BV26_10000_0103.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./BU26_10000_0501.json",
+      "type": "application/json",
+      "file:checksum": "12203178065377c2f6b4516fef6c293a26c7ebf78cbba5ec5ea55c21447b1f536156"
+    },
+    {
+      "rel": "item",
+      "href": "./BU26_10000_0502.json",
+      "type": "application/json",
+      "file:checksum": "1220bfe8c5d3efed27da7a3809dabe2cc820b10af2c43f542b3dfc21b49c2d2c9f0e"
+    },
+    {
+      "rel": "item",
+      "href": "./BU26_10000_0503.json",
+      "type": "application/json",
+      "file:checksum": "12204a70ab9b802c70f9ccb27127f64f444388d6733fbea8830adac65d9ae6ad6e8e"
+    },
+    {
+      "rel": "item",
+      "href": "./BV26_10000_0102.json",
+      "type": "application/json",
+      "file:checksum": "1220158a780e7189ae34f0dd9a2973fbb3c425cee12d76e95edea7d1a31e9caf5366"
+    },
+    {
+      "rel": "item",
+      "href": "./BV26_10000_0103.json",
+      "type": "application/json",
+      "file:checksum": "12201b32bb1298a4bc0e71d23488e50f2242024fb4c5b268ca86606c72cf6992f881"
+    }
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
@@ -43,5 +68,7 @@
       "file:size": 3180
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

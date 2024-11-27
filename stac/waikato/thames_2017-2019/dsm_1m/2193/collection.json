@@ -12,19 +12,84 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./BB34_10000_0305.json", "type": "application/json" },
-    { "rel": "item", "href": "./BB34_10000_0405.json", "type": "application/json" },
-    { "rel": "item", "href": "./BB34_10000_0505.json", "type": "application/json" },
-    { "rel": "item", "href": "./BB35_10000_0401.json", "type": "application/json" },
-    { "rel": "item", "href": "./BB35_10000_0501.json", "type": "application/json" },
-    { "rel": "item", "href": "./BB35_10000_0502.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0101.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0102.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0201.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0202.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0203.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0302.json", "type": "application/json" },
-    { "rel": "item", "href": "./BC35_10000_0303.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./BB34_10000_0305.json",
+      "type": "application/json",
+      "file:checksum": "1220199217baf6cd065795bc111bed44ddb6f86e6171df5886dfca163a1371c523ef"
+    },
+    {
+      "rel": "item",
+      "href": "./BB34_10000_0405.json",
+      "type": "application/json",
+      "file:checksum": "1220dddcde6f29a133e9ccd1b9ce3eadefa2081241c8c70f6e8cfc6009b9ed27ae72"
+    },
+    {
+      "rel": "item",
+      "href": "./BB34_10000_0505.json",
+      "type": "application/json",
+      "file:checksum": "122016cfd66aab7da115a6c8e66d668a34cd3405d6773a23e5f9570e6a881fd8e53e"
+    },
+    {
+      "rel": "item",
+      "href": "./BB35_10000_0401.json",
+      "type": "application/json",
+      "file:checksum": "1220c64082802ede5fdecd118eaa5061e6f3ee1b2a39c7a2a0ddc5a2ca7916120a3a"
+    },
+    {
+      "rel": "item",
+      "href": "./BB35_10000_0501.json",
+      "type": "application/json",
+      "file:checksum": "122005f7d6268487ab5758c59ee0f767a2da1867f4d0c4e5949786ef418d4bb91619"
+    },
+    {
+      "rel": "item",
+      "href": "./BB35_10000_0502.json",
+      "type": "application/json",
+      "file:checksum": "1220d9c6d6674af242da567e7fb4d683afaa4dca4ae85a3adf806ca8be3d389c8750"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0101.json",
+      "type": "application/json",
+      "file:checksum": "1220a3c1e62e3f66160496a7a37aebec608a61ee53390f6f84f1799f968937257fe5"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0102.json",
+      "type": "application/json",
+      "file:checksum": "12201324e2e7ff764975b087bd5e89e8d4a310baa24dfc63fe7491136fbb4c29865f"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0201.json",
+      "type": "application/json",
+      "file:checksum": "12202090db201c96f7927e2698008d85a4f153ac97313dd36ebbf50ac8c230b9352d"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0202.json",
+      "type": "application/json",
+      "file:checksum": "12203ea06fcd0d5e809385ceaaee0e1e1fb9f5bfe462f02595944fa002c5d1c892e3"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0203.json",
+      "type": "application/json",
+      "file:checksum": "12208fb785a3527384f633d8b7b30b4fa1741a0cfb2f6c28be827a2b6d3bff868ec6"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0302.json",
+      "type": "application/json",
+      "file:checksum": "1220ea3956214f30d5d3fe7762a4d946c78e7c12880818c81b12de6a53b52b5f419d"
+    },
+    {
+      "rel": "item",
+      "href": "./BC35_10000_0303.json",
+      "type": "application/json",
+      "file:checksum": "12202b38d02c5e05aac7404d91e87abf6314b013f406b9242fcfb454a1bb8599b907"
+    }
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
@@ -51,5 +116,7 @@
       "file:size": 1931
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

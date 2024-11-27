@@ -12,34 +12,174 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP26_10000_0504.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP26_10000_0505.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP27_10000_0402.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP27_10000_0403.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP27_10000_0404.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP27_10000_0501.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP27_10000_0502.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP27_10000_0503.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0103.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0104.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0105.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0201.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0202.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0203.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0204.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0205.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0301.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0302.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0303.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0304.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0305.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0402.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0403.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0404.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ27_10000_0101.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ27_10000_0102.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ27_10000_0103.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ27_10000_0201.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./BP26_10000_0504.json",
+      "type": "application/json",
+      "file:checksum": "1220bb680023debcd3dad93e6e322d56269288d022fe1ea865eaa7342fd1d9f6f9c6"
+    },
+    {
+      "rel": "item",
+      "href": "./BP26_10000_0505.json",
+      "type": "application/json",
+      "file:checksum": "122059eb0e0915a8cbc1797f9907bcc6faa4b0a676e1c342c2c541bc701405c0e31b"
+    },
+    {
+      "rel": "item",
+      "href": "./BP27_10000_0402.json",
+      "type": "application/json",
+      "file:checksum": "1220edcb896ab3618b4be161c2291e3ffa2290450c65bc31995b21b2cc6184c79811"
+    },
+    {
+      "rel": "item",
+      "href": "./BP27_10000_0403.json",
+      "type": "application/json",
+      "file:checksum": "1220e4e2fda8475d32f8078b5bf974d00bad79f4c7e506756f8e263e38cda8025d52"
+    },
+    {
+      "rel": "item",
+      "href": "./BP27_10000_0404.json",
+      "type": "application/json",
+      "file:checksum": "12204c57e88f0f2429d98e862ad37d828292604c1267b7c247d15830f14f2f9f6c82"
+    },
+    {
+      "rel": "item",
+      "href": "./BP27_10000_0501.json",
+      "type": "application/json",
+      "file:checksum": "1220d417a20d5ab4646f77b89b1e47c200a525fcf3cb0c6d97576bc4b84887b1f9f1"
+    },
+    {
+      "rel": "item",
+      "href": "./BP27_10000_0502.json",
+      "type": "application/json",
+      "file:checksum": "1220ba46ccc3877ec4984d639f693c5703fb6d623dc44a28da5847586c20f86a60d3"
+    },
+    {
+      "rel": "item",
+      "href": "./BP27_10000_0503.json",
+      "type": "application/json",
+      "file:checksum": "1220cbd8bd5a8f35288b6637f18fe8dbf23cee188f7aa3192fdcd37416049ae24c15"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0103.json",
+      "type": "application/json",
+      "file:checksum": "1220fd0445e683b24677c7ebdce3059b98dac7b694b9a122015afa0b32be9183b876"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0104.json",
+      "type": "application/json",
+      "file:checksum": "122004da5d96f7b634ebbd392a76eb6b46b90ad5fdbe48cbded1181fa93ae7a8456e"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0105.json",
+      "type": "application/json",
+      "file:checksum": "1220829461ae0bbe7b921e1f3850e779852982b62f771b2df53540f3008421af62aa"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0201.json",
+      "type": "application/json",
+      "file:checksum": "1220a3c29afb69675070d349bf4cca5395ff26dfa0e1e4e403e58b0c2bce083052e2"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0202.json",
+      "type": "application/json",
+      "file:checksum": "122089e64220974e72990abda8c1e9459675d774d441e6bf57c766c4003086f0c417"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0203.json",
+      "type": "application/json",
+      "file:checksum": "12207279dca7a8b00d6da3235aff95a21c0a4484311b6adb54484711378747a22e7f"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0204.json",
+      "type": "application/json",
+      "file:checksum": "1220dd86826d9ce0203c4bdf3a5dc71e48b775991c1d997a07b731dc7fe47f202869"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0205.json",
+      "type": "application/json",
+      "file:checksum": "1220e8a75339071cb0488ec8ede64e760b2663fcd59b8968a7e28338747ca9ffd897"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0301.json",
+      "type": "application/json",
+      "file:checksum": "12209132e397a63e4b95b0e217db41f18667e3fec0cdf474ceb48139f546b79732a8"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0302.json",
+      "type": "application/json",
+      "file:checksum": "12204519e9e14bbdf8265178cc5b062ec067e09ca91a12a41f083414ca147b1b0895"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0303.json",
+      "type": "application/json",
+      "file:checksum": "1220f57bed7f1eb8e0df2233a0b1ae163a54ffad77b14ea88f9140adc6dbc3bb91b6"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0304.json",
+      "type": "application/json",
+      "file:checksum": "1220bf98df7cac6f988bc28337d5c7d4951b2fa32281b82d129cd252d3d69fe5814b"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0305.json",
+      "type": "application/json",
+      "file:checksum": "1220484625b6b230f48b567643f9f4d3bc506cfcd8ae3102d83e424462fce38e357e"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0402.json",
+      "type": "application/json",
+      "file:checksum": "122020cdc01a1010033501f30250b1451bc4e8b2f9c7a322e98f582591a60b55aba9"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0403.json",
+      "type": "application/json",
+      "file:checksum": "12205c04b5506eb972c4aff15085502f9c44f315bf8fdae6ae2cac9f80a9b38a0dc1"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0404.json",
+      "type": "application/json",
+      "file:checksum": "1220fcc2e2cc75347f503c00cf196cc0a138be7d8298f9dfb501bc7d3d025c2ace34"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ27_10000_0101.json",
+      "type": "application/json",
+      "file:checksum": "1220aef586497f02cc1ed6add716cf7f4704a12745885d11f8c2fbf6348ada0b8f41"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ27_10000_0102.json",
+      "type": "application/json",
+      "file:checksum": "1220fa76d89474685bb7ba09a9eda10e5a3e496de0ab647860af8871c2cd5d09ea56"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ27_10000_0103.json",
+      "type": "application/json",
+      "file:checksum": "12205cdd1021b5f85594135f4dc1048756786488b68b9f60790f71c95350923a9cb2"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ27_10000_0201.json",
+      "type": "application/json",
+      "file:checksum": "1220b1b83d3f4370742d172c22ee5d7f1e43daffc63abfb48412d60e54191b80f681"
+    }
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
@@ -65,5 +205,7 @@
       "file:size": 63593
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

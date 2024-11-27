@@ -12,10 +12,30 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX30_10000_0305.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX30_10000_0405.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0301.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0401.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./AX30_10000_0305.json",
+      "type": "application/json",
+      "file:checksum": "12203c2ccb84b0f807b97195028837bb6795399439b6040c1c0839c66939aca3caa9"
+    },
+    {
+      "rel": "item",
+      "href": "./AX30_10000_0405.json",
+      "type": "application/json",
+      "file:checksum": "1220c8ff429753719727a08d916556bb26ed180d65acd3e88fe0779bf515a85ffb43"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0301.json",
+      "type": "application/json",
+      "file:checksum": "1220f53db55bb7317ef920d6c5d28865c92b4308cd7fb19f2841d0bdff77bbfd0a17"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0401.json",
+      "type": "application/json",
+      "file:checksum": "1220ec2172f5f0bbe679f013cfbedc9291867e207f8bd56ce3aba498983efda81856"
+    }
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
@@ -41,5 +61,7 @@
       "file:size": 2558
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }
