@@ -12,20 +12,90 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP31_10000_0404.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP31_10000_0405.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP31_10000_0504.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP31_10000_0505.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0301.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0302.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0401.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0402.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0403.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0501.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0502.json", "type": "application/json" },
-    { "rel": "item", "href": "./BP32_10000_0503.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ31_10000_0105.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ32_10000_0101.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./BP31_10000_0404.json",
+      "type": "application/json",
+      "file:checksum": "122067371afb6d92439bb56322203b678df74437c1e44f6d1130061fb8412749f3f8"
+    },
+    {
+      "rel": "item",
+      "href": "./BP31_10000_0405.json",
+      "type": "application/json",
+      "file:checksum": "12200ee7ce0a9e6669bf4ef5bc0b1fea05770f1e9acf574e1b237e0a96b68172f254"
+    },
+    {
+      "rel": "item",
+      "href": "./BP31_10000_0504.json",
+      "type": "application/json",
+      "file:checksum": "1220118ae52ab874f7f7acfe9ac65982aa9b2e4a556a6a08747c16bd34f8a567120d"
+    },
+    {
+      "rel": "item",
+      "href": "./BP31_10000_0505.json",
+      "type": "application/json",
+      "file:checksum": "1220c09fd8fc145c49516446f439a428f5f69a473d3b31028d3996fc0d955fcdce84"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0301.json",
+      "type": "application/json",
+      "file:checksum": "12208d8565fefe36868463776d7e0b209d806b493d81e1835b7203c347d453a0d4d5"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0302.json",
+      "type": "application/json",
+      "file:checksum": "1220d180ab852798ede9fb477392d3722b58ddb32db75e10f00f4efdf3527da9edbe"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0401.json",
+      "type": "application/json",
+      "file:checksum": "12200dd415e896517b7679fb7c1c4ef0bdaeff9fb1f76cde27e69cf354a9521f5813"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0402.json",
+      "type": "application/json",
+      "file:checksum": "122010a3f18454f0afba67c46d70e171bedf166a33ba82af0554d7b60bb94f1258b4"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0403.json",
+      "type": "application/json",
+      "file:checksum": "1220b04d6ae631d523cbe7e1f89fbdfa5ab3611aea039218763729b32bb1d0152bae"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0501.json",
+      "type": "application/json",
+      "file:checksum": "12206d1eff8e85b14e42cee3c734f5d0f50ec855a991debf6cbeb5d62dc17f448649"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0502.json",
+      "type": "application/json",
+      "file:checksum": "1220d92822960672e3d8ae23948398ef107ffdd43fc1a2da78bd96cd0134ba4dbe03"
+    },
+    {
+      "rel": "item",
+      "href": "./BP32_10000_0503.json",
+      "type": "application/json",
+      "file:checksum": "1220cc5b3f005b0cdf8e4dda471632d60d3520e70dbb59f819e2bdaa19571d5ffda7"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ31_10000_0105.json",
+      "type": "application/json",
+      "file:checksum": "12207f3d60a52a64327121d3335d71edaae9303ff5fcde9391cee62848485f83e678"
+    },
+    {
+      "rel": "item",
+      "href": "./BQ32_10000_0101.json",
+      "type": "application/json",
+      "file:checksum": "1220c46698ebaa893b67258064290f0f4f76e36cfa559ba21e1933b4b2ed57175d85"
+    }
   ],
   "providers": [
     { "name": "Landpro", "roles": ["producer"] },
@@ -52,5 +122,7 @@
       "file:size": 3995
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

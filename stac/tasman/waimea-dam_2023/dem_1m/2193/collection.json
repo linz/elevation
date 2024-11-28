@@ -12,7 +12,12 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./BQ26_10000_0501.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./BQ26_10000_0501.json",
+      "type": "application/json",
+      "file:checksum": "12209915269dd259e3f591ccf12f513ecbcd483c90cf6ddf04442d4c047306d50538"
+    }
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
@@ -39,5 +44,7 @@
       "file:size": 719
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

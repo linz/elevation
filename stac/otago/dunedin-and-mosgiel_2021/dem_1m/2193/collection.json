@@ -12,13 +12,48 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE16_10000_0305.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE16_10000_0405.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE17_10000_0301.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE17_10000_0303.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE17_10000_0401.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE17_10000_0402.json", "type": "application/json" },
-    { "rel": "item", "href": "./CE17_10000_0403.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./CE16_10000_0305.json",
+      "type": "application/json",
+      "file:checksum": "122043419e70a2afc2e10c90fc641f6109127dbd580680d3d814e4290b415d389602"
+    },
+    {
+      "rel": "item",
+      "href": "./CE16_10000_0405.json",
+      "type": "application/json",
+      "file:checksum": "1220c9a75649798ec8f2703b3191a75d134ceedf81e53651a896b932c97c0727d978"
+    },
+    {
+      "rel": "item",
+      "href": "./CE17_10000_0301.json",
+      "type": "application/json",
+      "file:checksum": "1220bb5385e7a7a0505d7a88333707f35aaf00eacd90c9f68eb6e1de898421db5e14"
+    },
+    {
+      "rel": "item",
+      "href": "./CE17_10000_0303.json",
+      "type": "application/json",
+      "file:checksum": "1220f2b3fc723de27991673f1859189bf9385ccd9911127f7a8e1c2c44a9f6aea34c"
+    },
+    {
+      "rel": "item",
+      "href": "./CE17_10000_0401.json",
+      "type": "application/json",
+      "file:checksum": "1220f99020aa855cbc0d576fbd6e4f4541c5ebb17a076d08fdfed8d8e48943868451"
+    },
+    {
+      "rel": "item",
+      "href": "./CE17_10000_0402.json",
+      "type": "application/json",
+      "file:checksum": "1220500b6d0af73eb471dc347f2386a3999c97c10fab1a11c98ae7b920b610d96e5b"
+    },
+    {
+      "rel": "item",
+      "href": "./CE17_10000_0403.json",
+      "type": "application/json",
+      "file:checksum": "12202196a6bdddd6140ca92ab8bf518654ec29d81fb88d4b29e1c0213864c4808b12"
+    }
   ],
   "providers": [
     { "name": "AAM NZ", "roles": ["producer"] },
@@ -45,5 +80,7 @@
       "file:size": 10000
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

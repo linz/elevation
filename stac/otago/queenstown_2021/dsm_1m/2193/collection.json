@@ -12,19 +12,84 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB11_10000_0502.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB11_10000_0503.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB11_10000_0504.json", "type": "application/json" },
-    { "rel": "item", "href": "./CB11_10000_0505.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0101.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0102.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0103.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0104.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0105.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0201.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0202.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0203.json", "type": "application/json" },
-    { "rel": "item", "href": "./CC11_10000_0204.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./CB11_10000_0502.json",
+      "type": "application/json",
+      "file:checksum": "12209b25cd9f3ab40dc18fb65c9228e06476207b9f67b8c6e97a1d1514fac1f48243"
+    },
+    {
+      "rel": "item",
+      "href": "./CB11_10000_0503.json",
+      "type": "application/json",
+      "file:checksum": "122019318d6f0fe2a6c2dea3cddd4a44ed5b9ca14af8cdf5216aaf5bba82f3efec22"
+    },
+    {
+      "rel": "item",
+      "href": "./CB11_10000_0504.json",
+      "type": "application/json",
+      "file:checksum": "1220abaad5503f1a5e77ce9dd2dcc8e8d7a7c648afcda3bda828b2a62c5746e9f706"
+    },
+    {
+      "rel": "item",
+      "href": "./CB11_10000_0505.json",
+      "type": "application/json",
+      "file:checksum": "12200c4fc985fca15eceabf4b440ed37b4f3a174bdeb59999c5bdd3fe65177f6e71b"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0101.json",
+      "type": "application/json",
+      "file:checksum": "12208dc4340a9746c38ac61e3c5fc2dcaee5757432cfbdd09a04f867980b1b3c9e8d"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0102.json",
+      "type": "application/json",
+      "file:checksum": "12208ddc4b10aed5bca09cc749aa8bdd5539ca1e35ce4e8287e11ed7cd8caf44d922"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0103.json",
+      "type": "application/json",
+      "file:checksum": "12202aea08429aca0be77d81acf0a614f7e00cce281fe7c698ad4d7be9a7f80f8155"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0104.json",
+      "type": "application/json",
+      "file:checksum": "1220b5995638fcf89479536240883d332bb14d7f069508fc642756fffb0e750f9474"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0105.json",
+      "type": "application/json",
+      "file:checksum": "1220c3c92745b85fd48294ce593132573195595350f0e7b86e4b95f1706d0e377809"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0201.json",
+      "type": "application/json",
+      "file:checksum": "12204bb03052c08a1dfba16a1274e4f6986e1c6e1b79d6ab8b219eba450b1576dffb"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0202.json",
+      "type": "application/json",
+      "file:checksum": "12206def7eddecaafa6490b2fd61c30511fe37a0f17c5530a995137534dd9033904a"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0203.json",
+      "type": "application/json",
+      "file:checksum": "122079a2557fff47e58cee1a0d14a69371dbbf791430ee2efd8eda1df54682489d08"
+    },
+    {
+      "rel": "item",
+      "href": "./CC11_10000_0204.json",
+      "type": "application/json",
+      "file:checksum": "1220370198759ca568e0fda0bea9e84a52c7783c38fa01742449accb6f5bf1130787"
+    }
   ],
   "providers": [
     { "name": "Landpro", "roles": ["producer"] },
@@ -51,5 +116,7 @@
       "file:size": 5075
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }

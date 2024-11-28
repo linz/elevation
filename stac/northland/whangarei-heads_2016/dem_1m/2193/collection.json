@@ -12,15 +12,60 @@
       "type": "application/json"
     },
     { "rel": "self", "href": "./collection.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX30_10000_0204.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX30_10000_0205.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX30_10000_0305.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0201.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0301.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0302.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0303.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0402.json", "type": "application/json" },
-    { "rel": "item", "href": "./AX31_10000_0403.json", "type": "application/json" }
+    {
+      "rel": "item",
+      "href": "./AX30_10000_0204.json",
+      "type": "application/json",
+      "file:checksum": "12207f5188a96767076a3ce8e85b44925afb70b904fdcc3ff5c5f6976819031c7fc4"
+    },
+    {
+      "rel": "item",
+      "href": "./AX30_10000_0205.json",
+      "type": "application/json",
+      "file:checksum": "12209f8f7f665a22582603ae35ff4b50569cf887afa95a31a5b1426e8188e761e260"
+    },
+    {
+      "rel": "item",
+      "href": "./AX30_10000_0305.json",
+      "type": "application/json",
+      "file:checksum": "1220b1918e1df5b803e0216b10eddb5c7cccba8f71523fcf846650a5c93ea95f1505"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0201.json",
+      "type": "application/json",
+      "file:checksum": "1220359b39f899c171770111d781c8ccbe13778791a6f592fe9cc4be79f08a07740a"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0301.json",
+      "type": "application/json",
+      "file:checksum": "1220b6d15d0b6907ffb43e9b232e0986c960a8aa112e12acfec8e2d59a1674f05413"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0302.json",
+      "type": "application/json",
+      "file:checksum": "122035bb626d1c82f9dea8e98eb67d3a0971fb84b71c735d964e07c7c1264e602235"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0303.json",
+      "type": "application/json",
+      "file:checksum": "12203bbf2823cac3e4ea58d0ab3e5d7be72dfd605466c9357bb36a40938a5787e61a"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0402.json",
+      "type": "application/json",
+      "file:checksum": "12202c51b3437609e559fe33331da60fab296c86ba1f51ccab020a25af0f4b46ab01"
+    },
+    {
+      "rel": "item",
+      "href": "./AX31_10000_0403.json",
+      "type": "application/json",
+      "file:checksum": "1220004a9441821eded0d630750ebbd0434bd4310f9e992632eb653b1f9705a740c5"
+    }
   ],
   "providers": [
     { "name": "Aerial Surveys", "roles": ["producer"] },
@@ -46,5 +91,7 @@
       "file:size": 23045
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "created": "2024-03-14T00:00:00Z",
+  "updated": "2024-11-14T01:59:26Z"
 }
