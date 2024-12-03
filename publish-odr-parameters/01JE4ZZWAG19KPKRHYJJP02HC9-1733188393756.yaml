@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-12/03-national-dem-gjwhf/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem_1m/2193/",
+  "ticket": "TDE-1168",
+  "copy_option": "--no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
