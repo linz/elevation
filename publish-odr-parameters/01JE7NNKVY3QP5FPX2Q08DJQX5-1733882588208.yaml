@@ -1,6 +1,6 @@
 {
   "source": "s3://linz-workflows-scratch/2024-12/04-test-trs-50k8mdem-4tqnf/flat/",
-  "target": "s3://nz-elevation/new-zealand/new-zealand_2012/dem_8m/2193/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/contour-dem_8m/2193/",
   "ticket": "TDE-1351",
   "copy_option": "--no-clobber",
   "region": "new-zealand",
