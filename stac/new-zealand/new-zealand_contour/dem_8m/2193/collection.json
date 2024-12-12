@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01JE7NNKVY3QP5FPX2Q08DJQX5",
-  "title": "New Zealand LiDAR 8m DEM (2011)",
-  "description": "Digital Elevation Model within the New Zealand region captured in 2011.",
+  "title": "New Zealand Contour-Interpolated 8m DEM",
+  "description": "Digital Elevation Model for New Zealand created by interpolating 20m contour data (https://data.linz.govt.nz/layer/50768) with additional post-processing and filtering over water bodies and in coastal areas. Originally created by Geographx (https://www.geographx.co.nz/). Suitable for cartographic visualisation purposes only. Not suitable for terrain analysis.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -2709,14 +2709,13 @@
   ],
   "providers": [
     { "name": "Geographx", "roles": ["producer"] },
-    { "name": "Unknown", "roles": ["licensor"] },
-    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] }
   ],
   "linz:lifecycle": "completed",
   "linz:geospatial_category": "dem",
   "linz:region": "new-zealand",
   "linz:security_classification": "unclassified",
-  "linz:slug": "new-zealand_2012",
+  "linz:slug": "new-zealand_contour",
   "created": "2024-12-04T01:48:34Z",
   "updated": "2024-12-04T01:48:34Z",
   "extent": {
