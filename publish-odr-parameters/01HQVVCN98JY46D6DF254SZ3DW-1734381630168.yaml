@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2024-12/16-es-west-coast-dsm-85gxw/flat/",
+  "target": "s3://nz-elevation/west-coast/west-coast_2020-2022/dsm_1m/2193/",
+  "ticket": "",
+  "copy_option": "--force",
+  "region": "west-coast",
+  "flatten": "false"
+}
