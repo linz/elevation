@@ -2,7 +2,7 @@
   "source": "s3://linz-workflows-scratch/2024-12/16-es-canterbury-dem-v7vbq/flat/",
   "target": "s3://nz-elevation/canterbury/canterbury_2020-2023/dem_1m/2193/",
   "ticket": "",
-  "copy_option": "--no-clobber",
+  "copy_option": "--force",
   "region": "canterbury",
   "flatten": "false"
 }
