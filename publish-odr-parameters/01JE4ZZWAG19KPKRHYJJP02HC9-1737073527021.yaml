@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-01/16-national-dem-no-compare-vh8bd/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem_1m/2193/",
+  "ticket": "TDE-1367",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
