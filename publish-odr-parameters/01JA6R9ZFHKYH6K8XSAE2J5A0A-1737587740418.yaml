@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-01/22-es-waikatofinal-dem-phll2/flat/",
+  "target": "s3://nz-elevation/waikato/waikato_2024/dem_1m/2193/",
+  "ticket": "LI-2238",
+  "copy_option": "--force",
+  "region": "waikato",
+  "flatten": "false"
+}
