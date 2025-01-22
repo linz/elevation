@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-01/21-es-manawatuwhanganui-dsm-l5djf/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/manawatu-whanganui_2024/dsm_1m/2193/",
+  "ticket": "LI-2389",
+  "copy_option": "--force",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
