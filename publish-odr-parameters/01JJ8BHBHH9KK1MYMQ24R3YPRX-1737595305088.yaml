@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-01/23-es-northland-dem-flhg6/flat/",
+  "target": "s3://nz-elevation/northland/northland_2024/dem_1m/2193/",
+  "ticket": "LI-2287",
+  "copy_option": "--no-clobber",
+  "region": "northland",
+  "flatten": "false"
+}
