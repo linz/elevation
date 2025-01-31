@@ -670,7 +670,7 @@
       "href": "./BH38_10000_0503.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220d14102e26145fec4feae9ca6fbc35bccfc62d8794a5e7dfd518fa3d189354364"
+      "file:checksum": "1220dd34628d14bdfcb2068bbfb1c3e5caae7a8589afcd2fc5bbdf64f6540008f501"
     },
     {
       "href": "./BH38_10000_0504.json",
@@ -3010,9 +3010,9 @@
   "linz:geospatial_category": "dem",
   "linz:region": "hawkes-bay",
   "linz:security_classification": "unclassified",
-  "created": "2024-05-26T22:35:57Z",
-  "updated": "2024-11-14T01:59:26Z",
   "linz:slug": "hawkes-bay_2023",
+  "created": "2024-05-26T22:35:57Z",
+  "updated": "2025-01-31T02:36:56Z",
   "extent": {
     "spatial": { "bbox": [[176.0260349, -40.4739342, 178.0283496, -38.5592701]] },
     "temporal": { "interval": [["2023-09-19T12:00:00Z", "2024-04-26T12:00:00Z"]] }
@@ -3024,8 +3024,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122002f2ee5dba8b6ed1935bddc86790d7aa9100521ab6cb6ab0deac02c490ba42c9",
-      "file:size": 664379
+      "file:checksum": "1220da20447dc11b54d85c2750ba0b24430f0d8ec3542021a6dd9c8e92f716525611",
+      "file:size": 664615
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
