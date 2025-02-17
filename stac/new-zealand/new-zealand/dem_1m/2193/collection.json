@@ -814,7 +814,7 @@
       "href": "./BH38.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220f5ac009346ac7d4a88b62d0ff3593deba1bc7e6448e6d33a3d9bd5b54cd904be"
+      "file:checksum": "12204d35bfb54978e0f74e734bffaf529ffed3ff30c8e92e6d73ecd917b89d0be08e"
     },
     {
       "href": "./BH39.json",
@@ -2500,7 +2500,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2024-12-03T00:51:13Z",
-  "updated": "2025-01-23T03:04:57Z",
+  "updated": "2025-02-17T03:19:29Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2024-06-27T12:00:00Z"]] }
@@ -2512,8 +2512,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220bd6a51fbbb88608485265c2e59b2c21e4423c3f25df1d20ea2217c84a103693e",
-      "file:size": 4408289
+      "file:checksum": "12206e9f5815056255de6e1994f57f65fb4b365aefe13c793cf861cf32cf71508922",
+      "file:size": 4408248
     },
     "capture_area": {
       "href": "./capture-area.geojson",
