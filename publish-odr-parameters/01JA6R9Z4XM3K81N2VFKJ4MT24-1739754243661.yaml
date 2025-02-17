@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-02/17-es-waikato-dsm-6z42h/flat/",
+  "target": "s3://nz-elevation/waikato/waikato_2024/dsm_1m/2193/",
+  "ticket": "LI-2238",
+  "copy_option": "--force-no-clobber",
+  "region": "waikato",
+  "flatten": "false"
+}
