@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/new-zealand/new-zealand-contour/dem-hillshade_8m/2193/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand-contour/dem-hillshade_8m/2193/",
+  "ticket": "TDE-1366",
+  "copy_option": "--no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
