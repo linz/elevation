@@ -1,6 +1,6 @@
 {
   "source": "s3://linz-workflows-scratch/new-zealand/new-zealand/dem-hillshade_1m/2193/",
-  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade/2193/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade_1m/2193/",
   "ticket": "TDE-1429",
   "copy_option": "--no-clobber",
   "region": "new-zealand",
