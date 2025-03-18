@@ -1,6 +1,6 @@
 {
   "source": "s3://linz-workflows-scratch/2025-03/17-national-hillshade-missing-tiffs-4fswd/hillshade/flat/",
-  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade/2193/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade_1m/2193/",
   "ticket": "TDE-1445",
   "copy_option": "--force-no-clobber",
   "region": "new-zealand",
