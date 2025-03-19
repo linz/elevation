@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-03/19-merge-layers-j2xcx/dem-hillshade-igor/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade-igor/2193/",
+  "ticket": "TDE-1279",
+  "copy_option": "--no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
