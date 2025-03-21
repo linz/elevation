@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-03/20-es-canterbury-dsm-69jcz/flat/",
+  "target": "s3://nz-elevation/canterbury/canterbury_2010/dsm_1m/2193/",
+  "ticket": "LI-4247",
+  "copy_option": "--no-clobber",
+  "region": "canterbury",
+  "flatten": "false"
+}
