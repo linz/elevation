@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-04/09-imagery-standardising-f6q79/flat/",
+  "target": "s3://nz-elevation/auckland/auckland_2024/dem_1m/2193/",
+  "ticket": "LI-3226",
+  "copy_option": "--no-clobber",
+  "region": "auckland",
+  "flatten": "false"
+}
