@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/trs/national-1m-dsm/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dsm_1m/2193/",
+  "ticket": "TDE-1454",
+  "copy_option": "--no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
