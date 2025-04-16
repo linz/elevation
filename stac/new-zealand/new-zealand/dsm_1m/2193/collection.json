@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "01JRV1RZNTCC76E4K1C3D3G44M",
   "title": "New Zealand LiDAR 1m DSM",
-  "description": "Digital Surface Model within the New Zealand region captured in 2010-2024.",
+  "description": "Digital Surface Model within the New Zealand region captured in 2015-2024.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -232,19 +232,19 @@
       "href": "./AZ30.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122038c21144cd94acf1af448cadcf4a54f9fc06f5781d01e3cc27e165f7f272a785"
+      "file:checksum": "122042e8f8db8a63824feaa02b9a7147cf72b79634ca2b92c4fdbc5bdd5f3894b400"
     },
     {
       "href": "./AZ31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12206be13a2a08ee20dc7372e4770a831e22e8ff4f09fa5d5404f1acb971e3f5e06f"
+      "file:checksum": "1220dc75b059ca25c7029bb3f0b844bb2874c78ff36f31a1a1aea141c0d39a019d83"
     },
     {
       "href": "./AZ32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122008dd01b01315d2719f549f447a747a04934deb88c92d12e1f207dcc57e93598b"
+      "file:checksum": "1220ca3fdc46d9d49dcfc3b2b58ecfc34ffa85ed9225db5b85f13aa055d005bfb3aa"
     },
     {
       "href": "./AZ34.json",
@@ -262,19 +262,19 @@
       "href": "./BA30.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12203ed3c8625e7ccfa37d66ac1dee51bc339966f55d49f7298e44179f046b56c0db"
+      "file:checksum": "12201580d7a948301eb28c806d3c7930b9b29fa8b936b7fc3c8a5beaa9ee7f18c798"
     },
     {
       "href": "./BA31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220ee46d8c90480f61b86822af7b508b19d1134b632744aca115e9c9cc7b7a17ee7"
+      "file:checksum": "12205fc9cecaa8dbd8ed2dc5333ed5762999eb2385551f849a4d0052153668095d86"
     },
     {
       "href": "./BA32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12200d326ee8a4927c88b47b6ab7aef574af52ff924c28594c071055b78f9cf7d6ad"
+      "file:checksum": "1220a0d7b7b24f8206a786ef84fef050f86ff600fb300dedb4b9e524daa9c1158974"
     },
     {
       "href": "./BA33.json",
@@ -304,19 +304,19 @@
       "href": "./BB30.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122037fed0a6e65c654b6fd54d6ccd599e9f3a6431b6c7cce1460dd0f91cbcd5f686"
+      "file:checksum": "12209f479eef950ae2824230fa3283163f3173d6bd1396e6a21060d5ea6493a0e50a"
     },
     {
       "href": "./BB31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cd27556468372ccde2aa0fc6bb7d085fbfd73ad9c2bf8775359daad23307cf41"
+      "file:checksum": "12206884758e42cb9382ba9d91aa9a0118a6d96bea2a5a6312ca8547329829fb7752"
     },
     {
       "href": "./BB32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220929bb1ec855b61a51919727b5d30110c21705266070637b394cd689e53f6c509"
+      "file:checksum": "1220bf87189ce58a6fc995731d24dbbfb3ac6427bcc9c430aa626403ed6cbb2870ff"
     },
     {
       "href": "./BB33.json",
@@ -352,13 +352,13 @@
       "href": "./BC31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220b33ebf21ef974cd4c0fee18eaf33a0001fef8b1bd092e7b88c98d01bef6a3bc9"
+      "file:checksum": "12207852d921bda0719712e3cbd3e8e0327e84744b0902f88754310f811010bfa77c"
     },
     {
       "href": "./BC32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cef080ff9e45049f97a46105e4ec4fbcc667b33094b4f4cfae86c8f7d3f89460"
+      "file:checksum": "12206fa68aea748a2bfd25f625db78987f2e44994a6b0fef878b06becdec58d4c0a6"
     },
     {
       "href": "./BC33.json",
@@ -2542,7 +2542,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-14T21:02:40Z",
-  "updated": "2025-04-14T21:02:40Z",
+  "updated": "2025-04-16T21:33:48Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2010-03-17T11:00:00Z", "2024-06-27T12:00:00Z"]] }
@@ -2554,8 +2554,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220541a5269938d777eb554a68406357af2995bf403bed116ba71de735a4ff348b4",
-      "file:size": 2729410
+      "file:checksum": "12203007f7d513f470bbdcb8a959f32b6993ae5db50cec64ce28f7422c4d77399fa3",
+      "file:size": 2744042
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -2563,8 +2563,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122031c6b8725ecc308feb45d1c64b982a8b49d3da9087c5905dccbdf8c20984a5a1",
-      "file:size": 2120042
+      "file:checksum": "12201f9b7c753ea1121bc41be7b054283163d321544b1ef02afc4d6d700ec6a0b198",
+      "file:size": 2116901
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
