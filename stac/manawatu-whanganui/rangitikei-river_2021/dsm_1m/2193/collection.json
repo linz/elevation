@@ -1,0 +1,225 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01JRXWMRAM88RFVE1QG6HQTHNH",
+  "title": "Manawatū-Whanganui - Rangitīkei River LiDAR 1m DSM (2021)",
+  "description": "Digital Surface Model within the Manawatū-Whanganui region captured in 2021.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BK35_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209661ef6a1172e7dc16c466d9e14a2b86435e7653c76dbecec6c8c612c19d0021"
+    },
+    {
+      "href": "./BK35_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122058b340e47950a84ec57cdf7e7ee0e0090394cff24286ee4ab90144510447a765"
+    },
+    {
+      "href": "./BK35_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f318b9f06d419c843673483014d8b70c38ba0baefdb89b617d813b60a45011a7"
+    },
+    {
+      "href": "./BK35_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203678a37544e7fb8bd4ece2bc5122d12191126cbb267b1aaa6ce10e1afa30f7dc"
+    },
+    {
+      "href": "./BK35_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220163d8a0825be99001d942dc1a5051e5d530b70f725b14feee47de1024f38d863"
+    },
+    {
+      "href": "./BK35_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c57e1138bc777f2defb0d92cbd3c7812f46861eb174e29c60b6f6370bbfc972a"
+    },
+    {
+      "href": "./BK36_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e01057d4596e90fb2a5fd976f4565d8ea0f916c07fd84a3092eaf98a1c5a5f36"
+    },
+    {
+      "href": "./BK36_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220356ebcb736f575a9a9ab4d0f08a01446afb375acc5f35cc23ba3198840167a14"
+    },
+    {
+      "href": "./BK36_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204fa353bcfbfecd587c1eac2408f62696578bd8ce05f8ea0abf2a976e8baa423a"
+    },
+    {
+      "href": "./BL33_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201c414b783304a8036dee98c58162e66fa475192fa356217ef9add8af13f42524"
+    },
+    {
+      "href": "./BL34_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b5bb7cdd5198c5741cb91e0bc84d00559accca1245d4f000676355991b08561b"
+    },
+    {
+      "href": "./BL34_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8d3548aa9c8551b8471bfd94da5c892f62892271cabc37d9c48ba2dddee6071"
+    },
+    {
+      "href": "./BL34_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b6fa86b0f52f9bbb0726af78363b7dd9884505c1152ceb9c8e48a30f321c2874"
+    },
+    {
+      "href": "./BL34_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122000c39de6200c04ce5f997cfc8fcf5f28a86036df224c947e11b26290940abcc4"
+    },
+    {
+      "href": "./BL34_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e96c57b07990ed2dbc5d1cd6a9f84ae25cb8cb20c3885ed606401fc549480ad7"
+    },
+    {
+      "href": "./BL34_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dee97df6765417599ab4d2e1168719492e95f843a74f576c778ca52e19ac55ce"
+    },
+    {
+      "href": "./BL34_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207a8d7be1b2091baede5c29f5c46e334fba27e3b77bdc42e35a7c9a0d9bc2c20e"
+    },
+    {
+      "href": "./BL34_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220749e08c8be47136a8927d924bf04b5a723d66616a42b2c17686dea4ce05d0fb7"
+    },
+    {
+      "href": "./BL34_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e0d1563fa462627ad9cb516160a9b057a399df407cac09084541e376a042e02d"
+    },
+    {
+      "href": "./BL34_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d3f013b8eb52ef2a6c5e65707df0c53a073ed57d354ff54a8892961d083bca0a"
+    },
+    {
+      "href": "./BL34_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d29cf6e676d754eb13a8e1e57fc035bfc7cadd308be4a1a9d224e4a88140d183"
+    },
+    {
+      "href": "./BM33_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122099d847939b1a89612cd62beeb3caee6b90a2846973a53346938453ca5c41c388"
+    },
+    {
+      "href": "./BM33_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c38ae5ebd96800c92d916929b123a3b9298d940545545baee4ecf806281e4bcd"
+    },
+    {
+      "href": "./BM33_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a08825597f8a7f7cb5e5c1fb81b6a02e2bfd3ae0bff7163326f12a8c73e6bc83"
+    },
+    {
+      "href": "./BM33_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d2b1a20fbc86ed9722a405102794241968390983662c01113454f502d4bcf4fe"
+    },
+    {
+      "href": "./BM33_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122035c32e517a0e929a30959521fd602632c6819e21d78ba4b48cd3681ebaf90732"
+    },
+    {
+      "href": "./BM33_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207be48a5a90928ced7cbfb2d9fad7998c345f932bd7f0979fff825bcb73c5dc35"
+    },
+    {
+      "href": "./BM33_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cf54832ba47d2b21577366b63c1ef5a737cfda11e999abd92cc9d92095bc4d29"
+    },
+    {
+      "href": "./BM33_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200042b9bd61c9a0b7fa5d60e97998b0a3315abc6b9f737b252c4e716edd9353ff"
+    },
+    {
+      "href": "./BM34_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203134f6d2fe5c80f9ff181b128795211c5aa9dd18d655386727a7b0f45768ecc4"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Horizons Regional Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:geographic_description": "Rangitīkei River",
+  "linz:slug": "rangitikei-river_2021",
+  "created": "2025-04-15T23:30:41Z",
+  "updated": "2025-04-15T23:30:41Z",
+  "extent": {
+    "spatial": { "bbox": [[175.1726498, -40.3745087, 176.0571022, -39.7061852]] },
+    "temporal": { "interval": [["2021-01-30T11:00:00Z", "2021-02-01T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122090fe5290d88fb1758966fe9575eb4ba2bc253a43d63040e8a60ef94b25beee9e",
+      "file:size": 23877
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
