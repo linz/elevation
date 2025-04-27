@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-04/23-merge-layers-mp2mv/dsm-hillshade-igor/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dsm-hillshade-igor/2193/",
+  "ticket": "",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
