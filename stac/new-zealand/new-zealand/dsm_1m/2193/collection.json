@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01JRV1RZNTCC76E4K1C3D3G44M",
-  "title": "New Zealand LiDAR 1m DSM (2015-2024)",
-  "description": "Digital Surface Model within the New Zealand region captured in 2015-2024.",
+  "title": "New Zealand LiDAR 1m DSM",
+  "description": "Digital Surface Model within the New Zealand region captured in 2010-2024.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -982,13 +982,13 @@
       "href": "./BK35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220e4b7402a426efffee1ab7392303d03d448de8a604462488efec96910b14d22d1"
+      "file:checksum": "1220bc507109f5e3ca7d47a4980184dbc4b03ccd4f764910cc9012aea8d584936847"
     },
     {
       "href": "./BK36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cd6fb2acbd82ba7855e41383ccc5c1042dea1d03711423d7710838346617807f"
+      "file:checksum": "1220fcd541ef6590cc985f3c779a07b8fc6799d4c7d475061f1a383b1708805567a4"
     },
     {
       "href": "./BK37.json",
@@ -1030,13 +1030,13 @@
       "href": "./BL33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12204804940a249b4d0c4c99e7de7b3417829b29b1ec66335c713e4416cd908b5989"
+      "file:checksum": "12204e0d13efc5a0a72248d122b042d7d49061b9aab2b6a3587cbcdce8ea67ad121e"
     },
     {
       "href": "./BL34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220f62963029ef0a2c0434d1371a5a5e54715dc0210da8b43cb60406ece3159be67"
+      "file:checksum": "122047cef090e3b14d4fb74c8e0ac888d57dc71b2d241c8ee02107793f0d6bece173"
     },
     {
       "href": "./BL35.json",
@@ -1084,13 +1084,13 @@
       "href": "./BM33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cc7b32e0508dd5ed20a8f087cde898c1e8693a642af211c9698f13baa5cb474c"
+      "file:checksum": "122021f21afed91c0f835e958b1a8f5e08ce6c1a1480d59a62ca9d94d8472354339b"
     },
     {
       "href": "./BM34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220223efa6a512d01cd6828438cb59c9dc198e55beed1d0a4f084ebc2a85d924f90"
+      "file:checksum": "1220d2c0473f6994149d13c20e594ecb6ad50e99a09c25f7cb3f544bbd2d6bbaf1c1"
     },
     {
       "href": "./BM35.json",
@@ -2542,7 +2542,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-14T21:02:40Z",
-  "updated": "2025-04-28T18:03:15Z",
+  "updated": "2025-04-28T21:38:19Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2010-03-17T11:00:00Z", "2024-06-27T12:00:00Z"]] }
@@ -2563,7 +2563,7 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12201f0c8be376d92df4d3fd31371ea2472e1dd7d8c6df950bf081c6838acfc8898d",
+      "file:checksum": "122004edfa97eda8c2d6f93b55474cdce2b46d1c563d1ae387ce7a20d4dc03814923",
       "file:size": 2118850
     }
   },
