@@ -126,11 +126,28 @@ Egress - Cost to send the data out of AWS
 
 So using LERC (1mm) for 1TB of input data would result in approx $190 USD / year in storage costs savings, and $70 in savings for every copy of the data that was egressed out of AWS.
 
+## Hillshade Compression
+
+There are Hillshade TIFFs in s3://nz-elevation in addition to the DEM and DSM TIFFs. These hillshades don't contain elevation values, they use the elevation data and a sun position to shade particular pixels, providing a visualisation of the terrain. The standard output for a hillshade algorithm is a single-band (greyscale) output, so the data within the TIFF is very different and compression method rationale is not identical.
+
+Indicative output size when compressing [BQ26, DEM Hillshade - Igor](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem-hillshade-igor/2193/BQ26.tiff) with various lossless compression methods is:
+
+| Id                          | File Size (mb) |
+| --------------------------- | -------------- |
+| webp                        | 367            |
+| lerc                        | 478            |
+| zstd                        | 609            |
+| lzw                         | 679            |
+
+WEBP compression requires storing the hillshade with 3 bands rather than 1 band, so we have ruled out this option as it deviates from the standard hillshade output that is expected.
+
+LERC compression has therefore also been chosen for the hillshades TIFFs in s3://nz-elevation.
+
 ## LERC support in GDAL/QGIS on Ubuntu Linux 22.04 Long Term Support (LTS)
 
 LERC support is included in GDAL on Ubuntu Linux 22.10 and above, including 24.04 LTS (release date April 2024).
 
-To enable support for LERC on Ubuntu Linux 22.04 LTS, GDAL needs to be recompiled.
+To enable support for LERC on Ubuntu Linux 22.04 and earlier, GDAL needs to be recompiled.
 
 Instructions:
 
