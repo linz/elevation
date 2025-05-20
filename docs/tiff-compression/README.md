@@ -141,7 +141,7 @@ Indicative output size when compressing [BQ26, DEM Hillshade - Igor](https://nz-
 
 WEBP compression requires storing the hillshade with 3 bands rather than 1 band, so we have ruled out this option as it deviates from the standard hillshade output that is expected.
 
-LERC compression has therefore also been chosen for the hillshades TIFFs in s3://nz-elevation.
+LERC compression has therefore also been chosen for the hillshades TIFFs in `s3://nz-elevation/`.
 
 ## LERC support in GDAL/QGIS on Ubuntu Linux 22.04 Long Term Support (LTS)
 
