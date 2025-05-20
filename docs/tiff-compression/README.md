@@ -128,7 +128,7 @@ So using LERC (1mm) for 1TB of input data would result in approx $190 USD / year
 
 ## Hillshade Compression
 
-There are Hillshade TIFFs in s3://nz-elevation in addition to the DEM and DSM TIFFs. These hillshades don't contain elevation values, they use the elevation data and a sun position to shade particular pixels, providing a visualisation of the terrain. The standard output for a hillshade algorithm is a single-band (greyscale) output, so the data within the TIFF is very different and compression method rationale is not identical.
+There are Hillshade TIFFs in `s3://nz-elevation/` in addition to the DEM and DSM TIFFs. These hillshades don't contain elevation values, they use the elevation data and a sun position to shade particular pixels, providing a visualisation of the terrain. The standard output for a hillshade algorithm is a single-band (greyscale) output, so the data within the TIFF is very different and compression method rationale is not identical.
 
 Indicative output size when compressing [BQ26, DEM Hillshade - Igor](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem-hillshade-igor/2193/BQ26.tiff) with various lossless compression methods is:
 
