@@ -7,13 +7,14 @@ Elevation dataset titles and S3 paths are constructed from metadata about each e
 The elevation dataset title is constructed from metadata that is entered when an elevation dataset is processed.
 
 ```
-<region>[ - <geographic_description>?] LiDAR <gsd>m <geospatial_category> (<start_year>[-<end_year>?])[ - <lifecycle>?]
+<region>[ - <geographic_description>?] <subtype> LiDAR <gsd>m <geospatial_category> (<start_year>[-<end_year>?])[ - <lifecycle>?]
 ```
 
 which can be broken down as:
 
 - the main `<region>` that the dataset covers
 - then if it exists, the `<geographic_description>` is used
+- then `<subtype>` if different than the default "Land", for example "Coastal" in the `s3://nz-coastal/` bucket ([`linz/coastal`](https://github.com/linz/coastal))
 - then "LiDAR"
 - then `<gsd>` (which is always in metres)
 - then `<geospatial_category>`
@@ -86,6 +87,14 @@ A general categorisation of elevation data held within our archive that includes
 
 - DEM `dem`
 - DSM `dsm`
+
+### `subtype`
+
+The dataset in the `s3://nz-elevation/` bucket have no specific subtyp visible to the data consumer, however they could be referenced as a "Land" subtype. The other subtypes are:
+
+- "Coastal" (`s3://nz-coastal/` - [`linz/coastal`](https://github.com/linz/coastal))
+
+> **_NOTE:_** This is only used for the dataset titles and descriptions for datasets with a subtype different than "Land".
 
 ### `gsd`
 
