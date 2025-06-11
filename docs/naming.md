@@ -90,7 +90,7 @@ A general categorisation of elevation data held within our archive that includes
 
 ### `subtype`
 
-The dataset in the `s3://nz-elevation/` bucket have no specific subtyp visible to the data consumer, however they could be referenced as a "Land" subtype. The other subtypes are:
+The datasets in the `s3://nz-elevation/` bucket have no specific subtype visible to the data consumer, however they could be referenced as a "Land" subtype. The other subtypes are:
 
 - "Coastal" (`s3://nz-coastal/` - [`linz/coastal`](https://github.com/linz/coastal))
 
