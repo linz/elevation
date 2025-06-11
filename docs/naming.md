@@ -7,7 +7,7 @@ Elevation dataset titles and S3 paths are constructed from metadata about each e
 The elevation dataset title is constructed from metadata that is entered when an elevation dataset is processed.
 
 ```
-<region>[ - <geographic_description>?] <subtype> LiDAR <gsd>m <geospatial_category> (<start_year>[-<end_year>?])[ - <lifecycle>?]
+<region>[ - <geographic_description>?] [<subtype>] LiDAR <gsd>m <geospatial_category> (<start_year>[-<end_year>?])[ - <lifecycle>?]
 ```
 
 which can be broken down as:
