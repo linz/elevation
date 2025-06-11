@@ -94,7 +94,7 @@ The datasets in the `s3://nz-elevation/` bucket have no specific subtype visible
 
 - "Coastal" (`s3://nz-coastal/` - [`linz/coastal`](https://github.com/linz/coastal))
 
-> **_NOTE:_** This is only used for the dataset titles and descriptions for datasets with a subtype different than "Land".
+> **_NOTE:_** This is only used for the titles and descriptions for datasets with a subtype different than "Land".
 
 ### `gsd`
 
