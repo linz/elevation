@@ -1,0 +1,225 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01JZGY0MK294YKD2G8AKF8S9XH",
+  "title": "Tasman - Motueka River Valley LiDAR 1m DSM (2024)",
+  "description": "Digital Surface Model within the Tasman region captured in 2024.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP24_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e50f362456dded19cea0bc555becf89e54efa3936312153ebfa6a6163c0a7b0a"
+    },
+    {
+      "href": "./BP25_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220163583335f303a5a56791f3caa96bf6190e577943091d4591d0913fc6d4ca223"
+    },
+    {
+      "href": "./BP25_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cc46adac01bdd9e55405fff4ad0a10bb0484a4bff61761273b7a8844d075b3ee"
+    },
+    {
+      "href": "./BP25_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a1e2f6101133f97622e5d456ad24cb82e51485c63a70a14f4d6f6289f1ad413b"
+    },
+    {
+      "href": "./BQ24_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122091a34c09f20bf2853152278c88cf12eaaa6c1283ff254b025513679a8c6a4981"
+    },
+    {
+      "href": "./BQ24_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122051928f2f816ab14cb692abc09577e891ab008dab3d757d6f32756e2a1c9c6369"
+    },
+    {
+      "href": "./BQ24_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209c34f4f24950638bcbb552de3ef33c4b04875129225c8baea6b39863958d1e26"
+    },
+    {
+      "href": "./BQ24_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206a42bad07c17be3dbc38aed65c529390490a7435c028414fdbbd0fb8dda7228d"
+    },
+    {
+      "href": "./BQ24_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122076f1e3b56d761aeb10aa591a50678f3e459f9475f6358dd4343135975f0f36d7"
+    },
+    {
+      "href": "./BQ24_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220516ba0841601886d36f9642226f13541424a7011341d4085f844d31995076f60"
+    },
+    {
+      "href": "./BQ24_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201b79b61ac5cbe6251ffc05b085b00bf0477cb7d80d8b3b4699f37d9a951564f3"
+    },
+    {
+      "href": "./BQ24_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e311cb97ef82ac6e88ba13ffc4bc2ecf9ff5dd6ed3285d7d8785dd03aa27e93e"
+    },
+    {
+      "href": "./BQ24_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c9074e6aca6126fcfa4ae8662bf832ea935f969aebaab2da2329cb9e3c2daa7a"
+    },
+    {
+      "href": "./BQ24_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208592162d5a7d7ba0a2e196059989cff4971e41861b2094367afdabcae034b650"
+    },
+    {
+      "href": "./BQ24_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b933aba046576f38717924a4115b45b6bbbcef367ac15ff165e41364644f2b7e"
+    },
+    {
+      "href": "./BQ24_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204287a8191bf2ab02b5f0937f4a723c237625c4bce4538d8ae657de667fc2f0fe"
+    },
+    {
+      "href": "./BQ24_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a438ce76411b0ae645f37291be078617bb531b42234a34fcb1420dcf02356be5"
+    },
+    {
+      "href": "./BQ24_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f8a94f8d4d88cb8233fdb3aa1e0b21ae49f501f7659ad911e39c0b3e98d5e47b"
+    },
+    {
+      "href": "./BQ24_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220773f251a4865c51f37408d32a76766d16f4300dd17b64ceb5c5ba8eeca828b63"
+    },
+    {
+      "href": "./BQ24_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209f98639733e4eaa86c4b72007e97a1279cd060bfd0ac53994cc9f09a7697f5c0"
+    },
+    {
+      "href": "./BQ24_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220765a26705cc1c65dd1ef89d8b7ca57fcf93e594054f3e496c126c7e99e28fec1"
+    },
+    {
+      "href": "./BQ25_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220690edeec569acd1be7afbe187f498bc7b020ab1608a8e84f7b4a796c2003b2be"
+    },
+    {
+      "href": "./BQ25_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bec75716f2b9ad1bd33d4bef3d0e968298d8595744010fca31ec75b761ae8783"
+    },
+    {
+      "href": "./BQ25_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208194e9be15fd71840f2653bffb1b4a69c17e705d493278d5e15d30b346dd2ced"
+    },
+    {
+      "href": "./BQ25_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a68835921cbd96dfbbee5d8418616112267458567277783814944a4a7b6e6226"
+    },
+    {
+      "href": "./BQ25_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209cc7d5f28bf6076a9f6387aba65d067a5dfe5a64a9b3a44b4fa2af027ee04562"
+    },
+    {
+      "href": "./BQ25_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209f34db3dad04bafbc7b4d2f1f6ea82f31e1ac9e22f0efe108f8c53a8d155ae3b"
+    },
+    {
+      "href": "./BQ25_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220275b7abf8c0e6a4b029cc1cb38641e419155d2f292ce636db916bcf3d9bd9380"
+    },
+    {
+      "href": "./BQ25_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200f3cd954e27dc30b081bb82fc6c5744382cfb76dffcd3f78c25a49c05384a848"
+    },
+    {
+      "href": "./BQ25_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220904c9157cd57eb7ef664ae9a61d2aeeed15b862c7ae1267df7d9faf5319961c5"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Tasman District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "motueka-river-valley_2024",
+  "created": "2025-07-06T22:34:26Z",
+  "updated": "2025-07-06T22:34:26Z",
+  "linz:geographic_description": "Motueka River Valley",
+  "extent": {
+    "spatial": { "bbox": [[172.5691212, -41.4975302, 173.0286971, -41.1083109]] },
+    "temporal": { "interval": [["2024-11-26T11:00:00Z", "2024-12-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220344556bbd17496c92f798e530bb7aa9cbd3a3e31a8a5d5f3bacf9a8fe4d7e604",
+      "file:size": 4601
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
