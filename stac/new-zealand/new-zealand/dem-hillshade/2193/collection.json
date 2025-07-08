@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "01JPNX47SVTBRZY1VFHHFJQABB",
   "title": "New Zealand DEM Hillshade",
-  "description": "Hillshade generated from the New Zealand LiDAR 1m DEM and New Zealand Contour-Derived 8m DEM (where no 1m DEM data exists) using GDAL’s default hillshading parameters of 315˚ azimuth and 45˚ elevation angle.",
+  "description": "Hillshade generated from the New Zealand LiDAR 1m DEM using GDAL’s default hillshading parameters of 315˚ azimuth and 45˚ elevation angle.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -1150,13 +1150,13 @@
       "href": "./BN24.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220a49a2967cc7724c44167cc6914c2fcc1f6a1c972dd4fe3bc5eaf45cb69c5b1f4"
+      "file:checksum": "1220239b3325e6d70eef03964ab026d9d6866419f0a2e48cb550d6a1e7a48bc14736"
     },
     {
       "href": "./BN25.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122048238cc4362d58f21600d965614937549f4c9d14760915f0ee629c2d5f987ea4"
+      "file:checksum": "122047a2089f05a81024474b878cf7cb47fdf96687a61579b6cab625c70d8beae840"
     },
     {
       "href": "./BN28.json",
@@ -1228,13 +1228,13 @@
       "href": "./BP24.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220d1b59330ef1001c4aa442c46753aa047a255850b57077995c591222b380e6174"
+      "file:checksum": "1220bb13bffa3ac03db92678fcbfbafbb31b47b62d5e7290cf72953104c450614613"
     },
     {
       "href": "./BP25.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122051e2688edfbf272ec9f668256a43432075282b2dfda6fdb89369fbede9e44473"
+      "file:checksum": "12202b7ed45597ff91fa5cb6da42ce5b61a1fa80bd49f2079de59b10dcdf51cf0f77"
     },
     {
       "href": "./BP26.json",
@@ -1324,13 +1324,13 @@
       "href": "./BQ24.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220c591f9a6da54c6ae8bee3e4a8cab4ca095b8b691dfe19ed9fbea7f8058f5f014"
+      "file:checksum": "1220960f8b582feb49ca18db92297afad33b5af3f7cc03e9182fa1ae254ea22de72f"
     },
     {
       "href": "./BQ25.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122073892692801ae614c89b91ea2e3ee5c2e8ef4e74bd9a04af6e456601ca1a5fae"
+      "file:checksum": "1220aa02799eac5028edf9958320e8478fc2e7f2f69004750dd2e9276eb02ddadf53"
     },
     {
       "href": "./BQ26.json",
@@ -2722,7 +2722,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-03-19T00:33:50Z",
-  "updated": "2025-07-07T00:30:18Z",
+  "updated": "2025-07-08T00:30:13Z",
   "extent": {
     "spatial": { "bbox": [[166.3157485, -47.5345307, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-03-19T11:00:00Z"]] }
@@ -2734,8 +2734,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220ce4a42715d2e587466f1b4c48b6c6189514e2b59c0f063d83899d2393cdb214d",
-      "file:size": 12946944
+      "file:checksum": "12208b61303b62fe8e034f48131a2b67917257fdcb1fde03d202df0b81fe0321bb30",
+      "file:size": 12946424
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
