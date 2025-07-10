@@ -1,0 +1,177 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01JZRT5TA9HV94K716AKYW1JE6",
+  "title": "Bay of Plenty - Tauranga LiDAR 1m DEM (2025)",
+  "description": "Digital Elevation Model within the Bay of Plenty region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BD36_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fd3b50b0f15120fc0157304e338254ccdb3a97978b0c9ed2fe15b3d2b6ee5efb"
+    },
+    {
+      "href": "./BD36_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220870aa57c79bfd81311238937a8a86b33a326ab458b1e52714124936b1f4bc6d9"
+    },
+    {
+      "href": "./BD36_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204c0ea8f63b36cb6af84b3679b5b3a2fd966b6f33c945802e2744e842569d9534"
+    },
+    {
+      "href": "./BD36_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220296739b4f1c5945a1f0a6adcf4cb4419ea8e94fd2320741a560ab2ad271d8f82"
+    },
+    {
+      "href": "./BD36_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220447c2d28b1597be522306b7b1184a64f48dab464f4bc83136650860625df1188"
+    },
+    {
+      "href": "./BD36_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c31d51f4ce199fa9635d0026634e7da0003e8ea5a4e5e6e8518d96eda4ed27fe"
+    },
+    {
+      "href": "./BD36_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e6509bb06004fe19274fbaf2cf1167b1bae53f55d2a41b3026ab04485d86c13e"
+    },
+    {
+      "href": "./BD36_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208514930a3cb4a3ae3a860422803f0c4bdd3c284ba3146d3bb78ef0d440432eca"
+    },
+    {
+      "href": "./BD37_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122047cafc68bf0eda2f6ebfe830de02b3baf9c79454ff8dc2b32c63425721698ae1"
+    },
+    {
+      "href": "./BD37_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a4fcd5f23c84e09bb3f8ab24c62e739a3536f63e1f344f4c40ca719a2764a8d3"
+    },
+    {
+      "href": "./BD37_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122087e29764d0364174fcae024b818617960afa38de35df766e7b3db655647adce7"
+    },
+    {
+      "href": "./BD37_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d4dcf497e7d886624b72352cd14fca4403f24f45db1ea8ee349d20dd8293525a"
+    },
+    {
+      "href": "./BD37_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201d35be72cb9304089f5f9a4b90b3bd88048412344e14836411665e05743b0282"
+    },
+    {
+      "href": "./BD37_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b75d7288dfdf2b8e666c42a478b9671e4c7dc82ae3b05cae4e4586970423f5d7"
+    },
+    {
+      "href": "./BD37_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043683ad8ee0e6ef6ae411fbc6b59c1c0bcf1572542a81146d16187a58b84edea"
+    },
+    {
+      "href": "./BD37_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220100963b723623f082b9d1902e4760283617476d161d119280f8ed60fe9c48047"
+    },
+    {
+      "href": "./BD37_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fe3ace3534c1fe4067a0fe72abe28eb4800548a04aab759fb6e657c52bea1fa5"
+    },
+    {
+      "href": "./BD37_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122075237ae00cf6578b4c4ef112931ffc81aea200d9ad477d7909dfa33d11e0f3c6"
+    },
+    {
+      "href": "./BD37_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a1e9dd40a670396bf8543c1a4151571c0d7f9d8951afb15d99b29fd82114044e"
+    },
+    {
+      "href": "./BD37_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201f52cdf10e9bff32bde353bdb83a42aa16dc025c2b06d8907da264be41823c1d"
+    },
+    {
+      "href": "./BD38_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205d6c91d932b212d5df6491a7bbbd3282e302eadca3e62f62f638e9a2ee164dd9"
+    },
+    {
+      "href": "./BD38_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220753cc1c873e3f3537c6f355a030d8cbe2df961a8501dc9229fb4a0e65eeb7484"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] },
+    { "name": "BOPLASS", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "tauranga_2025",
+  "created": "2025-07-10T00:01:15Z",
+  "updated": "2025-07-10T00:01:15Z",
+  "linz:geographic_description": "Tauranga",
+  "extent": {
+    "spatial": { "bbox": [[175.9696946, -37.8919503, 176.4623641, -37.562256]] },
+    "temporal": { "interval": [["2025-02-11T11:00:00Z", "2025-03-01T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220c44c5a5e6a475c820224b84a6e410aabf1cd658989e2df8f11261c08b089def9",
+      "file:size": 3791
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
