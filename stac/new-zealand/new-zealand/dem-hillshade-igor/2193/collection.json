@@ -3,8 +3,7 @@
   "stac_version": "1.0.0",
   "id": "01JPNX2YECEB6MC3DZF5N9T5EP",
   "title": "New Zealand DEM Hillshade - Igor",
-  "description": "Hillshade generated from the New Zealand LiDAR 1m DEM using the -igor option in GDAL. This renders a softer hillshade that tries to minimize effects on other map features.",
-  "license": "CC-BY-4.0",
+  "description": "Hillshade generated from the New Zealand LiDAR 1m DEM and New Zealand Contour-Derived 8m DEM (where no 1m DEM data exists) using the -igor option in GDAL. This renders a softer hillshade that tries to minimize effects on other map features.",  "license": "CC-BY-4.0",
   "links": [
     {
       "rel": "root",
