@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-07/31-imagery-standardising-dxglm/flat/",
+  "target": "s3://nz-elevation/canterbury/canterbury_2020-2023/dsm_1m/2193/",
+  "ticket": "LI-5181",
+  "copy_option": "--force-no-clobber",
+  "region": "canterbury",
+  "flatten": "false"
+}
