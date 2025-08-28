@@ -1,0 +1,200 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K3SD2FWMZAMB38EG5YRX401C",
+  "title": "Nelson LiDAR 1m DSM (2025)",
+  "description": "Digital Surface Model within the Nelson region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP26_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207de900d3de5145f6dcfbb3e88911799199354f520b48520f5b8b052652cec570"
+    },
+    {
+      "href": "./BP27_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d68f12f7ee1581ccbb4502fdd3058e96f57f8c3f0a18822a5aab2ee1540a7426"
+    },
+    {
+      "href": "./BP27_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207e6546fa294aba802c7a93e1a5afa1258801e844fd924537ef0633f67300a535"
+    },
+    {
+      "href": "./BP27_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122085909f5d788b395a447d9f042869b469e54ba12e9fe26c7f713351fa44440479"
+    },
+    {
+      "href": "./BP27_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a89ae0283ee5f5af8619395d6d496b9884ac6b89c8358ab5286a94d6fb4ca3bf"
+    },
+    {
+      "href": "./BP27_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f932421bb6d721daf843576b69e89e0f345fa0a2988c08b7a9c4e83e02ea6db5"
+    },
+    {
+      "href": "./BQ26_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122073ef338b16dd4d4105f2372556125c9826f89287e25a80939ab5c59bd2277ebc"
+    },
+    {
+      "href": "./BQ26_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122048ddc3d1bd5ace97afd4f6e8a23f2d1de5ea1512cbcc2c71b30d4cec35903be3"
+    },
+    {
+      "href": "./BQ26_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122088751b105384a4af347bc3413c57c103b40595ec3e4c9ec8b69adb0b912e60b5"
+    },
+    {
+      "href": "./BQ26_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200bf2819832e552750315ca641cf48a13db03ab2f2ddbe494ce8817ebe1876128"
+    },
+    {
+      "href": "./BQ26_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f1920a6e26565f39d4676de10dc12d83e3f382b38e6fc65d9803b942a8d956cf"
+    },
+    {
+      "href": "./BQ26_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c9928cbaf3fe731a636a804a5720d9e3a455d1fed3067ac979418325d84f85d7"
+    },
+    {
+      "href": "./BQ26_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b4e38ddba6fa3f68cdad99dc1b2c991c4950897797ec400792248059641c040e"
+    },
+    {
+      "href": "./BQ26_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c04220103a8328e11df0aaca66cddff67cd4913b778eea11bdb8cb99c8e28ba2"
+    },
+    {
+      "href": "./BQ26_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a6347217d43f711b927681e040e3d8a47227ac821dc594eb2ada75f0b0f00fe5"
+    },
+    {
+      "href": "./BQ26_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e79f855a8e807ae715a08274310206ee7b806f4d7815286b0983948aff373ae6"
+    },
+    {
+      "href": "./BQ26_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cb87b9a73bc21126213ec9c39be40b943efaf6c72bc74937ea77ed3539e4a7d6"
+    },
+    {
+      "href": "./BQ26_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204f63281c5093847500c956f3377b6cb2e64b655fde3bd78b279611419f653bbd"
+    },
+    {
+      "href": "./BQ26_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fbd0b56c2a26d45e3aa351166a7030d4e64d57491c75242ca8ca0d072f4e2a38"
+    },
+    {
+      "href": "./BQ26_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220092618f9f5506462cadf59b56b395e4e55ca59ddc51ec4448228d98264e9ad4e"
+    },
+    {
+      "href": "./BQ26_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122008b2b56d675586520e9c880118024e25b469608e5caca1e91996b8c245152fb2"
+    },
+    {
+      "href": "./BQ26_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220638ca20b89898f2dbf40edd87c6b208a48eb53e898a373f3351cb6c8d501f1ed"
+    },
+    {
+      "href": "./BQ27_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203b412ffa5d8dfd120f005ea38419a738606414add6a63c50e737024f99cbd6c0"
+    },
+    {
+      "href": "./BQ27_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203d8a7d543c41c781f838184b7a4b49777096bd9195e2739ebc75b017c153703b"
+    },
+    {
+      "href": "./BQ27_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200e1a27ab41f0eb4b6903254406bd4fa4d2a3f289e8782a048814f7e25f8ee563"
+    },
+    {
+      "href": "./BQ27_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122067bf786f1e89b0d93d603eae964c8ea810dffb81faac087b57fd5d6518fe1a02"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Nelson City Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "nelson",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "nelson_2025",
+  "created": "2025-08-28T22:34:17Z",
+  "updated": "2025-08-28T22:34:17Z",
+  "extent": {
+    "spatial": { "bbox": [[173.1432012, -41.4325902, 173.6014303, -41.0420661]] },
+    "temporal": { "interval": [["2025-05-19T12:00:00Z", "2025-05-22T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122080deb688c92f92a20800d93242ef96d3a65e3d0850a7d492fbb7687ec3e13510",
+      "file:size": 56777
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
