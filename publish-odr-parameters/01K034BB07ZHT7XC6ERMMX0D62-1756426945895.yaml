@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-08/29-es-whanganui2-dsm-zcm5h/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/whanganui-river-catchment_2025/dsm_1m/2193/",
+  "ticket": "LI-6325",
+  "copy_option": "--force-no-clobber",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
