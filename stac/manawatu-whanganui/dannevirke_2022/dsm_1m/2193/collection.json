@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K55A3E4D9X6J6JCY8SGN7MJ0",
+  "title": "Manawatū-Whanganui - Dannevirke LiDAR 1m DSM (2022)",
+  "description": "Digital Surface Model within the Manawatū-Whanganui region captured in 2022.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BL36_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122020a3bc17c222d2f94ac02823a7dc0f6bbb16677a90d664a5c104eb3fc0722ece"
+    },
+    {
+      "href": "./BM36_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206ceda9528073516f537b19b2ef240cfb271713d36b72522d62391a306a08de60"
+    },
+    {
+      "href": "./BM36_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fae59a7cf6523aa710b615e885cce96ff11ea360b359bc93531290329f8ce25b"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Tararua District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "dannevirke_2022",
+  "created": "2025-09-14T23:48:57Z",
+  "updated": "2025-09-14T23:48:57Z",
+  "linz:geographic_description": "Dannevirke",
+  "extent": {
+    "spatial": { "bbox": [[176.0686761, -40.2891839, 176.1338432, -40.0933545]] },
+    "temporal": { "interval": [["2022-07-02T12:00:00Z", "2022-10-21T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12200dcde7b4444579eb9d59c525c8b4834bdd52443025e706a491e85503ca3156e6",
+      "file:size": 833
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
