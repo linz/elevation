@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-09/14-es-dannevirke-dem-9g67r/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/dannevirke_2022/dem_1m/2193/",
+  "ticket": "LI-5508",
+  "copy_option": "--no-clobber",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
