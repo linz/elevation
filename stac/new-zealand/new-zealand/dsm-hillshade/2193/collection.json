@@ -1054,7 +1054,7 @@
       "href": "./BL36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220fd380dc2ec096a2c6a2e17d8073770bf4337369e7c210ef2622173ff9b024e46"
+      "file:checksum": "1220eb2edce536a9d8280740a660ddec5adb48df11b29f89789830d5c717602cea08"
     },
     {
       "href": "./BL37.json",
@@ -1108,7 +1108,7 @@
       "href": "./BM36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220bff50ceabefb1668d2e114052737ad84ea22236bcd9f1ec345c1dfc83d89f774"
+      "file:checksum": "1220e6b309a581404afab1b150ebbba9e02d3a095bc226048e27e22bab480586c57f"
     },
     {
       "href": "./BM37.json",
@@ -2566,7 +2566,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-23T05:37:53Z",
-  "updated": "2025-09-01T00:30:09Z",
+  "updated": "2025-09-19T00:30:09Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2010-03-17T11:00:00Z", "2025-06-29T12:00:00Z"]] }
@@ -2578,8 +2578,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220bf7a140e91b3f9abd60826339994648ad8153a941f29ca5dfbf0b5427ac28510",
-      "file:size": 2070367
+      "file:checksum": "1220958287f9fad408df72151d56529d24ecf320b659fb453da538947a203e13c412",
+      "file:size": 2070707
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
