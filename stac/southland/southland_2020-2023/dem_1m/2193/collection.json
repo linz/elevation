@@ -430,7 +430,7 @@
       "href": "./CC09_10000_0201.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220bc59f5d823dd7d0587152fdb07f0d8a5a69d38e40b3541e372a8667f5fc4ab3f"
+      "file:checksum": "1220c1b436fd2fbda269493123d69d58afaf19ead87537b9087f5e46af9361f2b8c1"
     },
     {
       "href": "./CC09_10000_0202.json",
@@ -4004,16 +4004,16 @@
     }
   ],
   "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
     { "name": "Aerial Surveys", "roles": ["producer"] },
-    { "name": "Environment Southland", "roles": ["licensor"] },
-    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] }
+    { "name": "Environment Southland", "roles": ["licensor"] }
   ],
   "linz:lifecycle": "completed",
   "linz:geospatial_category": "dem",
   "linz:region": "southland",
   "linz:security_classification": "unclassified",
   "created": "2024-03-14T00:00:00Z",
-  "updated": "2024-11-14T01:59:26Z",
+  "updated": "2025-09-23T01:51:49Z",
   "linz:slug": "southland_2020-2023",
   "extent": {
     "spatial": { "bbox": [[167.1806453, -46.6893848, 169.3363348, -44.6247872]] },
@@ -4023,10 +4023,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12205c4a744bea8b1fd2da022429def80d863b7d2e3ff57d0c58e047794ce9a700e0",
-      "file:size": 49095
+      "file:checksum": "1220d68276753555b8431377a9a01577e0040578e0eff344fb7285e06e3d33cbf66e",
+      "file:size": 48868
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
