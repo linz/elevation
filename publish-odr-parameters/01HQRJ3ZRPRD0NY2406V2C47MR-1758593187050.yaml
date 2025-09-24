@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-09/23-es-southland2020fix-dem-hqhkz/flat/",
+  "target": "s3://nz-elevation/southland/southland_2020-2023/dem_1m/2193/",
+  "ticket": "LI-6348",
+  "copy_option": "--force-no-clobber",
+  "region": "southland",
+  "flatten": "false"
+}
