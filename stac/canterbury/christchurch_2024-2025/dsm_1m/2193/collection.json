@@ -1,0 +1,208 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K7D5GDMHRECR47H88R9ABDB2",
+  "title": "Canterbury - Christchurch LiDAR 1m DSM (2024-2025)",
+  "description": "Digital Surface Model within the Canterbury region captured in 2024-2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BW23_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220699452cfc146a2bc0e9beedd773116081209272dda8e67ea6e9b73007ee9047c"
+    },
+    {
+      "href": "./BW24_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8bfcaef55d51702b992956250c04cd8f72842b407131ab863dcd4fd17d863c3"
+    },
+    {
+      "href": "./BW24_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d7e8b8cae4d7c0287fe84d425ca5b0ac4bcd9fa05536ce5dbff92cd629d45c6a"
+    },
+    {
+      "href": "./BW24_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122070c451c2e37db432a129b9e7d1441022e49ccc697600172f115f540d6e21f9bd"
+    },
+    {
+      "href": "./BX23_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122081ec9100a479bf0d06a9e37b16781aaf18a0afe9c2006a4a13320a089c3a78b0"
+    },
+    {
+      "href": "./BX23_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200ef461a7dc48e9ad15463eb718662a8c2cc59edb55719eb216550b9d1e241840"
+    },
+    {
+      "href": "./BX23_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205926dad8e1fb82567b4f03c6faa696032cd254399b690aaadb821baddaa16ef6"
+    },
+    {
+      "href": "./BX23_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b23102979f9bb985da5cc5f41d38ff8dd4103d1dda235334968a23f5a551f855"
+    },
+    {
+      "href": "./BX23_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205267ae9d0ea0de0ab707e25b9477ed99abbc03768a338d5e7629446d91fa9be3"
+    },
+    {
+      "href": "./BX23_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122098fc11cd62ab303f3af3ce3a917d9e09c482257112e7b4f82eae6dbbe57c243a"
+    },
+    {
+      "href": "./BX23_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220abaf944814fe1570258ec62521f323a293cae49847dcbe41d330ae4cc2f35440"
+    },
+    {
+      "href": "./BX24_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203f4e55d89beee1faa28f9eaf807b128bd54e34bfd850ceb8a0464e8694cd2f8b"
+    },
+    {
+      "href": "./BX24_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201fe4467dea3a8db9551cd9ec7fd4e6d954bf4104a873af839f21997a4b152414"
+    },
+    {
+      "href": "./BX24_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122075694fff91e785ac3ee16bd3b3429745ad68c259956c0cdc4906d7aa0e87bc4d"
+    },
+    {
+      "href": "./BX24_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206913404bde2e80c6a7be7ad65f69c659fa87f5fa80bb3e3d1a21b5cc130c257d"
+    },
+    {
+      "href": "./BX24_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208d01f20e9aed5c8e37cba99df5b7a0be6aed456aaa166c90579ff93018cdafa5"
+    },
+    {
+      "href": "./BX24_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122008b3b70f18975c8696755ae4c2b141c809a8b019467789831b11934ec19b23b9"
+    },
+    {
+      "href": "./BX24_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f4c9b69a58e93c0ae0620ce78795d4678c3c61ff7617f5fc287c95d04f262bec"
+    },
+    {
+      "href": "./BX24_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220753e70b5655784012815d7bf7189a52f91f60524545e2f9eeb9d734a4d348ab5"
+    },
+    {
+      "href": "./BX24_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220575b074eb821d4d5c76422a1ace68822507bd6e3483be265f5d2ae92a9d5776a"
+    },
+    {
+      "href": "./BX24_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201da4ce9aeb7399613ff755384f62b1c5bf857582f4cc4c0dd326f021a841e931"
+    },
+    {
+      "href": "./BX24_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220084d803116ed639db973db7957c8d8239fb61297cf160c23796debbaf1771848"
+    },
+    {
+      "href": "./BX24_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220755e7d476fd3ec425aa97a6a48485ce2d8a2c28f982e541d7bf9d75a83615ee2"
+    },
+    {
+      "href": "./BX24_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206e25600ab20bebd32a05acc7f1bcbeaa9fdc9ff657d116ea82314bb6c6017efd"
+    },
+    {
+      "href": "./BX24_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205ac1e5d8117ba3b6b4fd6de764825e00f21975b4bf8a94aa7a9aa3b3925db760"
+    },
+    {
+      "href": "./BX24_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f87c9ce1f580b5b60a7e8a55b94804445dfe17cb28fdb0d52c86d3a64d2d4871"
+    },
+    {
+      "href": "./BX24_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209e1b0802ecd6c157e22f5274e3d4d37eef87adab09cccc0b3529dd851d743639"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Environment Canterbury", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "christchurch_2024-2025",
+  "gsd": 1,
+  "created": "2025-10-12T21:33:59Z",
+  "updated": "2025-10-12T21:33:59Z",
+  "linz:geographic_description": "Christchurch",
+  "extent": {
+    "spatial": { "bbox": [[172.3758499, -43.7020304, 172.8513887, -43.376959]] },
+    "temporal": { "interval": [["2024-12-09T11:00:00Z", "2025-01-19T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122089fa33fa8fee565dd7ae2d05a9b7c54cf4fb31b2e0a887bdd099c2b81407a43f",
+      "file:size": 3190
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
