@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-10/12-es-christchurch-dsm-rnd5m/flat/",
+  "target": "s3://nz-elevation/canterbury/christchurch_2024-2025/dsm_1m/2193/",
+  "ticket": "LI-5078",
+  "copy_option": "--no-clobber",
+  "region": "canterbury",
+  "flatten": "false"
+}
