@@ -1,8 +1,0 @@
-{
-  "source": "s3://linz-workflows-scratch/2025-10/16-cron-national-dsm-1760634000/flat/",
-  "target": "s3://nz-elevation/new-zealand/new-zealand/dsm_1m/2193/",
-  "ticket": "TDE-1454",
-  "copy_option": "--force-no-clobber",
-  "region": "new-zealand",
-  "flatten": "false"
-}
