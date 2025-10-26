@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-10/26-cron-national-merged-dem-hillshades-1761521400/dem-hillshade/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade/2193/",
+  "ticket": "TDE-1428",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
