@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/trs/fix-hillshade-capture-areas/dsm-hillshade_1m/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dsm-hillshade_1m/2193/",
+  "ticket": "TDE-1700",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
