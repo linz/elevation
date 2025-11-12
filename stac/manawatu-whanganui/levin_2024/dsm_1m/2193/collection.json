@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K9WXNYGDYY3C8SERG6VH1N6K",
+  "title": "Manawatū-Whanganui - Levin LiDAR 1m DSM (2024)",
+  "description": "Digital Surface Model within the Manawatū-Whanganui region captured in 2024.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BN33_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205f705bbf13ca6f443e6ba5df07712bf82f1c406af1ca35cb57b3829a1ccad91e"
+    },
+    {
+      "href": "./BN33_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208c538b649c948e771b48541d8c0ae6cc6469a9817137abc5c289883dc45909d1"
+    },
+    {
+      "href": "./BN33_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cbac42b5d04e67a4bb6a9452dece41f99c3ac1787b1e95a52d1e02d696cd5d05"
+    },
+    {
+      "href": "./BN33_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e70572a03f2e6c017f13d5baa085435ceb49adde2a490def8e8b677b6c72fc71"
+    },
+    {
+      "href": "./BN33_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b60dc14ca8ba5b9450b97bdfa7dcf1692d66090c6a6720a3018546673f952e66"
+    },
+    {
+      "href": "./BN33_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a84c13e415062f04e16c62492735d654b05a7ca3c516dc7f2a75a8e0d6653408"
+    },
+    {
+      "href": "./BN33_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8758114a0604707e8c8a3278068b3e486738adf3ee63a31fe4eeed4ae02a774"
+    },
+    {
+      "href": "./BN33_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220506443da9b7cf3c291caf3a96700060ccb7a39359263d429eea065dbf80d5da4"
+    },
+    {
+      "href": "./BN33_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122057ea7d0130e044dd9d4d3382fb8680e3c7185182a16297cf23a4c978a1148539"
+    },
+    {
+      "href": "./BN33_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c93c1749c588824f7c7865260be6e87ec3abd53c5ec7ece2ab36549d0c93524c"
+    },
+    {
+      "href": "./BN33_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220250cac2cbb10439bc66b74cf498235947dd9f200f9111c87fe192f5f274196ec"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "New Zealand Transport Agency Waka Kotahi", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "levin_2024",
+  "gsd": 1,
+  "created": "2025-11-12T20:56:26Z",
+  "updated": "2025-11-12T20:56:26Z",
+  "linz:geographic_description": "Levin",
+  "extent": {
+    "spatial": { "bbox": [[175.1305536, -40.8292918, 175.3599279, -40.5656245]] },
+    "temporal": { "interval": [["2024-12-05T11:00:00Z", "2024-12-27T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122098b29f8a365d9164f254aa6d69501c67c225cb6ad9e999f4f820eb98ff26c46c",
+      "file:size": 8754
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
