@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K9ZJQ7Y0W6F3214T2K5GQ9P2",
+  "title": "Otago - Cardrona LiDAR 1m DEM (2025)",
+  "description": "Digital Elevation Model within the Otago region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CB12_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205fdda005c6fbc0656adb1e2a19ff097522030af9921bb7ef13ebe5ad21c6076b"
+    },
+    {
+      "href": "./CB12_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f50f116e8199feff6e05bf6fc504f626eda5bad6565d92a26edd074cb42aa639"
+    },
+    {
+      "href": "./CB12_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205ab188cbac037112a8bd8721258b5ee634c40aade8b96868459372aba4ab3c9a"
+    },
+    {
+      "href": "./CB12_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c40c7972a13a1c98e08ffb6dde503c6b6a35d3ae498a76ba22aedde947cb0483"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Recon", "roles": ["producer"] },
+    { "name": "Queenstown-Lakes District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "cardrona_2025",
+  "gsd": 1,
+  "created": "2025-11-13T21:42:38Z",
+  "updated": "2025-11-13T21:42:38Z",
+  "linz:geographic_description": "Cardrona",
+  "extent": {
+    "spatial": { "bbox": [[168.9551722, -44.9311993, 169.0853206, -44.7976505]] },
+    "temporal": { "interval": [["2025-03-11T11:00:00Z", "2025-03-13T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220c4b14bc72776649f398cfc4d7510fa75fe0aaca907d5e4c98e6dc7076c97a8a1",
+      "file:size": 953
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
