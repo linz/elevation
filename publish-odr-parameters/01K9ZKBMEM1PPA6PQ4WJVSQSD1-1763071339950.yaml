@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-11/13-es-otagocardrona2025-dsm-bsjb8/flat/",
+  "target": "s3://nz-elevation/otago/cardrona_2025/dsm_1m/2193/",
+  "ticket": "LI-5079",
+  "copy_option": "--no-clobber",
+  "region": "otago",
+  "flatten": "false"
+}
