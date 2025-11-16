@@ -1174,7 +1174,7 @@
       "href": "./BN33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cec35bbfb1c24942a619603aef94463d3b2c05a04a10e3dfd892f5b1661001fb"
+      "file:checksum": "1220faff9705d955b60472cfc282ddcfd9af03b02195530e6b975b1394f3171e2411"
     },
     {
       "href": "./BN34.json",
@@ -2566,7 +2566,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2024-12-03T00:51:13Z",
-  "updated": "2025-10-22T23:00:09Z",
+  "updated": "2025-11-16T17:04:42Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-06-29T12:00:00Z"]] }
@@ -2578,8 +2578,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220666922c9ec25e76f8baa13f2c40f2b81006a8a180e31d823a0651f3cf998188a",
-      "file:size": 4355391
+      "file:checksum": "1220844d14cbf3f9cf0d8cd6a72421f818a4f958d2d426df8c4f4e9b3c2bebf7af87",
+      "file:size": 4362351
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -2587,8 +2587,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122000750f90eb411a53cadb42e74bf270469785cad0ee3a7d92cf2201fc16b1d518",
-      "file:size": 3474912
+      "file:checksum": "1220bb773a313b2d1632d5c873b14746c277029b1cfebe84383b2bc576fdcf7f0e29",
+      "file:size": 3474719
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
