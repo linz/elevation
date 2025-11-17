@@ -1,0 +1,58 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KA7T0MGQJM9TCYT6J19Y9X9E",
+  "title": "Otago - Kingston LiDAR 1m DEM (2025)",
+  "description": "Digital Elevation Model within the Otago region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CD11_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200b93818df173974a0b32f34a15593c5f9baa7463806591b52a8a9f63dbd6c49e"
+    },
+    {
+      "href": "./CD11_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200cba88594f1692197fc3325149a60003b70995a9f1170a51f2f67b3dc5b52401"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Recon", "roles": ["producer"] },
+    { "name": "Queenstown-Lakes District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "kingston_2025",
+  "gsd": 1,
+  "created": "2025-11-17T02:24:01Z",
+  "updated": "2025-11-17T02:24:01Z",
+  "linz:geographic_description": "Kingston",
+  "extent": {
+    "spatial": { "bbox": [[168.6784259, -45.3750644, 168.8054722, -45.3058699]] },
+    "temporal": { "interval": [["2025-03-12T11:00:00Z", "2025-03-13T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220c62ef53f3d1982264fed6cae20f0f85e8baf05641c02ac810338af1b82bb887e",
+      "file:size": 2143
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

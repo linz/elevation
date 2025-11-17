@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-11/17-es-otagokingston2025-dem-6pfg6/flat/",
+  "target": "s3://nz-elevation/otago/kingston_2025/dem_1m/2193/",
+  "ticket": "LI-5079",
+  "copy_option": "--no-clobber",
+  "region": "otago",
+  "flatten": "false"
+}
