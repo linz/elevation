@@ -1174,7 +1174,7 @@
       "href": "./BN33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cec35bbfb1c24942a619603aef94463d3b2c05a04a10e3dfd892f5b1661001fb"
+      "file:checksum": "1220f8d69bee884c1616ecf910b9316485fccb959d0c8eb5c3a2ebb74fc375b3f5e3"
     },
     {
       "href": "./BN34.json",
@@ -2284,7 +2284,7 @@
       "href": "./CD11.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12201577579ec956516e6e2a272196ce8d999497180a123925fa501b0bb21b165952"
+      "file:checksum": "1220e76ebb104006c3038e77dd3dd5f116b5c796ec6950d699d6609ec7e24ad4bb12"
     },
     {
       "href": "./CD12.json",
@@ -2566,7 +2566,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2024-12-03T00:51:13Z",
-  "updated": "2025-10-22T23:00:09Z",
+  "updated": "2025-11-23T17:04:48Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-06-29T12:00:00Z"]] }
@@ -2578,8 +2578,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220666922c9ec25e76f8baa13f2c40f2b81006a8a180e31d823a0651f3cf998188a",
-      "file:size": 4355391
+      "file:checksum": "1220c26d80d82a4803610869505f430b3f28aa313c74e31da12181b7c36a1cb5faf6",
+      "file:size": 4365326
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -2587,8 +2587,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122000750f90eb411a53cadb42e74bf270469785cad0ee3a7d92cf2201fc16b1d518",
-      "file:size": 3474912
+      "file:checksum": "1220d54dc951e20aa29c06e0b126c78549662b5cfd72d33d832e5586ec07d4e5f530",
+      "file:size": 3476117
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
