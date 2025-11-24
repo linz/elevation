@@ -132,12 +132,12 @@ There are Hillshade TIFFs in `s3://nz-elevation/` in addition to the DEM and DSM
 
 Indicative output size when compressing [BQ26, DEM Hillshade - Igor](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem-hillshade-igor/2193/BQ26.tiff) with various lossless compression methods is:
 
-| Id                          | File Size (mb) |
-| --------------------------- | -------------- |
-| webp                        | 367            |
-| lerc                        | 478            |
-| zstd                        | 609            |
-| lzw                         | 679            |
+| Id   | File Size (mb) |
+| ---- | -------------- |
+| webp | 367            |
+| lerc | 478            |
+| zstd | 609            |
+| lzw  | 679            |
 
 WEBP compression requires storing the hillshade with 3 bands rather than 1 band, so we have ruled out this option as it deviates from the standard hillshade output that is expected.
 
