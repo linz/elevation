@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-11/25-es-oroua-dsm-wt6tm/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/oroua_2025/dsm_1m/2193/",
+  "ticket": "LI-6750",
+  "copy_option": "--no-clobber",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
