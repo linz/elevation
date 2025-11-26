@@ -988,7 +988,7 @@
       "href": "./BK35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220cf81a973f025d9450e3f73f5d0d485eb28cd27bef58728f43575597b22812998"
+      "file:checksum": "122086a4ee95592e133071c06a470d06ddcaae57e8209452cb11807ab5b97dfacdfb"
     },
     {
       "href": "./BK36.json",
@@ -1042,19 +1042,19 @@
       "href": "./BL34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220fd57ebb0ac19546cdc43e836e8e84316e078b51516a757fea87b7a1b8b69d35e"
+      "file:checksum": "1220bdc982c32f7cfc7293a053b4aa4dc83ab250b7dc996aeda59acb6633ade49222"
     },
     {
       "href": "./BL35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12203858d8988d478d78287667b9b27cf2a6f8ad7d824f6b87dcb3fad2a517ed8172"
+      "file:checksum": "1220ed7593118f0906731f15b883f3e2040f81b23072dcba5f18e7cf7f19ac497841"
     },
     {
       "href": "./BL36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220eb2edce536a9d8280740a660ddec5adb48df11b29f89789830d5c717602cea08"
+      "file:checksum": "1220e11960dd9285fda38fd32c6d422a96cdb2f126c662a80b821b9c70cd957d0de5"
     },
     {
       "href": "./BL37.json",
@@ -1090,19 +1090,19 @@
       "href": "./BM33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12202a6cf33c8e411cb4bd25e500583dc643fc1a78eafb26bda222ac6f990acb151c"
+      "file:checksum": "1220beb0a62fac122cf954c084951f491540e30aadd6a3dfbec2dd321d9d95800f55"
     },
     {
       "href": "./BM34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220d345f91373f72f11738841d34fc7c79da4fe42687af94a18baa398822b9e2f5f"
+      "file:checksum": "1220dd20fe3c7ba21d48628c44e1a57b07954b5cb8037235763b80c5677d34dc6969"
     },
     {
       "href": "./BM35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220e41dbc113506b9d2062636e9ca45743b5b41dead9bd6ed74cb7c69b7c817af04"
+      "file:checksum": "1220611ae170fafad558dff5373cbf54917b261de5973a2c2863bddde7796e06d206"
     },
     {
       "href": "./BM36.json",
@@ -1174,7 +1174,7 @@
       "href": "./BN33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122015351ca2cbb95582e2dcb3d4c3025de6c426d874da43e5886a1ba72baaa827fe"
+      "file:checksum": "1220180824045ab69e555ff89f8a6f4e23a67ae2620b2bd4f72b66b0a36d133dd8cf"
     },
     {
       "href": "./BN34.json",
@@ -2128,7 +2128,7 @@
       "href": "./CB12.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122066898e71903e8129daa9e7748737ccb4864bb0dcd735fabb683d6bea57d57140"
+      "file:checksum": "122096701e09948f987f78a7d98f1da34e392022d24e87f9c49a8a5e8dc8e3d1286c"
     },
     {
       "href": "./CB13.json",
@@ -2284,7 +2284,7 @@
       "href": "./CD11.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220b7c9abedeb25900aee38639329df66ae777f06fb6568d34580eabf8bc0c0e49f"
+      "file:checksum": "1220419e57fdab9e0195a0e943876515356849b25f3c6a47cf4d4b3683919e203e37"
     },
     {
       "href": "./CD12.json",
@@ -2566,10 +2566,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-23T05:37:53Z",
-  "updated": "2025-10-27T19:34:02Z",
+  "updated": "2025-11-26T23:30:27Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
-    "temporal": { "interval": [["2010-03-17T11:00:00Z", "2025-06-29T12:00:00Z"]] }
+    "temporal": { "interval": [["2010-03-17T11:00:00Z", "2025-07-24T12:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -2578,8 +2578,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220ce60d297145e5b4e048a88a5fea7b984cd12031b97f1da60eb65bf1e5646fa31",
-      "file:size": 2069855
+      "file:checksum": "1220299d6a9ca347f69be00c9b846ce0e74086bc3f241372edecbad20767a4eb4470",
+      "file:size": 2042326
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
