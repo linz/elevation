@@ -2170,7 +2170,7 @@
       "href": "./CB12.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220c09ce2429f18b872f54e2315be20d98eea8bb0a347c3898a4cd67459467ad007"
+      "file:checksum": "122000b1e612591688a8aac67dd856165b50c0685356ce06509fa872797d3578a4d3"
     },
     {
       "href": "./CB13.json",
@@ -2722,7 +2722,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-03-19T00:33:08Z",
-  "updated": "2025-11-26T23:34:16Z",
+  "updated": "2025-11-27T20:30:44Z",
   "extent": {
     "spatial": { "bbox": [[166.3157485, -47.5345307, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-07-24T12:00:00Z"]] }
@@ -2734,8 +2734,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220d1795a96a24fceb5ab862e792329cd7fc82522208d3dab0e2c0bef324731d539",
-      "file:size": 12744237
+      "file:checksum": "122095e81e855e11bb805e7cae6cb681d35206268cc085883f41a1e89acc57417ba9",
+      "file:size": 12744288
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
