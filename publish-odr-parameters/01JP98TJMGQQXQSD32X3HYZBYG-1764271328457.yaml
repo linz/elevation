@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-11/27-cron-national-dem-hillshades-4xqgn/dem-hillshade/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dem-hillshade_1m/2193/",
+  "ticket": "TDE-1279",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
