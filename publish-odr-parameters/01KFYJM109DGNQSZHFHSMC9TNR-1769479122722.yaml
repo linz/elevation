@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-01/27-es-wellington-city-2025-dem-bphlj/flat/",
+  "target": "s3://nz-elevation/wellington/wellington-city_2025/dem_1m/2193/",
+  "ticket": "LI-4092",
+  "copy_option": "--no-clobber",
+  "region": "wellington",
+  "flatten": "false"
+}
