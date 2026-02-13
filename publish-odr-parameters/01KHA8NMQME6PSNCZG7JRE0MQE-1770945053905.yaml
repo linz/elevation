@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-02/13-es-hicksbay-dem-78grx/flat/",
+  "target": "s3://nz-elevation/gisborne/hicks-bay-upper-north-island-severe-weather-event_2026/dem_1m/2193/",
+  "ticket": "LI-8226",
+  "copy_option": "--no-clobber",
+  "region": "gisborne",
+  "flatten": "false"
+}
