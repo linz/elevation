@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KHA8NMQME6PSNCZG7JRE0MQE",
+  "title": "Gisborne - Hicks Bay Upper North Island Severe Weather Event LiDAR 1m DEM (2026) - Draft",
+  "description": "Digital Elevation Model within the Gisborne region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BD44_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122022b05daf09f63fc58158f2202ae7a84b85babb0fdf0e7e51e14b0ed5dee67ba0"
+    },
+    {
+      "href": "./BD44_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200f8388c7ca96e98e0313aaafe48cc220393639fc304abefee02d425821d58b1a"
+    },
+    {
+      "href": "./BD44_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e1459b5b793709d2a66f6e8a85a489b7b73f2e352330f8044e577829ae37c918"
+    },
+    {
+      "href": "./BD44_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201981087eec75fb410897a24b2785e6e96a852d64374356ad3a0ffcc701796313"
+    },
+    {
+      "href": "./BD45_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c6123b0efe272e086ac8b06b4c15e0fd06b180fbfda5f636aa59ca798eff99ce"
+    },
+    {
+      "href": "./BD45_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bac96daf30f52835a38b6bf91149a482779400ed875f2e511acd37c9d1cb13b9"
+    },
+    {
+      "href": "./BD45_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122065d46945bc56873262bcd1cf009f793001d52b67dbdc53c680e252947652138b"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Gisborne District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "ongoing",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "hicks-bay-upper-north-island-severe-weather-event_2026",
+  "gsd": 1,
+  "created": "2026-02-13T01:08:31Z",
+  "updated": "2026-02-13T01:08:31Z",
+  "linz:geographic_description": "Hicks Bay Upper North Island Severe Weather Event",
+  "extent": {
+    "spatial": { "bbox": [[178.0798751, -37.6802012, 178.4139545, -37.5485171]] },
+    "temporal": { "interval": [["2026-01-28T11:00:00Z", "2026-01-30T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122092cb90e8edc6d13b7395844b267dcbd8f1afb3a7789d56fae7a93c3ac851b184",
+      "file:size": 6632
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
