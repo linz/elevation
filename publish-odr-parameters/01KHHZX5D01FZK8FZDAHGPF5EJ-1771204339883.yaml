@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-02/16-es-wellington-kapiti-dem-nrhw4/flat/",
+  "target": "s3://nz-elevation/wellington/kapiti-coast_2024-2025/dem_1m/2193/",
+  "ticket": "LI-5205",
+  "copy_option": "--no-clobber",
+  "region": "wellington",
+  "flatten": "false"
+}
