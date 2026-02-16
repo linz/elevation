@@ -1264,7 +1264,7 @@
       "href": "./BP31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122001ab9c839615d44dc76d347e1ad99ed36bcab07d68db0688b8da564843da91c1"
+      "file:checksum": "12206a923e9333bfe2b930ca7057b259bf87801d8c18004a88b75146e3689203eb8b"
     },
     {
       "href": "./BP32.json",
@@ -1360,13 +1360,13 @@
       "href": "./BQ31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122084904526325d54a546ec25fbe9cee759547af30ab0900cf7d3e8e5196ae88179"
+      "file:checksum": "1220556019f055666a3d80b77d726af91618e0af2778c192227b9d004476e7ee5642"
     },
     {
       "href": "./BQ32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122017f4316d1eff417bcee6c276fc4d114e6cf53697b04d956d116c46b150b05e53"
+      "file:checksum": "1220345eaa9268f31f6cfa4fd32907375df12ad822dc2ce76f752bcda395fa68d50a"
     },
     {
       "href": "./BQ33.json",
@@ -2566,7 +2566,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-14T21:02:40Z",
-  "updated": "2025-11-26T17:03:54Z",
+  "updated": "2026-02-16T03:10:06Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2010-03-17T11:00:00Z", "2025-07-24T12:00:00Z"]] }
@@ -2578,8 +2578,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220f1f27950635d4ecf5340912894e36f1824c450ca78e09b3537f0fb6ccdc48722",
-      "file:size": 2857624
+      "file:checksum": "1220dfc1e7511e8a7a0f3984236bf830aefa091dd83eca260f1b6b0d6cd54612a9d9",
+      "file:size": 2854146
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -2587,8 +2587,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12204db92594a5d4b8e6c679d9f2ae88fa6f32375643246693e1feb463f7785b89d0",
-      "file:size": 2041775
+      "file:checksum": "12205382d946a7507bd156faccc9cc1e00361321746a5469a1102f9e713f9127ce56",
+      "file:size": 2041587
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
