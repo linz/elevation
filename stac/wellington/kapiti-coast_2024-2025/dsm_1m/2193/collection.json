@@ -1,0 +1,160 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KHJ04N6PS21FBWV2GSCYBXB7",
+  "title": "Wellington - Kāpiti Coast LiDAR 1m DSM (2024-2025)",
+  "description": "Digital Surface Model within the Wellington region captured in 2024-2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BN32_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e210fca282a13c7baa6132a2d2bf24750676890522ca59464ee614aa3f9242b3"
+    },
+    {
+      "href": "./BN32_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207890d3139ffd6761a66aa9d9c5702fc609e5fa417698cb8105c2b50c7fd19391"
+    },
+    {
+      "href": "./BN32_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b105210f5b9519ce72b0f95fef40dc11f33a6bb1ee0d1ddd3660354e4948776c"
+    },
+    {
+      "href": "./BN33_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207b2c809e7ce7b2e1076d4ad2aba6f32d492d209492632653cdeaa377acb231cc"
+    },
+    {
+      "href": "./BN33_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220da65c7fcb22c0689d0fc925356fbb355aff1deed11dd9ecc9253a70c27e18881"
+    },
+    {
+      "href": "./BN33_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204362c06ad9296a61d9184d3e6cbe5608adf0595f4431798be8488a7aba71284b"
+    },
+    {
+      "href": "./BN33_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122007d2e77ab3c3183f4a9c6c7b5c2e2e0908dadb7f438bc12751a8a0ed83098a93"
+    },
+    {
+      "href": "./BN33_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203f4d66a806b7f0f52d836eced62c3963b749a4da2756a96260951902a9f23805"
+    },
+    {
+      "href": "./BP32_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209cecff634b979ec8f7d239d5002aa8e0ae4d09c70a4442864b021793a9be7c06"
+    },
+    {
+      "href": "./BP32_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220140b7bf3cb7d82231f878447bdeaee1c97148bf9c3012ec342210c5d5e6cd38a"
+    },
+    {
+      "href": "./BP32_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b6c57e65c24e701f65aa97f6fc434a70ba3ee47a1481d2cc78a4a5b40aae8ce0"
+    },
+    {
+      "href": "./BP32_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b98f70be82abecd838ba7cb074b4b93c1bef51c9a63c38d36eba20393c8908ef"
+    },
+    {
+      "href": "./BP32_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206cbd11762897a1fa7a3550b99d77559887bf9dedf7dfc1a2ce6f4dc11d1e4bfb"
+    },
+    {
+      "href": "./BP32_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122045de6c59243c277fb35ff8445cb27c0b3b1bb61bfe6f6fabe40ce2ad9bd83ed5"
+    },
+    {
+      "href": "./BP32_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209a963c1b2feb72b0576c4ca5f2db456d09f7c247df48eda568bc87d189a59051"
+    },
+    {
+      "href": "./BP32_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200d1c4526161a32dbcbf42d83070c73c46bd6cf885564be5cab5580482c6151ca"
+    },
+    {
+      "href": "./BP32_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204fef8fbcffaeed5bc677bea334f9bec0b8803ea8405ecabdaa61497953dc616f"
+    },
+    {
+      "href": "./BP33_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d357eaa59d0632a44985e07d3b0bdd4be82be7932e6f769080060b8b57e5787f"
+    },
+    {
+      "href": "./BP33_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122076222861364af7354f749622410e1ee2f673e76f85255eb5cfbac130f7dd27a2"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Kāpiti Coast District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "kapiti-coast_2024-2025",
+  "gsd": 1,
+  "created": "2026-02-16T01:13:21Z",
+  "updated": "2026-02-16T01:13:21Z",
+  "linz:geographic_description": "Kāpiti Coast",
+  "extent": {
+    "spatial": { "bbox": [[174.9089866, -41.0277519, 175.2506622, -40.6337799]] },
+    "temporal": { "interval": [["2024-12-28T11:00:00Z", "2025-01-20T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12209250c8c33a2cacbea7431c7de0e04c66ae4993629c3ab5f98d0d11b881bcea34",
+      "file:size": 5082
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
