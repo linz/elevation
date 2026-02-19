@@ -1,8 +1,0 @@
-{
-  "source": "s3://linz-workflows-scratch/2026-02/16-cron-national-dem-1771261200/flat/",
-  "target": "s3://nz-elevation/new-zealand/new-zealand/dem_1m/2193/",
-  "ticket": "TDE-1130",
-  "copy_option": "--force-no-clobber",
-  "region": "new-zealand",
-  "flatten": "false"
-}
