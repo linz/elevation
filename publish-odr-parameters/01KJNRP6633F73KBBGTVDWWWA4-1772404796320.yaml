@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-03/01-es-wairarapa-dem-wl7rt/flat/",
+  "target": "s3://nz-elevation/wellington/south-wairarapa_2025/dem_1m/2193/",
+  "ticket": "LI-8244",
+  "copy_option": "--no-clobber",
+  "region": "wellington",
+  "flatten": "false"
+}
