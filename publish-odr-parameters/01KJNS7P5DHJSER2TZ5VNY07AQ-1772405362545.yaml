@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-03/01-es-wairarapa-dsm-8s28g/flat/",
+  "target": "s3://nz-elevation/wellington/south-wairarapa_2025/dsm_1m/2193/",
+  "ticket": "LI-8244",
+  "copy_option": "--no-clobber",
+  "region": "wellington",
+  "flatten": "false"
+}
