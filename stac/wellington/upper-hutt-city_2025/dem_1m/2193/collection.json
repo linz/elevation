@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KK01DXH0B12Z6JX93K9J7YXB",
+  "title": "Wellington - Upper Hutt City LiDAR 1m DEM (2025)",
+  "description": "Digital Elevation Model within the Wellington region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP32_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220289c0c551ce0e7cdbca1b8c12506feca7148f8bb20045c12f710ff18bf50366b"
+    },
+    {
+      "href": "./BP32_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b7b906b1cc3824db78c319cc4592464f8b6710eb0de6eb33b510fde5e3319744"
+    },
+    {
+      "href": "./BP32_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209b92eaccbe4aaaec9df8bb6091be9f626dc57802aa22c14fe1c58caffdc5cc83"
+    },
+    {
+      "href": "./BP32_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ba90a1c7083699351bdf249b46e4495b7d329f6df70a8462cae2310357675a65"
+    },
+    {
+      "href": "./BP33_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122003f02e704d7a834eeae008a875bb8ae361cc957dbe64cd13185710a92ac02ced"
+    },
+    {
+      "href": "./BQ32_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122021175874388224613138902447faf30fe4b41e312d35e7e6a4ef72e35db79cdb"
+    },
+    {
+      "href": "./BQ32_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203acaac4c705b5ea13c69d956e14768175717487dd7506865cf2cd8943516ac90"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Upper Hutt City Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "upper-hutt-city_2025",
+  "gsd": 1,
+  "created": "2026-03-05T22:20:57Z",
+  "updated": "2026-03-05T22:20:57Z",
+  "linz:geographic_description": "Upper Hutt City",
+  "extent": {
+    "spatial": { "bbox": [[174.9717275, -41.2212486, 175.2023473, -41.0237366]] },
+    "temporal": { "interval": [["2025-01-20T11:00:00Z", "2025-01-20T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122089e418c8034d7a310332acb90862de8a8bd7a66ac1b444344b06121a3cc76671",
+      "file:size": 1817
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
