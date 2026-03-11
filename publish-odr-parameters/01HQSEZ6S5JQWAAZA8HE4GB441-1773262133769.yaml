@@ -2,7 +2,7 @@
   "source": "s3://linz-workflows-scratch/2026-03/11-es-wellington2013fix-dem-tpp7t/flat/",
   "target": "s3://nz-elevation/wellington/wellington_2013-2014/dem_1m/2193/",
   "ticket": "LI-6837",
-  "copy_option": "--force",
+  "copy_option": "--force-no-clobber",
   "region": "wellington",
   "flatten": "false"
 }
