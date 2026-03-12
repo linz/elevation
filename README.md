@@ -1,7 +1,8 @@
 # New Zealand Elevation
 
+[![AWS Badge](https://img.shields.io/badge/Open_in_Registry_of_Open_Data_on_AWS-%23FF9900.svg?style=flat&label=New%20Zealand%20Elevation&labelColor=%23232F3E)](https://registry.opendata.aws/nz-elevation/)
 [![STAC Browser Badge](https://img.shields.io/badge/Open_in_STAC_Browser-%2309B3AD?style=flat&label=New%20Zealand%20Elevation&labelColor=%23144E63)](https://radiantearth.github.io/stac-browser/#/external/nz-elevation.s3-ap-southeast-2.amazonaws.com/catalog.json?.language=en)
-[![AWS Badge](https://img.shields.io/badge/Open_in_Registry_of_Open_Data_on_AWS-%23FF9900.svg?logo=amazon-web-services&logoColor=white&labelColor=%23232F3E)](https://registry.opendata.aws/nz-elevation/)
+[![STAC Map Badge](https://img.shields.io/badge/Open_in_STAC_Map-CF4129?style=flat&label=New%20Zealand%20Elevation&labelColor=18181B)](https://developmentseed.org/stac-map/?href=https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json)
 
 Toitū Te Whenua makes New Zealand's most up-to-date publicly owned elevation data freely available to use under an open licence. You can access this through the [LINZ Data Service](https://data.linz.govt.nz/data/category/elevation/), [LINZ Basemaps](https://basemaps.linz.govt.nz/@-41.8899962,174.0492437,z5?i=elevation) or the [Registry of Open Data on AWS](https://registry.opendata.aws/nz-elevation/).
 
@@ -29,10 +30,10 @@ aws s3 ls --no-sign-request s3://nz-elevation/
 
 ## Related
 
-For access to LINZ's aerial and satellite imagery see [linz/imagery](https://github.com/linz/imagery)
-For access to LINZ's coastal elevation data see [linz/coastal](https://github.com/linz/coastal/)
+- For access to LINZ's aerial and satellite imagery see [linz/imagery](https://github.com/linz/imagery)
+- For access to LINZ's coastal elevation data see [linz/coastal](https://github.com/linz/coastal/)
 
-## License
+## Licence
 
 Source code is licensed under [MIT](LICENSE).
 
