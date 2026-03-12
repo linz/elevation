@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-03/12-hillshade-regenerate-gjnzb/dsm-hillshade-igor/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dsm-hillshade-igor_1m/2193/",
+  "ticket": "TDE-1836",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
