@@ -1186,7 +1186,7 @@
       "href": "./BN34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12206f1744393a13f37f18959b48578789d7b335f3951120e9506cbdd36d58b3e7de"
+      "file:checksum": "1220843821194e35440261f219232c20f4d70877c6e7e12270b9e3b8d25f7140cb3b"
     },
     {
       "href": "./BN35.json",
@@ -1276,31 +1276,31 @@
       "href": "./BP32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220c3ef05da5ca391c4f66c1f975c39a09429108a703db73df8737b40ff7b855328"
+      "file:checksum": "1220508dfa6eb07bc374f4cd2aed58e972509b2426a1108822c17b6ba15c41fdc385"
     },
     {
       "href": "./BP33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12204a5cd9b734e5513a0c696be4a2cd0750d9043523a47e6c809b42c4b43abbe748"
+      "file:checksum": "122054c2b0bce3dc1c9ebef624a4cee64ceac4e808b4a739aa5680024913af3e6c3c"
     },
     {
       "href": "./BP34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220903ccb130f4c6db575178b7d8b064fdf4071c52f238f23a0ba99bc4fc038c078"
+      "file:checksum": "1220e104e2b4b256aa02518be8ff0a864b5de3bc8c924af70fab47ef06ca625313ef"
     },
     {
       "href": "./BP35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122025d3f7d7729bfaaaabdb74f3e79a608f720070fba2dced70f5f4bc379c4695d3"
+      "file:checksum": "12209505e627f2771cd78e7807ebd385a2254d3c46039f31d69158025b7cbe23cf29"
     },
     {
       "href": "./BP36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12202edebf54fb18ef18d06ecb0512ca8b1b5a419025497c647dbdb3b3304c999fe0"
+      "file:checksum": "122055beed8753493fdf310df9fef0254e4e7c936345f85d520c79f9c7eccbe7a33b"
     },
     {
       "href": "./BQ21.json",
@@ -1366,25 +1366,25 @@
       "href": "./BQ31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220553597364b9c64e29467ebfc77238a8b28ec3b4612cc0cdc6194d2bef443e9ff"
+      "file:checksum": "122078160774683e78f69f780cc935f0590e60ca24535f193d463bf906248e13130f"
     },
     {
       "href": "./BQ32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220d0388a6f26607beee375442c6a212e3a824bd3eb3d1d6af81464fa1df7c67bd5"
+      "file:checksum": "1220c2583713c343d1debedff5f0802a88cd4c621993934fd1c016cb2f4fbaab1d4c"
     },
     {
       "href": "./BQ33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122067c89917f008115664a1c0393aa18b8fc909ac5c530259c2b7484b45e7ca191e"
+      "file:checksum": "1220b8b316e35390412fa724ccc1b715fd56fc8bbe1ec11047762a9c5cb0b296339b"
     },
     {
       "href": "./BQ34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12203aae5e28c667f48f558eb6a685c0830083bafa1be9defebc7d177e33446d27fb"
+      "file:checksum": "1220bb89edae6897f7cef020847bac7c2eb52cbb76f5dc184f82fb589358fdb80a92"
     },
     {
       "href": "./BQ35.json",
@@ -2722,7 +2722,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-03-19T00:33:08Z",
-  "updated": "2026-03-16T23:32:58Z",
+  "updated": "2026-03-17T23:30:42Z",
   "extent": {
     "spatial": { "bbox": [[166.3157485, -47.5345307, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-07-24T12:00:00Z"]] }
@@ -2734,9 +2734,10 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220ce6092b0c21e682c11e6f8f1294ac888cf9554f103bc54671ee15daf516ef925",
-      "file:size": 12730308
+      "file:checksum": "1220eb0f0f0c439b7bbf8cb6bb50ed495502b9b22c23403ccd57e17a5d853f723900",
+      "file:size": 12730397
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "gsd": 1
 }
