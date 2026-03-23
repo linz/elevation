@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KMECD2W1MRXK1EZRBT11SWP1",
+  "title": "Wellington - Hutt City LiDAR 1m DEM (2025)",
+  "description": "Digital Elevation Model within the Wellington region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP32_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122060e638e7a286e82057fca80b66fdfaa0a2bca47c133361e80d3a9e189d6f099a"
+    },
+    {
+      "href": "./BP32_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220634144fb35005e7382fc1fec0692f24935214786a9a845e85471b03bbab230ab"
+    },
+    {
+      "href": "./BQ31_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204573564ae2c33b81a47292d3f438be6739aa88ff09176384046e7d9ddcbf3981"
+    },
+    {
+      "href": "./BQ31_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fbd5e7612f17ee7e9e2fe18d45e0bd7455ed920c2f6eb632cdc6335a755bc41f"
+    },
+    {
+      "href": "./BQ32_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c17b214c8e97823eb5a67d6309f6486cb299c20d0135b82ce46ed33628eb7efb"
+    },
+    {
+      "href": "./BQ32_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c9e7bf9b878ae7b157f3ec39dd9ca5582aacf0bdd84a1e13347e14d0d5fd1a50"
+    },
+    {
+      "href": "./BQ32_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208fe738c1a24e467cd19a87602b7249043294918766ce2db89ef3e2940e39c561"
+    },
+    {
+      "href": "./BQ32_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d33f09fa6439022c579a66f906d9b5d650be7fd8d5a9c0fbc8523c5590ac5743"
+    },
+    {
+      "href": "./BQ32_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122054c6a16064d86d559baf4a42fe571ad9a75cfd195453fb8fab44e3f30433329d"
+    },
+    {
+      "href": "./BQ32_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aed3eaf513d319379be221870a99aef98c943d8e5f299a6591f9f3c8db3a65af"
+    },
+    {
+      "href": "./BQ32_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204065291873440a6ba796bc4130655e3f644b8a0daf86539880433669d3a84d64"
+    },
+    {
+      "href": "./BQ32_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122007c7ce798252fa13887a23d26c509f5ae03a5a41831198291d4b72ec9fcdb5f9"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Hutt City Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "hutt-city_2025",
+  "gsd": 1,
+  "created": "2026-03-23T22:17:47Z",
+  "updated": "2026-03-23T22:17:47Z",
+  "linz:geographic_description": "Hutt City",
+  "extent": {
+    "spatial": { "bbox": [[174.802131, -41.3527997, 175.034859, -41.0906186]] },
+    "temporal": { "interval": [["2025-01-22T11:00:00Z", "2025-02-02T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220e8fdf6323f10f6394400f135153fc55849b05ad4e1a429b37885ff5c32990f45",
+      "file:size": 4305
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
