@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-03/23-es-huttcity2025-dsm-lgcfm/flat/",
+  "target": "s3://nz-elevation/wellington/hutt-city_2025/dsm_1m/2193/",
+  "ticket": "LI-5455",
+  "copy_option": "--no-clobber",
+  "region": "wellington",
+  "flatten": "false"
+}
