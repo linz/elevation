@@ -2717,7 +2717,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand-contour",
   "created": "2024-12-04T01:48:34Z",
-  "updated": "2024-12-04T01:48:34Z",
+  "updated": "2026-03-27T03:08:06Z",
   "extent": {
     "spatial": { "bbox": [[166.3157485, -47.5345307, 178.6357959, -34.0291036]] },
     "temporal": { "interval": [["2011-12-31T11:00:00Z", "2011-12-31T11:00:00Z"]] }
@@ -2733,5 +2733,6 @@
       "file:size": 4903303
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "gsd": 8
 }
