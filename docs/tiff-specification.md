@@ -70,7 +70,7 @@ LERC is a near-lossless compression allowing a configurable per-pixel Z error (c
 | GDAL Creation Option | Value | Notes |
 |---|---|---|
 | `-co COMPRESS` | `ZSTD` | [ZSTD compression](https://github.com/facebook/zstd) is a high-performance, fast, lossless compression algorithm |
-| `-co LEVEL` | `17` | Highest compression level that produces a significantly smaller file size (at the cost of slower compression, but that is okay for our use-cases) |
+| `-co LEVEL` | `17` | Highest compression level that produces a significantly smaller file size (at the cost of slower compression, which is acceptable for our use-cases) |
 | `-co PREDICTOR` | `2` | Horizontal differencing predictor |
 | `-co OVERVIEW_COMPRESS` | `ZSTD` | ZSTD compression for overviews as well |
 | `-co OVERVIEW_RESAMPLING` | `LANCZOS` | Lanczos resampling for overview generation |
