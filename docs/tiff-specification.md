@@ -3,7 +3,7 @@
 Applies to Digital Elevation Models, Digital Surface Models and Hillshades published in s3://nz-elevation after being processed by Toitū Te Whenua Land Information New Zealand.
 
 For data processing scripts, see [`linz/topo-imagery`](https://github.com/linz/topo-imagery).  
-For workflow configuration, see [`linz/topo-workflows`](https://github/com/linz/topo-workflows).  
+For workflow configuration, see [`linz/topo-workflows`](https://github.com/linz/topo-workflows).  
 
 ## File Format
 
