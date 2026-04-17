@@ -13,7 +13,7 @@ For workflow configuration, see [`linz/topo-workflows`](https://github.com/linz/
 | Profile | Cloud-Optimised GeoTIFF (COG) |
 | GDAL Driver | `COG` (`-of COG`) |
 
-A summary of Cloud-Optimised GeoTIFF characteristics is provided [in the GDAL docs](https://github.com/OSGeo/gdal/pull/3487).
+A summary of Cloud-Optimised GeoTIFF characteristics is provided [in the GDAL docs](https://gdal.org/en/stable/drivers/raster/cog.html#file-format-details).
 
 ## Coordinate Reference Systems
 
