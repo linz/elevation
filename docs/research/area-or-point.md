@@ -15,7 +15,7 @@ When a GeoTIFF is `Pixel Is Point` the TIFF's origin point is shifted by half a 
 
 LINZ Elevation DEM and DSM's previously contained a mixture of `Point` and `Area`.
 
-From a [brief survey of other jurisdictions](./national-dem-dsm/README.md.md) they mostly all use `Area`.
+From a [brief survey of other jurisdictions](./national-dem-dsm.md) they mostly all use `Area`.
 
 Area is also consistent with how [LINZ's Aerial Imagery](https://github.com/linz/imagery) is stored.
 
