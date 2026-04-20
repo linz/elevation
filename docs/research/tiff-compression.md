@@ -17,7 +17,7 @@ LINZ is required to store the elevation data in a safe and secure manner while a
 
 ## Goals
 
-As the data is stored in [AWS S3](https://aws.amazon.com/s3/) every GB of data stored costs LINZ [$0.0025 USD / month](https://aws.amazon.com/s3/pricing/?nc=sn&loc=4), to reduce costs for new zealand the imagery needs to be compressed to ensure cost efficient storage.
+As the data is stored in [AWS S3](https://aws.amazon.com/s3/) every GB of data stored costs LINZ [$0.025 USD / month](https://aws.amazon.com/s3/pricing/?nc=sn&loc=4), to reduce costs for new zealand the imagery needs to be compressed to ensure cost efficient storage.
 
 This data is large and will also be accessed remotely it should be stored in a cloud optimized format so users can extract only the parts of the data they need, [Cloud optimised geotiff (COG)](https://www.cogeo.org/) without downloading the entire TIFF.
 
