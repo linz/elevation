@@ -16,7 +16,7 @@ This repository contains STAC Collection metadata for each elevation dataset, as
 
 - [Naming](docs/naming.md) covers the `s3://nz-elevation` bucket naming structure
 - [Usage](docs/usage.md) shows how TIFFs can be interacted with from S3 using GDAL, QGIS, etc
-- [TIFF Specification](docs/tiff-specification.md) provides technical detail on how our TIFFs are created using GDAL
+- [TIFF Specification](docs/tiff-specification.md) provides technical details on how our TIFFs are created using GDAL
 - [Elevation Compression](docs/research/tiff-compression.md) provides commentary and analysis on the compression options we explored
 
 ## AWS Access
