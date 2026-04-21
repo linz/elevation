@@ -1,11 +1,24 @@
-# New Zealand Elevation TIFF Specification
+# New Zealand Elevation TIFF Specifications 
+
+## LiDAR Capture Base Specification
+
+Toitū Te Whenua Land Information New Zealand publishes a [National Aerial LiDAR Base Specification](https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/lidar-base-specification) which defines data quality requirements and some TIFF specifications that are also covered by the following data storage specification.
+
+These include:
+- GeoTIFFs with georeferencing information contained within each raster file. Our data processing workflows will also handle TFW World File sidecar file containing georeferencing information but this is not encouraged.
+-  Data provided in the NZTM2000 coordinate system and the NZVD2016 vertical datum.
+-  Void areas coded using "NODATA" value equal to -9999, identified in the appropriate location within the raster file header.
+
+Cloud-Optimised GeoTIFFs and the specific compressions used for storage are not part of the base specification, and are outputs of LINZ data processing workflows.
+
+## Elevation Data Storage Specification
 
 Applies to Digital Elevation Models, Digital Surface Models and Hillshades published in s3://nz-elevation after being processed by Toitū Te Whenua Land Information New Zealand.
 
 For data processing scripts, see [`linz/topo-imagery`](https://github.com/linz/topo-imagery).  
-For workflow configuration, see [`linz/topo-workflows`](https://github.com/linz/topo-workflows).  
+For workflow configuration, see [`linz/topo-workflows`](https://github.com/linz/topo-workflows). 
 
-## File Format
+### File Format
 
 | Property | Value |
 |---|---|
@@ -15,7 +28,7 @@ For workflow configuration, see [`linz/topo-workflows`](https://github.com/linz/
 
 A summary of Cloud-Optimised GeoTIFF characteristics is provided [in the GDAL docs](https://gdal.org/en/stable/drivers/raster/cog.html#file-format-details).
 
-## Coordinate Reference Systems
+### Coordinate Reference Systems
 
 | Type | Name | EPSG Code |
 |---|---|---|
@@ -24,12 +37,12 @@ A summary of Cloud-Optimised GeoTIFF characteristics is provided [in the GDAL do
 
 Each TIFF contains the spatial reference information for NZTM2000. NZVD2016 is not recorded in the GeoTIFF metadata.
 
-## Spatial Resolution
+### Spatial Resolution
 
 1m for all LiDAR-sourced DEMs, DSMs and Hillshades.  
 s3://nz-elevation also contains a [contour-derived DEM](stac/new-zealand/new-zealand-contour) that is 8m spatial resolution.
 
-## Band Configuration
+### Band Configuration
 
 | Data Type | Bands | Bit Depth | Colour Interpretation | Nodata | Interleave |
 |---|---|---|---|---|---|
@@ -38,7 +51,7 @@ s3://nz-elevation also contains a [contour-derived DEM](stac/new-zealand/new-zea
 
 No alpha band is used for elevation data.
 
-## COG Driver Options
+### COG Driver Options
 
 The following [GDAL COG driver creation options](https://gdal.org/en/stable/drivers/raster/cog.html#creation-options) are applied to all TIFFs:
 
@@ -51,9 +64,9 @@ The following [GDAL COG driver creation options](https://gdal.org/en/stable/driv
 | `-co OVERVIEWS` | `IGNORE_EXISTING` | Always regenerate overviews (never build from pre-existing lossy overviews) |
 | `-co STATISTICS` | `YES` | Compute and embed raster statistics (ensures that GIS software can immediately accurately display the data) |
 
-## Compression
+### Compression
 
-### DEMs/DSMs - `LERC`
+#### DEMs/DSMs - `LERC`
 
 | GDAL Creation Option | Value | Notes |
 |---|---|---|
@@ -65,7 +78,7 @@ The following [GDAL COG driver creation options](https://gdal.org/en/stable/driv
 
 LERC is a near-lossless compression allowing a configurable per-pixel Z error (can also be completely lossless, but this removes one of the main advantages of LERC). The 1mm full-resolution error is well within the ~20cm vertical accuracy of the source LiDAR data. Overview error is relaxed to 10cm as overviews are used for visualisation only.
 
-### Hillshades - `ZSTD`
+#### Hillshades - `ZSTD`
 
 | GDAL Creation Option | Value | Notes |
 |---|---|---|
@@ -75,9 +88,9 @@ LERC is a near-lossless compression allowing a configurable per-pixel Z error (c
 | `-co OVERVIEW_COMPRESS` | `ZSTD` | ZSTD compression for overviews as well |
 | `-co OVERVIEW_RESAMPLING` | `LANCZOS` | Lanczos resampling for overview generation |
 
-## File Naming Convention
+### File Naming Convention
 
-Output files are named using the LINZ tile index grid name, e.g. `BK27_1000_0101.tiff`.
+Output files are named using the LINZ tile index grid name, e.g. `BK27_10000_0101.tiff`.
 
 Individual 1m resolution LiDAR survey outputs are tiled to the [NZ 1:10k Tile Index](https://data.linz.govt.nz/layer/104690).  
 The 8m contour-derived DEM and combined national DEM, DSM and Hillshade datasets are tiled to the [NZ 1:50k Tile Index](https://data.linz.govt.nz/layer/104687).
