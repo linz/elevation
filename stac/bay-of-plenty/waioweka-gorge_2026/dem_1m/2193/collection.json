@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KQGN0JANCJ6X742X4DESP4CK",
+  "title": "Bay of Plenty - Waioweka Gorge LiDAR 1m DEM (2026)",
+  "description": "Digital Elevation Model within the Bay of Plenty region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BF41_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b348662bf8735a02edcfb56dc03fe246a90592437051e5a7a12d6d36fc3884dd"
+    },
+    {
+      "href": "./BF41_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200618f5efe9c5d17548f8da8b11713e3f458d4074bd1f855e4aaa6ea8fac24b1a"
+    },
+    {
+      "href": "./BF41_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207d4599b4d09687b7907407429047c3b92a213445c8edfa103b015b6c6ec1f1e6"
+    },
+    {
+      "href": "./BF41_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122046f384e6e762110d6f334ac2567b61f0a6e2292e417d117e65b3aed4329a22e3"
+    },
+    {
+      "href": "./BF41_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208b0bf349b7f13e97b40871c3332a17b872198d0b70f7a1418ee4c03594453025"
+    },
+    {
+      "href": "./BF41_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122097bd68d1c5e23f4cdcee57ae3a5f099260eaae0f4e16afe2fa38f35635b8f7a2"
+    },
+    {
+      "href": "./BF41_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204e9542bbe56bd1ce90c1ffea2299b9c2e0f4f71fc2af1dda8a17d4ed3d0aeb41"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "New Zealand Transport Agency Waka Kotahi", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waioweka-gorge_2026",
+  "gsd": 1,
+  "created": "2026-05-01T02:13:49Z",
+  "updated": "2026-05-01T02:13:49Z",
+  "linz:geographic_description": "Waioweka Gorge",
+  "extent": {
+    "spatial": { "bbox": [[177.2463438, -38.3672468, 177.4768312, -38.1731423]] },
+    "temporal": { "interval": [["2026-01-31T11:00:00Z", "2026-01-31T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12205e73d37c4f39307a8ff32a442d2b490a524b0727e6de250e3428b7820a44455e",
+      "file:size": 7734
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
