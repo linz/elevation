@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KS6C5X66WSFJ39J7RD8671R1",
+  "title": "Gisborne - Hicks Bay Extension LiDAR 1m DEM (2026)",
+  "description": "Digital Elevation Model within the Gisborne region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BD44_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209b669cadd5493c21166bafe909148378d03d7ac35211492e558e458c4047cf40"
+    },
+    {
+      "href": "./BD44_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ad1f2d4c9d3a6716a92db68d1eae6104a2c5dbb764d32efd7a5b59bec753b742"
+    },
+    {
+      "href": "./BD44_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a77294bf48e1f1662d1f25593564f1205624939584d40e4bb787ac7f53bae10f"
+    },
+    {
+      "href": "./BD44_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220be8911c1f30d0695eb57470f4ec67e55e1916c1336bd3dee108fa452fb3aabee"
+    },
+    {
+      "href": "./BD44_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122046b54735f220d423f2f4de25fc12dfcc294a7c2a0832e643b97a9b38ed7b0d3c"
+    },
+    {
+      "href": "./BD44_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c4829858e0f4a894ab74edea540a550c7e91d35a2c2b6a1fafc0eec9123f3dcc"
+    },
+    {
+      "href": "./BD45_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205d3bb2f4fac2274b9c63d2469453b859f8ca8cb8dd9a165447d95ddbe3fe551e"
+    },
+    {
+      "href": "./BD45_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a402f672fe944df4b8e771ff5ee698b3273606fab4a28f06f90fdfa28440e110"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "New Zealand Transport Agency Waka Kotahi", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "hicks-bay-extension_2026",
+  "gsd": 1,
+  "created": "2026-05-21T22:58:26Z",
+  "updated": "2026-05-21T22:58:26Z",
+  "linz:geographic_description": "Hicks Bay Extension",
+  "extent": {
+    "spatial": { "bbox": [[178.0798751, -37.6874257, 178.4139545, -37.5509635]] },
+    "temporal": { "interval": [["2026-01-29T11:00:00Z", "2026-01-31T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202f4bf451d676e2f1257d693fac8b62b3ab7ac3df085ed00868704acc52145ebe",
+      "file:size": 2621
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
