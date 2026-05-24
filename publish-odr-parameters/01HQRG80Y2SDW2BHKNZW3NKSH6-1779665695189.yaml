@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-05/24-imagery-standardising-hwrbf/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/manawatu-whanganui_2022-2023/dem_1m/2193/",
+  "ticket": "TDE-1936",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
