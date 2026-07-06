@@ -1,0 +1,12 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+    cooldown:
+      default-days: 15
+    ignore:
+      - dependency-name: pkg:localrepo/localrepo/local?repository_url=target
+      - dependency-name: pkg:localrepo/localrepo/local?repository_url=target
