@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-07/17-es-hamilton-2025-dem-rrckf/flat/",
+  "target": "s3://nz-elevation/waikato/hamilton_2025/dem_1m/2193/",
+  "ticket": "LI-6174",
+  "copy_option": "--no-clobber",
+  "region": "waikato",
+  "flatten": "false"
+}

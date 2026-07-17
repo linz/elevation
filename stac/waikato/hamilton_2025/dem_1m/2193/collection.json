@@ -1,0 +1,184 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXPPHVMRT1Z99DMAPWQFZG8H",
+  "title": "Waikato - Hamilton LiDAR 1m DEM (2025)",
+  "description": "Digital Elevation Model within the Waikato region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BD33_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fe2b8af5c7f36d94d73ce6809a2363e2edb00905c5073a85481646462353f5d4"
+    },
+    {
+      "href": "./BD33_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220038055b5eb6eae2c9d77fdee6e40067dfced9cf1ed97125347731381a26a0146"
+    },
+    {
+      "href": "./BD33_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220167148c6d07cdb14793b83dbe0df8f5a4dda088c201ed94ff21d2fde5601f49e"
+    },
+    {
+      "href": "./BD33_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208c1541e36f2498e33c7ded834ff47ef5dcf42e2dc92f07b451d0d8d5034d6ad9"
+    },
+    {
+      "href": "./BD33_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e1ca3e46ba15730c89041bf75287792468416c25950168860e836b2cc2fde656"
+    },
+    {
+      "href": "./BD33_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122025321190e23cd351de8ad934f7bbcfa4e378032bb7be97302261ce4bbe767876"
+    },
+    {
+      "href": "./BD33_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c1da2bd769f4ffcd776ef6f4ce9733e46469132992f45b06d52ef6ce0834e599"
+    },
+    {
+      "href": "./BD33_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201083dab7610fb7b78565fc1c4640f969ea0161b0ee2273f35f937db43e85d96c"
+    },
+    {
+      "href": "./BD33_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220607f83723ec73dc1d0b097e22099ea714e55afd7b45f8e810301ec36160ae50d"
+    },
+    {
+      "href": "./BD33_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a3c5c971321fc6e4099063d2a5707fcb872e145a95e87df7b21895a42e43730c"
+    },
+    {
+      "href": "./BD33_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220df251ca1c20d12941e7c02c3536ba59bceb33b9fd539f04649913ae2dab000d5"
+    },
+    {
+      "href": "./BD33_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aca1ea77b408502b0c193850eb77a7b55106df2b490ca14b03d397a300e95945"
+    },
+    {
+      "href": "./BD33_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d02ea4220654f62b3354a47c298d5c1f8e328778dbf75d39b2aa9b4336466549"
+    },
+    {
+      "href": "./BD33_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d5b141eae43fad9d2071ee7bea01468270b84eeaa2abb62aae1661df856fb812"
+    },
+    {
+      "href": "./BD33_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122068cab607149543f6d741d6209b4e15f5b077204131804856f4312228dd979a5b"
+    },
+    {
+      "href": "./BD33_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ce794f939b550be459a483a0f0cb0de24948539c55471306caa56dee7a0b1751"
+    },
+    {
+      "href": "./BD34_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122010866761d479e3442d8b86f43af6f8e4890205d2c2f8239cb22637bf83c0f04e"
+    },
+    {
+      "href": "./BD34_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122069f0ab6bf7a7a5ed23bbe8c54931fb12016198564da0d3efa9a62c5c782d9fc1"
+    },
+    {
+      "href": "./BD34_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a289258971c3de1c3012c29d497239fdb6c99a019d61072a2a9004381e951f54"
+    },
+    {
+      "href": "./BD34_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204a470d7753026685ede84d138fbade6e9271c18e7729836f439d673561d0724d"
+    },
+    {
+      "href": "./BD34_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b77fb18538b59bf07133d27368c41fa77e5913a1df9d0b1834425de2dbaaa74e"
+    },
+    {
+      "href": "./BD34_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220223bb714ae38fd3cc7509a74f62e17fd5c4768ca15c05bfc071d2abf24a782cb"
+    },
+    {
+      "href": "./BD34_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122081820f7116a88a1d5aa85a0a1eb2617d40b7029a40b9daf05d3e870c3ed043a8"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] },
+    { "name": "Hamilton City Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "hamilton_2025",
+  "gsd": 1,
+  "created": "2026-07-17T00:10:21Z",
+  "updated": "2026-07-17T00:10:21Z",
+  "linz:geographic_description": "Hamilton",
+  "extent": {
+    "spatial": { "bbox": [[175.0930298, -37.9097967, 175.4295474, -37.5845465]] },
+    "temporal": { "interval": [["2025-11-21T11:00:00Z", "2025-11-28T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202daf9baa3a72784c6b132f227418d9274693d28804be5cd2cff1edcb3b2e35f5",
+      "file:size": 1065
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
