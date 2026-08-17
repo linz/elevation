@@ -1,0 +1,238 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M08PEAESCPMN9JBYR5V883TC",
+  "title": "Manawatū-Whanganui - Horowhenua LiDAR 1m DSM (2025)",
+  "description": "Digital Surface Model within the Manawatū-Whanganui region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BM33_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220845cbdd42529b990420d821816cf2b069151d2fdd3f773bab0f62af7cb32e286"
+    },
+    {
+      "href": "./BM33_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200eba52f996579fb929a635c436718cd0550f15717520465630aeec4251017a2d"
+    },
+    {
+      "href": "./BM33_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a11c5726943625d56d622dac1c57b93c9f1024e7b16291a85b19e1ce878485a6"
+    },
+    {
+      "href": "./BM33_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206b106369abc44c295bd4d330068f7b9a4a849a7b330e32bd2e31abb377fb5623"
+    },
+    {
+      "href": "./BM33_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204895c132a2810737a6cd59111c31f4f314657efb9f859ae03c5c886568ff3ab3"
+    },
+    {
+      "href": "./BM33_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d353ee1a55f6ceab14305f660916059900d9545ec5a6d50ddc3f3f8df8230a03"
+    },
+    {
+      "href": "./BM33_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220309ea5d216fce259c15ea301e934408ba963cb03576d90fc8264c5e72273e105"
+    },
+    {
+      "href": "./BM33_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bb2d6e38621f3c5aadbbb10004bdd2014168fe58404997e0624c4c42d24c90c3"
+    },
+    {
+      "href": "./BM34_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122009598ebf3730c9705bab557d4fe0a598687a427c894f763f539f3a8e50c37a05"
+    },
+    {
+      "href": "./BM34_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ec98fe3b70dce359f15512895d77fe88bfe7ec1e463b24fd56d1924409059644"
+    },
+    {
+      "href": "./BM34_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220adb2d3f42fe589d22438eb36797000410daab889300cf4805019119fdbe1db5c"
+    },
+    {
+      "href": "./BM34_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201b90a9af81f742785a03b79526d85a5c0d29bd65e093002b14faeaa08c262b66"
+    },
+    {
+      "href": "./BM34_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200995c37b43f15d346d581bdae67e6d03ecd9b0215bb6b6dc9ca8db83085bcb6d"
+    },
+    {
+      "href": "./BN32_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b750ff4f3d840f1a4582c833ae23258d6677913c4c68f09c7cd7311c40e49759"
+    },
+    {
+      "href": "./BN32_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209db9069105d7727f5ef89868bd6f58fbdd699ae1744cfe035744b406bf2e19ae"
+    },
+    {
+      "href": "./BN33_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122036dc01ed19fbef50ef0ae4d02369befce601de41e1b352ea2fc722a8bed5c033"
+    },
+    {
+      "href": "./BN33_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122075c1a47f72e7720865878a4fd9e8930552c0940e064fe5fa6d21dbb500c2949a"
+    },
+    {
+      "href": "./BN33_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200407bd98ab4d61acda027e468b235c62d96f2be942fec39e3c8367d7eefbfaaa"
+    },
+    {
+      "href": "./BN33_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202de590d84afddba8bbc6af3bdc6d2a5a3db62adefe00f2d4df9bd2fe00a30079"
+    },
+    {
+      "href": "./BN33_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220042356cc12e12824f85810572b1447e2e3d687d46ce3eeafc2e6b9ac343671ca"
+    },
+    {
+      "href": "./BN33_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204fbdd0bbd9cf9e30d1f0e0051d12b5f8b03fecc5b7c83eb3a94589a9e3fc2ac7"
+    },
+    {
+      "href": "./BN33_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aa7a9558fcde377923e19a1213708ec2affe9b53651cb3dbd0c80e9ffaedd277"
+    },
+    {
+      "href": "./BN33_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b24a360872960ea5de48f54b3e88d6702fb739eeecc61806daa17cdc0e60aec9"
+    },
+    {
+      "href": "./BN33_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b981036fab07803e73fddb21f0a8dedaea415a276a393a0b97fbea0d7fa8949d"
+    },
+    {
+      "href": "./BN33_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200c975e08d870eafb1ebdc4e6325a4f01fe70f899ced841554c70ae57aaca2273"
+    },
+    {
+      "href": "./BN33_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fa6af15b421aec2f1e67834f6f25d573cc5e4ba440f6ca364cfe37e3bf631cef"
+    },
+    {
+      "href": "./BN33_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208fc5dce3f475f3331cbce1ad2ef2cd695b4baf77d0a7e366e5120cb1b44edbe9"
+    },
+    {
+      "href": "./BN33_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122028e26ab5659f7dfc3ae6ab12cc68ad08168e1692b85615de58919b35f3d73968"
+    },
+    {
+      "href": "./BN33_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209163694f9672c9da16d32916b418c1e91c4e191a03610c43a5237ddbdfd43ef9"
+    },
+    {
+      "href": "./BN34_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a7b3e6a7c923614b234d9ac0a2b15caf0211202da3d12e5fe6b43ee4e2ddff1f"
+    },
+    {
+      "href": "./BN34_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122059bc92c2b672f724e24ce5f55c02706fbc948077b93da6a5769d6457b32f69e3"
+    },
+    {
+      "href": "./BN34_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122015b4504d772511aca1c1dd922101ce43851118ff4d0c4a11ce804fb8a4efb85d"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Aerial Surveys", "roles": ["producer"] },
+    { "name": "Horowhenua District Council", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "horowhenua_2025",
+  "gsd": 1,
+  "created": "2026-08-17T20:26:09Z",
+  "updated": "2026-08-17T20:26:09Z",
+  "linz:geographic_description": "Horowhenua",
+  "extent": {
+    "spatial": { "bbox": [[175.0717669, -40.765512, 175.5771907, -40.3676282]] },
+    "temporal": { "interval": [["2025-04-24T12:00:00Z", "2025-05-04T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122009046bf4c70b0b59de29ab88409d23ba449579b06a23b343ac8f59888ff68e40",
+      "file:size": 17738
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
