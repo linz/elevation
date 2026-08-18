@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-08/17-es-horowhenua-dem-bwclk/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/horowhenua_2025/dem_1m/2193/",
+  "ticket": "LI-7491",
+  "copy_option": "--no-clobber",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
