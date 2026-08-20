@@ -1090,13 +1090,13 @@
       "href": "./BM33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12204ec5033ae1f0f88cdbc64266b87c5c703c463d248309c89b4e9755d8ecdf4e10"
+      "file:checksum": "1220d92af60d04e0bb931d93c7177d8d75b967acfbdfa1541d64f89df63d32f8a4a0"
     },
     {
       "href": "./BM34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220a51a2d7c8ed6611b31f054ce589e5abb47eac2590f63fca3136c860dcf4bd0e3"
+      "file:checksum": "1220f6f8b1f0be275a572509cafc8877fec4e8a19744250fd3fcc5ef1a9c5dc00178"
     },
     {
       "href": "./BM35.json",
@@ -1168,19 +1168,19 @@
       "href": "./BN32.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220e728b746dd823055a07c42c51f933f20da0b6bc19f0554f2e2fd064898aa98d3"
+      "file:checksum": "12201fcb79d6f1f94c954b975e7b4cbfb8c5a2d14f65a4ee7b05047f8e71e2625df5"
     },
     {
       "href": "./BN33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122051f512cb5e77f54cf052e8d8942fa188de30783171afaae3d8bc4bff16b52ab5"
+      "file:checksum": "1220aeef15c17fbd7fe3528e4d0b75f23de2a1e2b1fbee44339de8d2bfc231edf53f"
     },
     {
       "href": "./BN34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12209c6a00c51ed8450b166f19ffcefd84ead60defacd50be139234d57653a3d1994"
+      "file:checksum": "1220c55f9556bfb9df2d2ef45bcc024b0c9970b1547a1871c53d923973509d348e6e"
     },
     {
       "href": "./BN35.json",
@@ -2566,7 +2566,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-14T21:02:40Z",
-  "updated": "2026-05-25T01:47:51Z",
+  "updated": "2026-08-20T18:04:59Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
     "temporal": { "interval": [["2010-03-17T11:00:00Z", "2025-07-24T12:00:00Z"]] }
@@ -2578,8 +2578,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12203703b9dfdc88bd6248ceaa39e75abd13744f55f58c73aa10a184f7957958d752",
-      "file:size": 2749690
+      "file:checksum": "122064adebbf99c20bf9487731efc256968e9ace33e6b3263cd5d4701a337086f4d4",
+      "file:size": 2755472
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -2587,8 +2587,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220f86eb7f96118c7ba4cb86baa6a5b77270cc0731590dd53d2dcf8efc612babbf3",
-      "file:size": 1978159
+      "file:checksum": "1220cc7fb7c4c5263a30620fe956ab6b71ce482320e7a2db272b464c895114bf32d2",
+      "file:size": 1960195
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
