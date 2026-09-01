@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/01-es-levin-dsm-k4t5f/flat/",
+  "target": "s3://nz-elevation/manawatu-whanganui/levin_2024/dsm_1m/2193/",
+  "ticket": "LI-7491",
+  "copy_option": "--force-no-clobber",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
