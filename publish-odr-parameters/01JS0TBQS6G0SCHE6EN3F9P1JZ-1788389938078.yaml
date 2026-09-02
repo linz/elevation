@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/02-national-hillshades-dsm-gm5f8/dsm-hillshade/flat/",
+  "target": "s3://nz-elevation/new-zealand/new-zealand/dsm-hillshade_1m/2193/",
+  "ticket": "TDE-1896",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
