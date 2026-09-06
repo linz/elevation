@@ -412,13 +412,13 @@
       "href": "./BD33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122005ef7f8e1afeae3e56471ace7833393b07ee7c1bcdf14dffd29c20d132f92c1a"
+      "file:checksum": "1220541bcd4a7d9647e66fc83ab693f94e865fe87876d4cb7cdf112cceb52fc816dd"
     },
     {
       "href": "./BD34.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122025649f7e2467b083fd32ba56ef76100da4f7b07cef9f6a4997372270fd8cf3c1"
+      "file:checksum": "12209d4d5c0fb45c4487120c24203385c670eb1b33e23074b114cc59ce29d7e56eb2"
     },
     {
       "href": "./BD35.json",
@@ -2566,10 +2566,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2024-12-03T00:51:13Z",
-  "updated": "2026-09-02T18:03:18Z",
+  "updated": "2026-09-06T18:04:52Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
-    "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-07-24T12:00:00Z"]] }
+    "temporal": { "interval": [["2008-04-30T12:00:00Z", "2025-11-28T11:00:00Z"]] }
   },
   "assets": {
     "capture_dates": {
@@ -2578,8 +2578,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12201d07f1abdc63bf497722e3286790f08b562677b21b8eb1fc97507c3b5eaa0e69",
-      "file:size": 4226962
+      "file:checksum": "1220bed537ddbca39b24aef4130b34c97101e0231760bdaf1a4ce6b8bdbbe450471d",
+      "file:size": 4226906
     },
     "capture_area": {
       "href": "./capture-area.geojson",
