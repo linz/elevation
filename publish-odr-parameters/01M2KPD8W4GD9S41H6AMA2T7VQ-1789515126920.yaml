@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/15-es-mackenzie-2026-dsm-mt66s/flat/",
+  "target": "s3://nz-elevation/canterbury/mackenzie_2026/dsm_1m/2193/",
+  "ticket": "LI-8420",
+  "copy_option": "--no-clobber",
+  "region": "canterbury",
+  "flatten": "false"
+}
