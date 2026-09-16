@@ -1,0 +1,304 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2M09J1JAH0554TAPYYSZF7A",
+  "title": "Canterbury - Waitaki LiDAR 1m DEM (2026)",
+  "description": "Digital Elevation Model within the Canterbury region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BZ19_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206cc4dcfaf744b82fb473603f95f8aacc36721970444c581ac424e879cd2e42bd"
+    },
+    {
+      "href": "./CA18_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206499e8b3e81a2c59411bc95e5a0b3f708b8a51632490a4d0717dd6581fa05089"
+    },
+    {
+      "href": "./CA19_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e08b907b2b3ace4178fb668240051fa50cfa0f95580e0160c3f8116d7121f6b5"
+    },
+    {
+      "href": "./CA19_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122053c252e62f3b6e7097b55b4b52456322ff07fe0f505888f91df37c54e701397a"
+    },
+    {
+      "href": "./CA19_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ba50582a6c3114d2f6ac85a4e0d874bb42aebdcb414a20677b0a700c92aabe07"
+    },
+    {
+      "href": "./CA19_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200a65b3e976bd42059b7137e94886eb8aa83cb81410cc86f30303ed5d53e9396e"
+    },
+    {
+      "href": "./CA19_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122085f5e23e75b2561756cd7bce47813ad5d5b872fcb1954b9e92b1d6c6c5d03560"
+    },
+    {
+      "href": "./CA19_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e3ea96f64254eb0a63fae7327044df97c885ccba5938a36d1229cbab6ab6859a"
+    },
+    {
+      "href": "./CA19_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122034cc0121333cbd755c04f742a473ccc26dffc3b9e67c85be52c6537142d81f06"
+    },
+    {
+      "href": "./CA19_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122025c0f4d625226d92396957632dc848df342a9b19e1b3565a494559c1124af166"
+    },
+    {
+      "href": "./CA19_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208c8226c540ab368df3e823ec78885aa40f799ac4abccd8312b2e18d2124779a6"
+    },
+    {
+      "href": "./CA19_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208b00481edd596ecf473f6e0d4d4f5a7354032b0f3ef4a00a8bc01db4b3e88468"
+    },
+    {
+      "href": "./CA19_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122085c50e7fa17893b8421be71779e7039b9aa5cd5c0b3ea670097c6012d0c8cc80"
+    },
+    {
+      "href": "./CA19_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a7fbd8bb86811865b5cd433c8715206343f87327fb7e9f7f5bb9d827352b8076"
+    },
+    {
+      "href": "./CA19_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204f399bd9f34e07a848849ecbeb47e18c382b458f542b354ced5794ecadaaa4e0"
+    },
+    {
+      "href": "./CA19_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203d3f542f3eb7636070864427527f598fae2d16e470c775731ec07c0668271c04"
+    },
+    {
+      "href": "./CA19_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220be195e0a3ff5f476d09c2a9f25682da97c24cff10518da5047ca7e9a3caea51c"
+    },
+    {
+      "href": "./CA19_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d01daefe716b815b2557dfe13d9ddd17b8b064ec9215f50389452120921bc4cc"
+    },
+    {
+      "href": "./CA19_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122060aa5412228d400774beb38b308c1aeb17200f39fddc82c9fbfe85dc999a66d4"
+    },
+    {
+      "href": "./CB18_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ffe86b491f0fec2d1877831ba40ffed9f856937510337a9eee659d6ad2aa1144"
+    },
+    {
+      "href": "./CB18_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205c23250d8df4a66e19b5506b455cd57d360bfe8787cbfb56e9a9320bdbfe6a87"
+    },
+    {
+      "href": "./CB18_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122021ef0fe238fcb21711dd9e27b95a6aebd3381baeb7f470f6e0892e08426463da"
+    },
+    {
+      "href": "./CB18_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e756e127f5dbfae219aadc8d485b8d6d6eea72e1d25dbc34e49c00712ff416c4"
+    },
+    {
+      "href": "./CB18_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a81d995e6f6eae03809e8518efb103d358bf80ad9c8615136f069f02ed52d011"
+    },
+    {
+      "href": "./CB18_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122031062a2a4bd27d92f2669b3d721635c534f0f62837346fe03089bd840118459b"
+    },
+    {
+      "href": "./CB18_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205330598790d6ebf1664bf40aa86c98c829a827050a9759db6a156d37792fc528"
+    },
+    {
+      "href": "./CB18_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220487c74c9f882d660e90a54aa4b859eb5e17a385de88fd34efd9d30f09b96c85a"
+    },
+    {
+      "href": "./CB18_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122040e8e1ffcfc3d6b98e9729b6dd37bddc242b7bb761b2883c0db014bd5c7d4e20"
+    },
+    {
+      "href": "./CB18_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202105b827d467b454f2f6312e73581804b76a7e77a0875ac1c6bf5847d83d2429"
+    },
+    {
+      "href": "./CB18_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043e6a9fcee7e88e3367da8b3946798fe133ea62f9f66e2eb8737fd2951856e0c"
+    },
+    {
+      "href": "./CB18_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208d15a67281bef5fe29ca876e33aaa3fed666bcea789eb3b106e14c185910dc8f"
+    },
+    {
+      "href": "./CB19_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122056619db44c834e3e721d04a2b813f8c3c79e25125ab87080f6dca37c93cac50d"
+    },
+    {
+      "href": "./CB19_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dca3fd7aa79858b0fd75635ab8d925b922576966e3971f135c3e26574aaa1223"
+    },
+    {
+      "href": "./CB19_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207b263afc57074ad4153f93cfe7b0a108465e491f8c6efe367f1ae1f94efd549e"
+    },
+    {
+      "href": "./CB19_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220073df4223bd6114f1ebde4f33b8226b55eb46f55da7984044c68404f59e8acfa"
+    },
+    {
+      "href": "./CB19_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122039918828bd6babb26fc3b481e4d9255bf3aa4073c2a598b1cf2d251de3b22c7a"
+    },
+    {
+      "href": "./CB19_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220397596c57250aaf18f0a2dde92d48d162fdf5353b3a315584e4ee0ad557a3810"
+    },
+    {
+      "href": "./CB19_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122031e119a358aa852cf9167abe1d8095d3f5e8df14b080b6ec675322cb70e9f506"
+    },
+    {
+      "href": "./CB19_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122045370b78a7e02e12c398b953fa6f08554570b995a8e7fba3db582563d256c665"
+    },
+    {
+      "href": "./CB19_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208e81675b4ec3f3d1e42a9643b7bc1ea8c212fad5383c0e3899e7125d0f40c3fb"
+    },
+    {
+      "href": "./CB19_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fef2b9a39453b3e262834ad23f3f4bc9caf76fcf6c6c3f46018a1cf9a68cc38c"
+    },
+    {
+      "href": "./CB19_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bc8076789fd99061dec7e3edc5549ffe875bde1e06ea0ba560e8c4217c70979c"
+    },
+    {
+      "href": "./CB19_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201c46111dc65794eac26924476eb1aed92ed63b9f6fa860e46f33bfabda573cea"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "processor"] },
+    { "name": "Landpro", "roles": ["producer"] },
+    { "name": "Ministry for Cities, Environment, Regions and Transport", "roles": ["licensor"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "canterbury",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waitaki_2026",
+  "gsd": 1,
+  "created": "2026-09-16T02:21:22Z",
+  "updated": "2026-09-16T02:21:22Z",
+  "linz:geographic_description": "Waitaki",
+  "extent": {
+    "spatial": { "bbox": [[170.7779704, -45.046277, 171.2820667, -44.3357061]] },
+    "temporal": { "interval": [["2026-04-29T12:00:00Z", "2026-04-30T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220492bd5d5ad4097c16ed9b06769167925987a22fb9113f7d3bddbb8dc116e9107",
+      "file:size": 6373
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
