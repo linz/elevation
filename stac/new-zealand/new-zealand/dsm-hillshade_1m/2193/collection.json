@@ -1912,13 +1912,13 @@
       "href": "./BY16.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122008e616409fae508669a894ac512f39a433c1ef02188961392f3b3f9ee150beab"
+      "file:checksum": "1220bb65f29f9f76c23654f5a4938068c1c83d1e0d1186514c57f650d0c5798b5496"
     },
     {
       "href": "./BY17.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122047cbc54978b8df3b390b6a480af9d89541efe542fae598f350bf2883f1f8db58"
+      "file:checksum": "12205513451f0dd60c3c02899e184e4aecd8627fb808b47a19d3084c13261a9ff5ae"
     },
     {
       "href": "./BY18.json",
@@ -2008,19 +2008,19 @@
       "href": "./BZ15.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12203507107976af542b251381228a7b5ea101cdaac46a02213f3f91a4c1520c2df6"
+      "file:checksum": "122038a252ee7abbb006cfe701bf126751ba442100b6191d57336f2f5d74592e44e1"
     },
     {
       "href": "./BZ16.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122032e9ee90285c58ba943849a3c08dfe091da2b03c2d227790900fa640b90a81f0"
+      "file:checksum": "1220848c02aa7a840f63963f8ce00e67ece96fd0f6db75fc32694f01c645977acfad"
     },
     {
       "href": "./BZ17.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220755d826f83b437653d9f62802620275c78934fa7a70e30806eaafcd739ab3009"
+      "file:checksum": "1220d411e2e20c38238711c507a0fb4e32f1775d8059966e806418c5b55fc751a4f7"
     },
     {
       "href": "./BZ18.json",
@@ -2032,7 +2032,7 @@
       "href": "./BZ19.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220a7030b696d72764c67a2152ff6a39d7df301eb4a151a464930e986624c0a7f6e"
+      "file:checksum": "122090484418c9e92168ceb41e0029113167bf77cb071eee68aa3011872da6fa553a"
     },
     {
       "href": "./BZ20.json",
@@ -2086,7 +2086,7 @@
       "href": "./CA16.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220da1ddbe8b3bfb995cce006a24256261af903eabc2a796129b1af956b7c16e99f"
+      "file:checksum": "1220e16986f5a267175eb426aab7f50afc0d7b3be9baf82ac8857d0f43f744ab2428"
     },
     {
       "href": "./CA17.json",
@@ -2098,13 +2098,13 @@
       "href": "./CA18.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12207e486bddb42f1e09c6fba065a8b8d50b36b3b6e92a1f0617ab37bc2045c61444"
+      "file:checksum": "1220c277176d5f3b5e10f4b2f4c59c6b54d21cdf7903f4b9028c2412b7bdb9d867ec"
     },
     {
       "href": "./CA19.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220f4b06c82a437fea7cbe42eb7e1786ee76970eddc71ebd62995bb617e0b75a198"
+      "file:checksum": "12205e74d01f81dac8c90be44d37d89ad05cd8b66bd939eb4eef1b141a7761756f20"
     },
     {
       "href": "./CB08.json",
@@ -2164,13 +2164,13 @@
       "href": "./CB18.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220e043f9585acbed839378c40bfb9d5ec9da687e36369ad4878daca58081e35ee0"
+      "file:checksum": "1220aaa8185775d6740452c1212ada549153de5d67d4aa8585c31b75bf9ef9984c61"
     },
     {
       "href": "./CB19.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220455c2dbecb1bea9103bed6c128f25a393517e4eb0bbc115ed1adef9bf9b8b451"
+      "file:checksum": "122032ccdbb2b0fc3028179f0f4e1943acbf636c84c452dd8c351d5ec048be250748"
     },
     {
       "href": "./CC07.json",
@@ -2566,10 +2566,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-04-17T02:48:34Z",
-  "updated": "2026-09-07T19:48:04Z",
+  "updated": "2026-09-17T22:08:37Z",
   "extent": {
     "spatial": { "bbox": [[166.9691106, -47.239115, 178.8574378, -34.0291036]] },
-    "temporal": { "interval": [["2010-03-17T11:00:00Z", "2025-11-28T11:00:00Z"]] }
+    "temporal": { "interval": [["2010-03-17T11:00:00Z", "2026-05-02T12:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -2578,8 +2578,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220e66543f9254dd3d1ae40a0da5415d7225d88b7ed27de784b961fbd51af709b71",
-      "file:size": 1958752
+      "file:checksum": "1220259cd64342880177ae81e982f98ec7c40acf64925265bbfc892c549c26cf8e10",
+      "file:size": 1845628
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
