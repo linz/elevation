@@ -1,7 +1,6 @@
-version: 3
+version: 2
 
 updates:
-  # Actions used in .github/workflows
   - package-ecosystem: github-actions
     directory: /
     open-pull-requests-limit: 5
@@ -34,14 +33,6 @@ updates:
     commit-message:
       prefix: build(deps)
     groups:
-      # Optional: group packages that must be upgraded together, such as a
-      # framework and its plugins, including major updates. Dependabot puts each
-      # dependency in the first group it matches, so keep this group above the
-      # catch-all. Quote scoped names, e.g. "@aws-sdk/*".
-      # synchronised-packages:
-      #   applies-to: version-updates
-      #   patterns: [package-a, package-b]
-
       npm-minor-and-patch:
         applies-to: version-updates
         patterns: ['*']
