@@ -19,7 +19,6 @@ updates:
         patterns: ['*']
         update-types: [minor, patch]
 
-  # JavaScript / TypeScript dependencies (package.json and its lock file)
   - package-ecosystem: npm
     directory: /
     open-pull-requests-limit: 5
