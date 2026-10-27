@@ -36,36 +36,36 @@ The `s3://nz-elevation` bucket comprises of a variety of different elevation dat
 
 Digital Elevation Models are a representation of the bare ground topographic surface devoid of buildings, vegetation, towers and other surface objects. They are procured according to the [National Aerial LiDAR Base Specification](https://www.linz.govt.nz/resources/guide/new-zealand-national-aerial-lidar-base-specification).
 
-   ![1m DEM Example](docs/img/data-overview/dem-marlborough.jpg)  
-   Example: **New Zealand LiDAR 1m DEM** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem_1m/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-41.2942307,173.9921924,z9.62?i=elevation&pipeline=terrain-rgb&format=png) | [LINZ Data Service](https://data.linz.govt.nz/layer/121859-new-zealand-lidar-1m-dem/)
+![1m DEM Example](docs/img/data-overview/dem-marlborough.jpg)  
+Example: **New Zealand LiDAR 1m DEM** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem_1m/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-41.2942307,173.9921924,z9.62?i=elevation&pipeline=terrain-rgb&format=png) | [LINZ Data Service](https://data.linz.govt.nz/layer/121859-new-zealand-lidar-1m-dem/)
 
 ### Contour-Interpolated 8m Digital Elevation Model
 
 The Contour-Interpolated DEM has been created and interpolated from the contours in the Topo50 map series. LiDAR-derived DEMs are now available for 90% of the New Zealand mainland and are significantly more accurate. This dataset is suitable for cartographic visualisation only, not for terrain analysis.
 
-   ![Contour-Interpolated DEM Example](docs/img/data-overview/contour-interpolated-dem-fiordland.jpg)  
-   Example: **New Zealand Contour-Interpolated 8m DEM** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand-contour/dem_8m/2193/collection.json) | *Not currently published on LINZ Basemaps* | [LINZ Data Service](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
+![Contour-Interpolated DEM Example](docs/img/data-overview/contour-interpolated-dem-fiordland.jpg)  
+Example: **New Zealand Contour-Interpolated 8m DEM** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand-contour/dem_8m/2193/collection.json) | _Not currently published on LINZ Basemaps_ | [LINZ Data Service](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
 
 ### 1m Digital Surface Models
 
 Digital Surface Models are a representation of the highest objects on Earth's surface including buildings, vegetation, towers and other surface objects. They are also procured according to the [National Aerial LiDAR Base Specification](https://www.linz.govt.nz/resources/guide/new-zealand-national-aerial-lidar-base-specification).
 
-   ![1m DSM Example](docs/img/data-overview/dsm-hamilton.jpg)  
-   Example: **New Zealand LiDAR 1m DSM** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dsm_1m/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-37.7720691,175.2980036,z12.76?i=elevation-dsm&pipeline=terrain-rgb&format=png) | [LINZ Data Service](https://data.linz.govt.nz/layer/122082-new-zealand-lidar-1m-dsm/)
+![1m DSM Example](docs/img/data-overview/dsm-hamilton.jpg)  
+Example: **New Zealand LiDAR 1m DSM** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dsm_1m/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-37.7720691,175.2980036,z12.76?i=elevation-dsm&pipeline=terrain-rgb&format=png) | [LINZ Data Service](https://data.linz.govt.nz/layer/122082-new-zealand-lidar-1m-dsm/)
 
 ### Hillshade
 
 Hillshades are a representation of terrain generated from elevation data that models a lighting effect on the landscape to mimic how sunlight creates shadows and highlights. New Zealand-wide datasets are available for both the DEMs and DSMs, using standard and "Igor" methods.
 
-   ![Hillshade Example](docs/img/data-overview/hillshade-dsm-dunedin.jpg)  
-   Example: **New Zealand DSM Hillshade** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dsm-hillshade/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-45.8750001,170.5104042,z14.52?i=hillshade-dsm) | [LINZ Data Service](https://data.linz.govt.nz/layer/122138-new-zealand-dsm-hillshade/)
+![Hillshade Example](docs/img/data-overview/hillshade-dsm-dunedin.jpg)  
+Example: **New Zealand DSM Hillshade** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dsm-hillshade/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-45.8750001,170.5104042,z14.52?i=hillshade-dsm) | [LINZ Data Service](https://data.linz.govt.nz/layer/122138-new-zealand-dsm-hillshade/)
 
 ### Hillshade - Igor
 
 The "Igor" hillshade method is an alternative hillshade representation that renders a softer hillshade for general mapping purposes. It is named after its creator - Igor Breki.
 
-   ![Hillshade Igor Example](docs/img/data-overview/hillshade-igor-dem-whanganui.jpg)  
-   Example: **New Zealand DEM Hillshade - Igor** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem-hillshade-igor/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-39.7179024,175.1907307,z11.99?i=hillshade-igor) | [LINZ Data Service](https://data.linz.govt.nz/layer/121958-new-zealand-dem-hillshade-igor/)
+![Hillshade Igor Example](docs/img/data-overview/hillshade-igor-dem-whanganui.jpg)  
+Example: **New Zealand DEM Hillshade - Igor** | [STAC Collection](https://nz-elevation.s3-ap-southeast-2.amazonaws.com/new-zealand/new-zealand/dem-hillshade-igor/2193/collection.json) | [LINZ Basemaps](https://basemaps.linz.govt.nz/@-39.7179024,175.1907307,z11.99?i=hillshade-igor) | [LINZ Data Service](https://data.linz.govt.nz/layer/121958-new-zealand-dem-hillshade-igor/)
 
 ## Related
 
