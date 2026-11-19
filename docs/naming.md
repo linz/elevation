@@ -87,6 +87,7 @@ A general categorisation of elevation data held within our archive that includes
 
 - DEM `dem`
 - DSM `dsm`
+- Intensity `intensity`
 
 ### `domain`
 
@@ -106,7 +107,7 @@ If `lifecycle = preview` then ` - Preview` is appended to the end of the imagery
 
 ### `product`
 
-Elevation data product type, currently either `dem` or `dsm`.
+Elevation data product type, currently `dem`, `dsm` or `intensity`.
 
 ### `region`
 
