@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-11/26-es-marlborough-2026-dem-qtdjz/flat/",
+  "target": "s3://nz-elevation/marlborough/marlborough_2026/dem_1m/2193/",
+  "ticket": "LTL-13",
+  "copy_option": "--no-clobber",
+  "region": "marlborough",
+  "flatten": "false"
+}
